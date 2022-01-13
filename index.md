@@ -5,7 +5,7 @@ title: Home
 
 <section class="splash">
   <div class="splash-text">
-    <h1>Mod 0 Curriculum</h1>
+    <h1>Accelerated Mod 0</h1>
     <p>Prepare yourself for Turing by understanding and practicing the tools, behaviors, and mindsets necessary for your success.</p>
   </div>
 </section>
@@ -24,13 +24,14 @@ title: Home
     <li>Developing strategies to thrive in a rigorous, remote learning environment</li>
   </ul>
   <br>
-  <p>It is expected that students arrive to your first Mod 0 Session prepared to engage, which includes having their computer, notebook, and workspace set up. Students can prepare by carefully following the directions on the Computer Setup page.</p>
-  <p><strong>In order to pass Mod 0 and start Mod 1 on the expected timeline, students must attend all Mod 0 Sessions and submit the Mod 0 Project on time, with high quality work.</strong></p>
+  <p>It is expected that students arrive to your first Accelerated Mod 0 Stand-Up prepared to engage, which includes having their computer, notebook, and workspace set up. Students can prepare by carefully following the directions on the Computer Setup page.</p>
+  <br>
+  <p><strong>In order to pass the Accelerated Mod 0 Course and start Mod 1 on the expected timeline, students must attend all live Sessions, submit all deliverables, and pass the final Assessment and Evaluations.</strong></p>
   <br>
   <br>
   <a class="s-button" href="/computer-setup">Computer Setup</a>
   <a class="s-button" href="/before-mod-0">Before Starting Mod 0</a>
-  <a class="s-button" href="/info">Where to Get Info</a>
+  <a class="s-button" href="/expectations">Expectations</a>
 </section>
 
 <footer class="s-footer">
