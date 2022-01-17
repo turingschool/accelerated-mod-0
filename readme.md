@@ -1,14 +1,12 @@
 # Turing School of Software and Design
 
-## Site for the Module 0 Curriculum
-
-Mod0 curriculum lives at [http://mod0.turing.io/](http://mod0.turing.io/)
+## Site for the Accelerated Module 0 Curriculum
 
 This site is built with Jekyll. Find the docs [here](https://jekyllrb.com/docs/usage/)
 
 ### Contributing
 
-* Clone the repo `git clone git@github.com:turingschool/mod-0-curriculum.git`
+* Clone the repo `git clone git@github.com:turingschool/accelerated-mod-0.git`
 * run `bundle install`
 * You can now begin to edit the website.
 * To start the server run `jekyll serve`.
