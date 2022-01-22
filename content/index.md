@@ -5,6 +5,7 @@ title: Mod 0 Content
 
 ## Tools
 
+* [Calendaring & Time Management]({{ site.url }}/calendar)
 * [Terminal]({{ site.url }}/terminal)
 * [Atom]({{ site.url }}/atom)
 * [Git]({{ site.url }}/git)
