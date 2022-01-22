@@ -8,7 +8,6 @@ title: Terminal
 - Navigate through directories from the command line
 - Make and remove files and directories from the command line
 
-
 ## Files, Directories, and Paths
 
 On your computer, you probably have many <span class="vocab">files</span> and <span class="vocab">directories</span>. Files are things like text documents, images, videos, PDFs, etc. Directories (or folders) are the structures we use to organize these files.
