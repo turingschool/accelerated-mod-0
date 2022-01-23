@@ -13,7 +13,7 @@ title: Mod 0 Content
 * [Terminal]({{ site.url }}/terminal)
 * [Atom]({{ site.url }}/atom)
 * [Git]({{ site.url }}/git)
-* [GitHub]({{ site.url }}/github)
+* GitHub (live lesson - will upload recording)
 
 ## Ruby
 
