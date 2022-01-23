@@ -145,3 +145,5 @@ Create a new project and initialize a Git repository in it. Make 1 file - `array
 - _Commit your work_
 
 After you've completed the tasks above, push your work up to a GitHub repository. Provide the GitHub repository (repo) link in the Google Form.
+
+<br><br><br>
