@@ -6,6 +6,7 @@ title: Mod 0 Content
 ## Career Dev
 
 * [Calendaring & Time Management]({{ site.url }}/calendar)
+* [Career Dev Prep & Survey](https://careerdev.turing.edu/module-1-prework/index)
 * [Mentorship Prep]({{ site.url }}/mentorship)
 
 ## Tools
@@ -22,5 +23,6 @@ title: Mod 0 Content
 * [Conditionals]({{ site.url }}/conditionals)
 * [Arrays 2]({{ site.url }}/arrays_2)
 * [Hashes]({{ site.url }}/hashes)
+* Classes and Objects (live lesson - will upload recording)
 
 Please submit all CFUs with [this Google form.](https://docs.google.com/forms/d/e/1FAIpQLSerMc4ceytBMdlVXDnORMLn2D6a1AVfXmdqgKPOlNDkTV1ztA/viewform)
