@@ -144,6 +144,12 @@ Create a new project and initialize a Git repository in it. Make 1 file - `array
 - Use the Ruby Documentation to learn about one additional Array method of your choice. Provide an explanation and example to demonstrate your understanding of it.
 - _Commit your work_
 
+Creaete another file in the same directory, name it `self-evaluation.md`. In Markdown, answer the following questions:
+- How confident do you feel with the content on Arrays so far?
+- Is there any additional learning you need or want to do before moving to the next lesson?
+- What questions do you have about Arrays?
+- _Commit your work_
+
 After you've completed the tasks above, push your work up to a GitHub repository. Provide the GitHub repository (repo) link in the Google Form.
 
 <br><br><br>
