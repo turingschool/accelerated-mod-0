@@ -90,5 +90,5 @@ Complete the challenges below to continue to build fluency with using your Termi
 
 - Self Evaluation
 - Lingering Questions
-- Submit Markdown Gist in google form
+- Submit Markdown Gist in Google Form
 - Record yourself doing a challenge of your choice - do it as if you are teaching someone who doesn't know what this, explaining what each step does using technical vocabulary

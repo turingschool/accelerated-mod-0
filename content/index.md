@@ -25,4 +25,4 @@ title: Mod 0 Content
 * [Hashes]({{ site.url }}/hashes)
 * Classes and Objects (live lesson - will upload recording)
 
-Please submit all CFUs with [this Google form.](https://docs.google.com/forms/d/e/1FAIpQLSerMc4ceytBMdlVXDnORMLn2D6a1AVfXmdqgKPOlNDkTV1ztA/viewform)
+Please submit all CFUs with [this Google form.](https://forms.gle/NnyAMpJt9EALvKJk9)
