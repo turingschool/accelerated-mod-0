@@ -14,7 +14,7 @@ title: Mod 0 Content
 * [Terminal]({{ site.url }}/terminal)
 * [Atom]({{ site.url }}/atom)
 * [Git]({{ site.url }}/git)
-* GitHub (live lesson - will upload recording)
+* GitHub
 
 ## Ruby
 
@@ -23,6 +23,7 @@ title: Mod 0 Content
 * [Conditionals]({{ site.url }}/conditionals)
 * [Arrays 2]({{ site.url }}/arrays_2)
 * [Hashes]({{ site.url }}/hashes)
-* Classes and Objects (live lesson - will upload recording)
+* [Methods]({{ site.url }}/methods)
+* Classes and Objects
 
 Please submit all CFUs with [this Google form.](https://forms.gle/NnyAMpJt9EALvKJk9)
