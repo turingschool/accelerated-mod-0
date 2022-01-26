@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Hashes
+title: Methods
 ---
 
 ## Learning Goals
 
 - Explain why we use methods
-- Define methods in Ruby
-- Explain where Ruby looks for methods
+- Use built-in methods on appropriate objects
+- Define and call methods in Ruby, including those with arguments
 
 ## Vocabulary
 
@@ -92,24 +92,7 @@ irb(main):007:0> "Hello World".gsub "World", "Turing"
 
 ## Define and Identify
 
-For each of the code snippets below, write 1-2 sentences describing what is happening, using all the involved vocabulary terms.
-
-```ruby
-irb(main):001:0> "Hello World".upcase
-=> "HELLO WORLD"
-```
-
-```ruby
-irb(main):002:0> "Hello World".include?("Hello")
-=> true
-```
-
-```ruby
-irb(main):003:0> greeting = "Hello World".downcase
-=> "hello world"
-irb(main):004:0> greeting
-=> "hello world"
-```
+In the [Check For Understanding repo](https://github.com/turingschool/methods_cfu_am0/blob/main/self_eval.md), complete the `define_and_id.rb` file.
 
 ## Variables
 
@@ -124,13 +107,14 @@ irb(main):002:0> greeting.upcase
 
 ## Practice
 
+Complete the `methods_variables.rb` file in the Check For Understanding repo.
 
 ## Defining Our Own Methods
 
 The mehtods we've used up until now were built into the Ruby language. Those are great and will be used by you heavily and regularly as a developer. And, there will be times when you need to write your own methods to solve the unique problems in your application. To do this, we'll use the `def` and `end` keywords, following the syntax in the example:
 
 ```ruby
-# method declaration
+# method definition
 def print_age
   puts 100
 end
@@ -139,11 +123,11 @@ end
 print_age
 ```
 
-In the example above, the developer chose the method name of `print_age`. Method names should usually include verbs, since methods _do_ something. The declaration just tells the program that it's a set of directions ready to be followed; the method call is what makes the code in the method execute. You can call a method as many times as you want, once it's been declared!
+In the example above, the developer chose the method name of `print_age`. Method names should usually include verbs, since methods _do_ something. The definition just tells the program that it's a set of directions ready to be followed; the method call is what makes the code in the method execute. You can call a method as many times as you want, once it's been defined!
 
 ### Defining Methods with Arguments
 
-We can also declare methods designed to take arguments. As developers, we have control to name the parameters, or placeholders for the data that will be passed in. Those names should follow variable name conventions and be concise, yet descriptive.
+We can also define methods designed to take arguments. As developers, we have control to name the parameters, or placeholders, for the data that will be passed in. Those names should follow variable name conventions and be concise, yet descriptive.
 
 ```ruby
 def add(num1, num2)
@@ -201,6 +185,7 @@ subtract(10, 7)
 
 ### Storing a Return Value
 
+The examples we've looked at so far so call the method and execute the code within the method, but the return values go nowhere/can never be used in the program again. Many time, we'll store the return value of a method in another variable, as modeled below:
 
 ```ruby
 def add(num1, num2)
@@ -215,3 +200,7 @@ puts sum2
 ```
 
 ## Check For Understanding
+
+Complete the `final_practice.rb` in the Check For Understanding repo. Submit your copy of the repo to the Google Form.
+
+<br><br><br>
