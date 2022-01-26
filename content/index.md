@@ -24,6 +24,6 @@ title: Mod 0 Content
 * [Arrays 2]({{ site.url }}/arrays_2)
 * [Hashes]({{ site.url }}/hashes)
 * [Methods]({{ site.url }}/methods)
-* Classes and Objects
+* [Classes and Objects]({{ site.url }}/oop)
 
 Please submit all CFUs with [this Google form.](https://forms.gle/NnyAMpJt9EALvKJk9)
