@@ -139,4 +139,9 @@ end
 
 Now, instead of having _one_ block variable to work with, we have two. The first represents the key, and the second represents the value.
 
-**Complete `hashes_2.rb` file [in the CFU repository](https://github.com/turingschool/hashes_cfu_am0) before moving on.**
+**Complete `hashes_2.rb` file [in the CFU repository](https://github.com/turingschool/hashes_cfu_am0).**
+
+<br>
+<br>
+<br>
+<br>
