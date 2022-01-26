@@ -61,8 +61,12 @@ For each example, determine if a Hash or Array would be more appropriate, and ex
 
 ## Hash Syntax Practice
 
+Complete these activities in a new Ruby file, or IRB.
 1. For one of the examples in the previous activity that you selected would be best suited for a Hash, declare a variable that stores a Hash with some (possibly fake) data.
 1. Declare a variables that stores a Hash that represents [this tweet](https://twitter.com/MechEngSanchez/status/1485947286396014593)
+
+
+**STOP! Complete the rest of the lesson with your Mod 0 Instructor.**
 
 ## Exploring Hashes
 
