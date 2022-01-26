@@ -50,8 +50,10 @@ student1 = {
 
 ## Hashes vs. Arrays
 
-- A stores inventory
+For each example, determine if a Hash or Array would be more appropriate, and explain why. Share your responses in the Mod 0 Slack channel for feedback.
+- A store's inventory
 - The contents of a dishwasher
+- List of all the places you've traveled to
 - List of birthdays of all students
 - Names of all dogs at doggie daycare
 - Virtual address book
