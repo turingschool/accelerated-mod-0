@@ -5,7 +5,7 @@ title: Hashes
 
 ## Learning Goals
 
-- Use syntax to declare variables that store Hashes in Ruby
+- Use Ruby syntax to declare variables that store Hashes
 - Access data from Ruby Hashes
 - Iterate over Hashes with `each`
 

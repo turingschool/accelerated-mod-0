@@ -1,11 +1,11 @@
 ---
 layout: page
-title: OOP
+title: Object Oriented Programming
 ---
 
 ## Learning Goals
 
-- Explain the core concepts of Object-Oriented Programming
+- Explain the core concepts of Object Oriented Programming
 - Gain exposure and familiarity with the Ruby syntax for classes and object instances
 
 ## Vocabulary
@@ -15,17 +15,17 @@ title: OOP
 - initialize
 - method
 - object instance
-- Object-Oriented Programming (OOP)
+- Object Oriented Programming (OOP)
 
 ## What is OOP?
 
-Back End Engineering is concerned with the management of data for an application. There are different ways we can structure the data itself as well as the systems that manage it. Object-Oriented Programming (OOP) is one way to design a program to manage the data in a Back End.
+Back End Engineering is concerned with the management of data for an application. There are different ways we can structure the data itself as well as the systems that manage it. Object Oriented Programming (OOP) is one way to design a program to manage the data in a Back End.
 
 OOP is not exclusive to Ruby! In fact, many of the most widely used programming languages follow the patterns of OOP, including Java, C#, and Python.
 
 ## Connecting OOP to Real-World Scenarios
 
-In the introduction, we shared that Object-Oriented Programming (OOP) is a paradigm for how we can organize code. Without seeing examples, that definition just feels… unhelpful. In this section, we won’t dig into code quite yet, but we’ll do some thinking and list-making to set ourselves up to write code in the next section!
+In the introduction, we shared that Object Oriented Programming (OOP) is a paradigm for how we can organize code. Without seeing examples, that definition just feels… unhelpful. In this section, we won’t dig into code quite yet, but we’ll do some thinking and list-making to set ourselves up to write code in the next section!
 
 ### Car Factory
 

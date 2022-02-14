@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Arrays 1
+title: Arrays
 ---
 
 ## Learning Goals
 
-- Use syntax to declare variables that store Arrays in Ruby
+- Use Ruby syntax to declare variables that store Arrays in Ruby
 - Use basic Array methods to manipulate data in Arrays
 
 ## Vocabulary

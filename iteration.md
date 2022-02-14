@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Arrays 2
+title: Iteration
 ---
 
 ## Learning Goals
 
 - Explain the concept of iterating over an Array
-- Implement syntax for `each` for a variety of problems
+- Implement syntax for `each` for a variety of situations
 
 ## Vocabulary
 

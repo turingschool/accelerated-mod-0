@@ -1,5 +1,10 @@
 /* Base */
 
+.to-do {
+  background: magenta;
+  color: white;
+}
+
 html, body {
   box-sizing: border-box;
   width: 100%;
@@ -244,7 +249,9 @@ button:focus {outline:0;}
 .vocab {
   color: #9b0428;
   font-weight: bold;
-  background-color: lighten(#9b0428, 65);
+  background-color: #F6E8EB;
+  padding: 6px 4px 0 4px;
+  border-radius: 3px;
 }
 
 .flex-container div {

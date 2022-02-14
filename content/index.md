@@ -3,27 +3,61 @@ layout: page
 title: Mod 0 Content
 ---
 
-## Career Dev
+## Career Development
 
 * [Calendaring & Time Management]({{ site.url }}/calendar)
-* [Career Dev Prep & Survey](https://careerdev.turing.edu/module-1-prework/index)
+* [Career Development Prep & Survey](https://careerdev.turing.edu/module-1-prework/index)
 * [Mentorship Prep]({{ site.url }}/mentorship)
+
+<div class="to-do">
+DTR with classmates - pull from M0P
+
+Asking Questions GUide
+
+Daily Synthesis Qs
+
+Stand Up Guide
+
+End of M0 reflection video
+
+Pairing Sessions
+</div>
 
 ## Tools
 
 * [Terminal]({{ site.url }}/terminal)
-* [Atom]({{ site.url }}/atom)
+* [Atom & Markdown]({{ site.url }}/atom)
 * [Git]({{ site.url }}/git)
-* GitHub
+* [GitHub]({{ site.url }}/github)
+
+<div class="to-do">
+Atom & Markdown - where to preview MD (15 mins)
+
+Git - need to make into video (4 hours)
+
+GH - live lesson, needs complete design (3 hours)
+</div>
 
 ## Ruby
 
 * [Data Types]({{ site.url }}/data_types)
-* [Arrays 1]({{ site.url }}/arrays)
+* [Arrays]({{ site.url }}/arrays)
 * [Conditionals]({{ site.url }}/conditionals)
-* [Arrays 2]({{ site.url }}/arrays_2)
+* [Iteration]({{ site.url }}/iteration)
 * [Hashes]({{ site.url }}/hashes)
 * [Methods]({{ site.url }}/methods)
-* [Classes and Objects]({{ site.url }}/oop)
+* [Object Oriented Programming]({{ site.url }}/oop)
+* [Test Driven Development]({{ site.url }}/tdd)
 
-Please submit all CFUs with [this Google form.](https://forms.gle/NnyAMpJt9EALvKJk9)
+<div class="to-do">
+Data Types - solo love
+Arrays - solo love, details
+Conditionals - needs more practice
+Iteration - make a video (4 hours)
+Hashes - needs adjustments
+Methods - lot of love, lot of practice
+OOP - live lesson, needs love, needs preview and review guide
+TDD - video - has nothing right now
+</div>
+
+Please submit all deliverables with [this Google form.](https://forms.gle/NnyAMpJt9EALvKJk9)

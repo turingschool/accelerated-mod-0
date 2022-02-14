@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Atom, Markdown
+title: Atom & Markdown
 ---
 
 ## Learning Goals
 
 - Open a specific project in Atom from the command line
-- Write Markdown files in Atom
+- Navigate the Atom interface, using some keyboard shortcuts
+- Write valid Markdown files in Atom
 
 ## Atom
 

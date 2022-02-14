@@ -6,7 +6,7 @@ title: Git
 ## Learning Goals
 
 - Explain the purpose of Git
-- Initialize, add, and commit changes in a local repository
+- Use Git to initialize a repository, add and commit changes, and check the status of changes
 
 ## Git
 

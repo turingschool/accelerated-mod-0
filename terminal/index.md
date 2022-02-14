@@ -5,8 +5,17 @@ title: Terminal
 
 ## Learning Goals
 
-- Navigate through directories from the command line
-- Make and remove files and directories from the command line
+- Notate the file path of any file when provided a diagram
+- Build, modify, and navigate a directory structure from the command line
+
+## Vocabulary
+
+- Command
+- Directory
+- File
+- File Path
+- "run a command"
+- Terminal
 
 ## Files, Directories, and Paths
 
@@ -15,15 +24,15 @@ On your computer, you probably have many <span class="vocab">files</span> and <s
 In the diagram below, we would say that there's a directory called `essays` that contains three files: `life_lessons.docx`, `book_report.docx`, and `literary_analysis.docx`:
 
 <hr>
-<h4>Example #1</h4>
+<h3>Example #1</h3>
 <div class="flex-container">
   <div>
     <img src="images/files_directories_1.png" alt="files and directories 1">
   </div>
   <div>
-    A <span class="vocab">file path</span> is a way to notate where a file "lives" on your computer. This is the structure:
+    <p>A <span class="vocab">file path</span> is a way to notate where a file "lives" on your computer. This is the structure:</p>
     <pre>directory_name/file_name.extension</pre>
-    The file path for the first file in the diagram would be:
+    <p>The file path for the first file in the diagram would be:</p>
     <pre>essays/life_lessons.docx</pre>
     <p>What is the path for <code>book_report.docx</code>?</p>
     <textarea rows="1" name="" style="width:100%;"></textarea>
@@ -31,21 +40,23 @@ In the diagram below, we would say that there's a directory called `essays` that
     <textarea rows="1" name="" style="width:100%;"></textarea>
   </div>
 </div>
+
 <div class="things-to-note">
-  <h4>Things to Note</h4>
+  <h3>Things to Note</h3>
   <ol>
     <li>A file cannot be inside of another file. This means that every part of the path <strong>before</strong> the actual file is a directory. </li>
     <li>For now, we will follow two convention rules: </li>
     <ul>
       <li>Use lower case letters when naming directories and files</li>
-      <li>Use underscores (_) or hyphens (-) instead of spaces when naming directories and files. However, keep in mind that different languages and frameworks have different conventions. Rather than arguing over which approach is "correct" (you'll find a lot of this on the internet), it is more important to pick an approach and be consistent. For today's lesson, we'll use the underscore (_) approach.</li>
+      <li>Use underscores (_) or hyphens (-) instead of spaces when naming directories and files. However, keep in mind that different languages and frameworks have different conventions. Rather than arguing over which approach is "correct" (you'll find a lot of this on the internet), it is more important to pick an approach and be consistent. For today's lesson, we'll use the underscore (_) convention.</li>
     </ul>
     <li>Folders do not have extensions (like <strong>.docx</strong> or <strong>.md</strong> or <strong>.csv</strong>, etc.). File names do have extensions.</li>
     <li>File extensions matter. A <strong>.md</strong> file will behave differently than a <strong>.docx</strong> file, which will also behave differently than a <strong>.rb</strong> file because the extensions help the operating system figure out which application can open the file an dhow to read it.</li>
   </ol>
 </div>
+
 <hr>
-<h4>Example #2</h4>
+<h3>Example #2</h3>
 <div class="flex-container">
   <div>
     <img src="images/files_directories_3.png" alt="files and directories 2">
@@ -63,23 +74,24 @@ In the diagram below, we would say that there's a directory called `essays` that
 </div>
 
 <div class="things-to-note">
-  <h4>Things to Note</h4>
-  <p>We commonly refer to directories with an analogy of <span class="vocab">parent</span> and <span class="vocab">child</span>. In the above example <code>to_do</code> is the <span class="vocab">parent</span> directory of the <code>personal</code> and <code>work</code> directories. <code>projects_to_delegate</code> is a <span class="vocab">child</span> directory of the <code>work</code> directory.</p>
+  <h3>Things to Note</h3>
+  <p>We commonly refer to directories with an analogy of <span class="vocab">parent</span> and <span class="vocab">child</span>. In the previous example, <code>to_do</code> is the <span class="vocab">parent</span> directory of the <code>personal</code> and <code>work</code> directories. <code>projects_to_delegate</code> is a <span class="vocab">child</span> directory of the <code>work</code> directory.</p>
 </div>
 
 <hr>
+<br>
 
-## Terminal and Command Line
+## Terminal
 
-The <span class="vocab">Terminal</span> is what we call a command line interface. It's the program we use to give commands to the computer. We use the command line because it is a faster and more precise way to navigate our file systems, and certain tools can only be downloaded and accessed via the command line. In this lesson, you will learn 9 commonly used commands, but there are many more you'll learn throughout your time at Turing and in your career.
+The <span class="vocab">Terminal</span> is a program we use to give commands to the computer. We use the Terminal because it is a faster and more precise way to navigate our file systems, and certain tools can only be downloaded and accessed via the Terminal. In this lesson, you will learn 9 commonly used commands, but there are many more you'll learn throughout your time at Turing and in your career.
 
 Your Terminal will look something like this:
 
-<img src="images/david_terminal.png" alt="">
+<img src="images/amy_terminal.png" alt="Screenshot of Terminal window">
 
 <div class="try-it">
   <h3>Independent Research</h3>
-  <p>Take 3 minutes (max) to research each of the following Terminal commands: <code>pwd</code>, <code>touch</code>, and <code>cd ..</code>. Take note of what you learn, or questions/confusion that arises from this research</p>
+  <p>Take 3 minutes (max) to research each of the following Terminal commands: <code>pwd</code>, <code>touch</code>, and <code>cd ..</code>. Take note of what you learn, or questions/confusion that arises from this research.</p>
 </div>
 
 <div class="things-to-note">
@@ -113,9 +125,11 @@ Each command has a different utility. Some find it helpful to categorize the typ
 - `rm`
 - `rm -rf`
 
+<br>
+
 ### 1. Where am I? (`pwd`)
 
-When you open the terminal, you will be in your home directory. Being in various directories will allow you to do different things, just like you can do different things at home vs. on vacation vs. at work.
+When you open the Terminal, you will be in your home directory. Being in various directories will allow you to do different things, just like you can do different things at home vs. on vacation vs. at work.
 
 To figure out where you are in your computer's directory structure, run `pwd`. `pwd` stands for "print working directory"
 
@@ -126,13 +140,15 @@ timo@Tims-MacBook-Pro:~$ pwd
 
 You'll see the path from the root of your computer to your current directory.
 
+<br>
+
 ### 2. Make a Directory (`mkdir`)
 
 To make a folder using the visual interface of Finder, this is what you might do:
 
 <img src="images/mkdir.gif" alt="making a folder using finder" style="height: 250px">
 
-We can make new directories with the `mkdir` command. Unlike `pwd` where we didn't need to run anything else, we'll need to add a name for the directory. Keep your directories lowercase with no spaces. If you need to use a space, use the underscore (\_).
+We can make new directories with the `mkdir` command. Unlike `pwd` where we didn't need to run anything else, we'll need to add a name for the directory. Keep your directories lowercase with no spaces. If you want to create a multi-word directory, use the underscore (\_) instead of a space.
 
 For example, the following two commands will create two directories called `work_spreadsheets` and `latest_projects`:
 
@@ -143,31 +159,34 @@ timo@Tims-MacBook-Pro:~$ mkdir latest_projects
 
 You won't get any confirmation that your directory was created -- you'll just see a new command prompt ready for your next command.
 
+<br>
+
 ### 3. Listing Contents of a Directory (`ls`)
 
-With a visual interface (as shown in the gif above), you can easily see the contents of a directory. On the command line, it's a little different.
+With a visual interface (as shown in the gif above), you can easily see the contents of a directory. In the Terminal, it's a little different.
 
-To see what is inside of a directory, we use the `ls` command which stands for list. As an example, let's assume that we have the directories and files from this diagram on a computer:
+To see what is inside of a directory, we use the `ls` command, which is short for list. As an example, let's assume that we have the directories and files from this diagram on a computer:
 
 <div class="flex-container">
   <div>
     <img src="images/files_directories_2.png" alt="files and directories 2">
   </div>
   <div>
-    If I was in the essays directory and I ran <code>ls</code>, this is what I'd see:
+    <p>If I was in the essays directory and I ran <code>ls</code>, this is what I'd see:</p>
 
   <pre>timo@Tims-MacBook-Pro:~/essays$ ls
   book_projects    life_lessons.docx    notes.docx</pre>
 
-  <p>You will only see the directories and files that are directly inside of where you are. You will not see any directories or files that are nested down the path. This is why we do not see the contents of book_projects listed.</p>
+  <p>You will only see the directories and files that are <em>directly</em> inside of the current working directory. You will not see any directories or files that are nested down the path. This is why we do not see the contents of <code>book_projects</code> listed.</p>
 
-  <p>Now assume we're in the book_projects directory. If I run <code>ls</code>, I'll see this:</p>
+  <p>Now assume we're in the <code>book_projects</code> directory. If I run <code>ls</code>, I'll see this:</p>
 
   <pre>timo@Tims-MacBook-Pro:~/essays/book_projects$ ls
   literary_analysis.docx    book_report.docx</pre>
 
   </div>
 </div>
+<br>
 
 ### 4. Go Into a Directory (`cd`)
 
@@ -178,15 +197,15 @@ You can move into a directory using the `cd` command, which stands for "change d
     <img src="images/files_directories_2.png" alt="files and directories 2">
   </div>
   <div>
-    For example, if I was in the <code>essays</code> directory and wanted to move into the <code>book_projects</code> directory to see my documents, I would run the following:
+    <p>For example, if I was in the <code>essays</code> directory and wanted to move into the <code>book_projects</code> directory to see my documents, I would run the following:</p>
 <pre>
 timo@Tims-MacBook-Pro:~/essays$ cd book_projects
 timo@Tims-MacBook-Pro:~/essays/book_projects$
 </pre>
 
-We see that the second command prompt now lists the path of new directory that we're in.
+<p>We see that the second command prompt now lists the path of new directory that we're in.</p>
 
-From there, if I used the <code>ls</code> command, I would be able to see the contents of my folder:
+<p>From there, if I used the <code>ls</code> command, I would be able to see the contents of my folder:</p>
 
 <pre>
 timo@Tims-MacBook-Pro:~/essays/book_projects$ ls
@@ -197,8 +216,9 @@ literary_analysis.docx    book_report.docx
 
 <div class="things-to-note">
   <h4>Things to Note</h4>
-  <p>You can't pick any random directory from your computer to give to the <code>cd</code> command. It has to be a directory inside wherever you currently are (or you need to use the full path to get to that directory, which we won't talk about in this lesson).</p>
+  <p>You can't pick any random directory from your computer to give to the <code>cd</code> command. It has to be a directory that is directly inside the current working directory (or you need to use the full path to get to that directory, which we won't talk about in this lesson).</p>
 </div>
+<br>
 
 ### 5. Get Out of a Directory (`cd ..`)
 
@@ -213,27 +233,25 @@ timo@Tims-MacBook-Pro:~/essays$
 
 Notice that my path no longer includes `book_projects` because I'm outside of that folder now.
 
-**Note** You never want to `cd` into a directory above your home directory. This area requires admin permissions, and there is no practical use case for being there.
+_**Note:** You never want to `cd` into a directory above your home directory. This area requires admin permissions, and there is no practical use case for being there._
 
 
 <div class="try-it">
-  <h3>Try It: cd and cd ..</h3>
-  <p>Let's try to figure out the following scenarios together.</p>
+  <h3>Try It: <code>cd and cd ..</code></h3>
+  <p>Using what you've learned, type a response to each prompt in the associated input field. If you aren't sure or want to check yourself, this is a great topic to bring up in your small group Slack channel.</p>
   <div class="flex-container">
     <div>
       <img src="images/files_directories_3.png" alt="files and directories 2">
     </div>
     <div>
-      <p>If I'm in the <code>work</code> directory, what do I need to run to get to <code>to_do</code>?</p>
+      <p>If I'm in the <code>work</code> directory, what command do I need to run to get to <code>to_do</code>?</p>
       <textarea name="" style="width:100%;"></textarea>
       <p>If I'm in the <code>projects_to_delegate</code> directory, what <strong>commands</strong> do I need to run to get to <code>to_do</code>?</p>
       <p><small>(We'll learn how to combine these momentarily)</small></p>
       <textarea name="" style="width:100%;"></textarea>
-      <p>I'm in the <code>personal</code> directory. What <strong>commands</strong> do I need to run to get to <code>projects_to_delegate</code>?</p>
-      <p><small>(We'll learn how to combine these momentarily)</small></p>
+      <p>If I'm in the <code>personal</code> directory, what <strong>commands</strong> do I need to run to get to <code>projects_to_delegate</code>?</p>
       <textarea rows="3" name="" style="width:100%;"></textarea>
       <p>I'm in the <code>projects_to_delegate</code> directory. What <strong>commands</strong> do I need to run to get to <code>personal</code>?</p>
-      <p><small>(We'll learn how to combine these momentarily)</small></p>
       <textarea rows="3" name="" style="width:100%;"></textarea>
     </div>
   </div>
@@ -242,34 +260,37 @@ Notice that my path no longer includes `book_projects` because I'm outside of th
 <div class="things-to-note">
   <h4>Things to Note</h4>
   <ul>
-    <li>One can combine commands to navigate multiple levels through your directory structure. </li>
-    <li>For the third example in the previous <strong>Try It</strong> section, one could navigate to the <code>projects_to_delegate</code> directory as long as one knows the path:</li>
-    <code>cd ../work/projects_to_delegate</code>
-    <li>For the fourth and final example above:</li>
-    <code>cd ../../personal</code>   
     <li>Each level in the path is spearated by a <code>/</code></li>
+    <li>One can combine commands to navigate multiple levels through your directory structure.</li>
+    <li>For the third example in the previous <strong>Try It</strong> section, one could navigate to the <code>projects_to_delegate</code> in a single command: <code>cd ../work/projects_to_delegate</code></li>
+    <li>For the final example above: <code>cd ../../personal</code></li>
   </ul>
+  <p>If you don't feel comfortable combining commands yet - that is ok! We shared the last two bullet points on how to combine commands for those who are curious about a more efficient way, but it's not neccesary that is part of your workflow in Mod 0.</p>
 </div>
+<br>
 
 ### 6. Make a File (`touch`)
 
-We know how to make directories (or folders) using the `mkdir` command. In order to make files inside of those directories, we use `touch`. The following two commands show how I would make two new files, `chapter_1.md` and `chapter_2.md`:
+We know how to make directories (or folders) using the `mkdir` command. In order to make files inside of those directories, we use `touch`. `touch` needs to be provided with the name of the file being created. The following commands will create new files called `chapter_1.md` and `chapter_2.md`:
 
 ```
 timo@Tims-MacBook-Pro:~/latest_projects$ touch chapter_1.md
 timo@Tims-MacBook-Pro:~/latest_projects$ touch chapter_2.md
 ```
 
-We don't see any confirmation that the file was created, but we can use `ls` to see what's inside the directory:
+We don't receive any confirmation that the file was created, but we can use `ls` to see what's inside the directory:
 
 ```
 timo@Tims-MacBook-Pro:~/latest_projects $ ls
 chapter_1.md    chapter_2.md
 ```
+<br>
 
 ### 7. Clear your Terminal (`clear`)
 
-Sometimes when you've entered a lot of Terminal commands, your terimal can get pretty cluttered. You can always use `clear` to "clean up" your Terminal workspace! The keyboard shortcut `cmd + k` does the same thing.
+Sometimes when you've entered a lot of Terminal commands, your Terminal can get pretty cluttered. You can always use `clear` to "clean up" your Terminal workspace! The keyboard shortcut `cmd + k` does the same thing.
+<br>
+<br>
 
 ### 8. Remove a File (`rm`)
 
@@ -277,13 +298,15 @@ In the past, you've probably gotten rid of files by using the `Move to trash` bu
 
 <img src="images/filetotrash.gif" alt="file to trash" style="height: 250px;">
 
-We can remove files from the command line by running the `rm` command, like this:
+We can remove files from the command line by running the `rm` command. Your current working directory must contain the file you want to remove.
 
 ```
+timo@Tims-MacBook-Pro:~/latest_projects $ ls
+chapter_1.md  chapter_2.md
 timo@Tims-MacBook-Pro:~/latest_projects $ rm chapter_1.md
 ```
 
-Again, we don't get a confirmation, but if I were to run `ls` right now, nothing would appear since the directory is now empty.
+Again, we don't get a confirmation, but if I were to run `ls` right now, the filename I provided to `rm` no longer appears because it has been removed.
 
 ```
 timo@Tims-MacBook-Pro:~/latest_projects $ ls
@@ -297,6 +320,7 @@ chapter_2.md
     <li>Although it may be possible to recover files deleted with <code>rm</code>, it is a difficult process requiring special tools and time. For now, assume that any file you remove using the <code>rm</code> command is gone for good</li>
   </ul>
 </div>
+<br>
 
 ### 9. Remove a Directory and Its Contents (`rm -rf`)
 
@@ -312,21 +336,21 @@ timo@Tims-MacBook-Pro:~/latest_projects$ rm -rf books
 Now when I run `ls`, I will no longer see `books` listed.
 
   <div class="try-it">
-    <h3>Try It: Removing files (rm) and directories (rm -rf)</h3>
+    <h3>Try It: Removing files (<code>rm</code>) and directories (<code>rm -rf</code>)</h3>
+    <p>Using what you've learned, type a response to each prompt in the associated input field. If you aren't sure or want to check yourself, this is a great topic to bring up in your small group Slack channel.</p>
     <div class="flex-container">
       <div>
         <img src="images/files_directories_3.png" alt="files and directories 2">
       </div>
       <div>
-        <p>We'll work through these exercises together.</p>
-        <strong>For this scenario, assume that each question is independent of the rest, and that the starting point is always the diagram to the left.</strong>
+        <p><strong>For this scenario, assume that each question is independent of the rest, and that the starting point is always the diagram to the left.</strong></p>
         <p>I'm in <code>to_do</code>. What do I run to remove <code>random.txt</code>?</p>
         <textarea rows="1" name="" style="width:100%;"></textarea>
         <p>I'm in <code>to_do</code>. What do I run to remove the <code>personal</code> directory?</p>
         <textarea rows="1" name="" style="width:100%;"></textarea>
         <p>I'm in the <code>work</code> directory. What command(s) do I run to remove the <code>personal</code> directory?</p>
         <textarea rows="2" name="" style="width:100%;"></textarea>
-        <p>I'm in the <code>projects_to_delegate</code> directory. What <strong>two commands</strong> do I run to remove the directory I'm currently in?</p>
+        <p>I'm in the <code>projects_to_delegate</code> directory. What command(s) do I run to remove the directory I'm currently in?</p>
         <textarea rows="2" name="" style="width:100%;"></textarea>
         <p>I'm in <code>projects_to_delegate</code>. What command(s) do I need to run to remove the <code>cleaning.txt</code> file?</p>
         <textarea rows="4" name="" style="width:100%;"></textarea>
@@ -339,12 +363,15 @@ Now when I run `ls`, I will no longer see `books` listed.
 ## Practice
 
 - Go to [Turing Terminal](http://learn-terminal.turing.io/challenges) to use the Playground and complete the Challenges
-- In your Terminal, recreate the file structures shown in the diagrams below. 
+- In your Terminal, recreate the file structures shown in the diagrams below. Assume that the extensions for any files notated is `.md`
 
+### Challenge #1
 <img src="images/practice-1.png">
 <br>
 <br>
 <br>
+
+### Challenge #2
 <img src="images/practice-2.png">
 <br>
 <br>

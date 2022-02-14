@@ -6,7 +6,7 @@ title: Conditionals
 ## Learning Goals
 
 - Use comparison and logical operators
-- Write if/else statements for conditional logic
+- Write if/elsif/else statements for conditional logic
 
 ## Vocabulary
 

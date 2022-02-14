@@ -4,6 +4,10 @@ pre {
   overflow-x: scroll;
 }
 
+code {
+  border-radius: 3px;
+}
+
 .try-it {
   background-color: lighten($teal, 50);
   border: 1px solid $teal;
@@ -18,6 +22,7 @@ pre {
 
 .highlighter-rouge {
   max-width: 100%;
+  border-radius: 3px;
   pre {
     white-space: pre-wrap;
   }
