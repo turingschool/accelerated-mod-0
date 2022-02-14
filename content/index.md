@@ -33,8 +33,6 @@ PRODUCTIVE STRUGGLE _ intro session???
 * [GitHub]({{ site.url }}/github)
 
 <div class="to-do">
-Git - need to make into video (4 hours)
-
 GH - live lesson, needs complete design (3 hours)
 </div>
 
