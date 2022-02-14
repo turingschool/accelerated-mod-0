@@ -21,6 +21,8 @@ Stand Up Guide
 End of M0 reflection video
 
 Pairing Sessions
+
+PRODUCTIVE STRUGGLE _ intro session???
 </div>
 
 ## Tools
@@ -31,8 +33,6 @@ Pairing Sessions
 * [GitHub]({{ site.url }}/github)
 
 <div class="to-do">
-Atom & Markdown - where to preview MD (15 mins)
-
 Git - need to make into video (4 hours)
 
 GH - live lesson, needs complete design (3 hours)
@@ -61,3 +61,7 @@ TDD - video - has nothing right now
 </div>
 
 Please submit all deliverables with [this Google form.](https://forms.gle/NnyAMpJt9EALvKJk9)
+
+<div class="to-do">
+site: back links to content page on all lessons
+</div>
