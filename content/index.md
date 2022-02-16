@@ -32,10 +32,6 @@ PRODUCTIVE STRUGGLE _ intro session???
 * [Git]({{ site.url }}/git)
 * [GitHub]({{ site.url }}/github)
 
-<div class="to-do">
-GH - live lesson, needs complete design (3 hours)
-</div>
-
 ## Ruby
 
 * [Data Types]({{ site.url }}/data_types)
