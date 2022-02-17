@@ -122,6 +122,12 @@ if condition
 end
 ```
 
+<div class="try-it">
+  <h3><code>if</code> statements</h3> 
+  <p>In an <code>irb</code> session, write code that defines an <code>age</code> variable and assign it to an Integer. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older.</p>
+</div>
+<br>
+
 ### `elsif`
 Use an `elsif` to create more branches.
 
@@ -134,6 +140,12 @@ elsif condition3
   # code to execute if above condition3 evaluates to true
 end
 ```
+
+<div class="try-it">
+  <h3><code>elsif</code> statements</h3> 
+  <p>In an <code>irb</code> session, write code that defines an <code>age</code> variable and assign it to an Integer. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?".</p>
+</div>
+<br>
 
 ### `else`
 Code inside an `else` will run when none of the previous conditions are true.
@@ -149,22 +161,28 @@ else
   # code to execute if all previous conditions evaluate to false
 end
 ```
-
-Notice that each of the previous examples have one `end` keyword. That is paired with the opening `if` keyword, and is required. [What happens if you forget the `end` keyword?](https://teamtreehouse.com/community/syntax-error-unexpected-endofinput-expecting-keywordend)
-
-Read the [Conditionals section](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#9.-conditionals) from Ruby in 100 Minutes for a different explanation.
-
 <div class="try-it">
-  <h3>If Statements</h3> 
-  <p>Complete the following work in an irb session:</p>
+  <h3><code>else</code> statements</h3> 
+  <p>In an <code>irb</code> session, you'll build on the previous work you've done with the <code>age</code> variable. Write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?". If the user is any other age, print out "You aren't quite old enough to visit, sorry!".</p>
+</div>
+<br>
+
+Notice that each of the previous examples have **one** `end` keyword. That is paired with the opening `if` keyword, and is required. [What happens if you forget the `end` keyword?](https://teamtreehouse.com/community/syntax-error-unexpected-endofinput-expecting-keywordend)
+
+>_Optional:_ Read the [Conditionals section](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#9.-conditionals) from Ruby in 100 Minutes for a different explanation.
+
+<br>
+<div class="try-it">
+  <h3>More Practice</h3> 
+  <p>Complete the following work in an <code>irb</code> session:</p>
   <ul>
     <li>Declare a variable that stores your name in a String</li>
     <li>Write an if/else statement - if your name is "Oscar", puts "Hello, Oscar!". If not, puts "Hello, Stranger!"</li>
-    <li>Bonus Points: Use string interpolation to interpolate any non-Oscar name in after the word "Stranger"</li>
+    <li>Challenge: Use string interpolation to interpolate any non-Oscar name in after the word "Stranger"</li>
   </ul>
 </div>
 
 ## Check For Understanding
 
-[Follow the directions in the README of this GitHub repository](https://github.com/ameseee/conditionals-cfu-am0), and submit your fork in the Google Form.
+[Follow the directions in the README of this GitHub repository](https://github.com/ameseee/conditionals-cfu-am0), and submit your fork in the submission form. Upload the video (requirements outlined in the GitHub repo) to your Slack small group channel.
 <br><br><br>

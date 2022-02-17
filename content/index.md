@@ -44,8 +44,8 @@ PRODUCTIVE STRUGGLE _ intro session???
 * [Test Driven Development]({{ site.url }}/tdd)
 
 <div class="to-do">
-Arrays - solo love, details
 Conditionals - needs more practice
+
 Iteration - make a video (4 hours)
 Hashes - needs adjustments
 Methods - lot of love, lot of practice
@@ -57,4 +57,7 @@ Please submit all deliverables with [this Google form.](https://forms.gle/NnyAMp
 
 <div class="to-do">
 site: back links to content page on all lessons
+Style up Try It boxes
+Make KP boxes
+Make one other box for "Talking and Writing about Code"???
 </div>
