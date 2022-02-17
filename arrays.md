@@ -54,6 +54,12 @@ students = ["Cindy", "Josiah", "Rigo"]
 
 >To describe what the previous line of code does, one might say, "The `students` variable stores an array of Strings. This array has 3 elements"
 
+<div class="try-it">
+  <h3>Talking and Writing about Code</h3> 
+  <p>In your notebook, write down the code that follows, then write a sentence that describes that that line of code does:</p>
+  <p><code>ticket_prices = [87, 67, 99, 90, 87]</code></p>
+</div>
+
 <br>
 Notes on best practices for Arrays:
 - The name of a variable that stores an Array should usually be plural to indicate that it has the potential to hold _many_ elements of that type
@@ -86,6 +92,19 @@ puts students[0]
 puts students[2]
 # --> "Rigo"
 ```
+
+<div class="try-it">
+  <h3>Storing Arrays, Accessing Elements</h3> 
+  <p>Given the following array, answer each question. Notice the way technical vocabulary is used to describe these things, and use this as a guide to practice articulating your responses, and how you talk about Arrays in the future.</p>
+  <p><code>ticket_prices = 87, 67, 99, 90, 87]</code></p>
+  <ul>
+    <li>How many elements are in this Array?</li>
+    <li>What is the index position of the Integer <code>99</code>?</li>
+    <li>What is the value of the element in index position 2?</li>
+    <li>What is the value of the element in index position 0?</li>
+    <li>What is the index position of the last element in this Array?</li>
+  </ul>
+</div>
 
 <div class="try-it">
   <h3>Storing Arrays, Accessing Elements</h3> 
@@ -128,16 +147,22 @@ Since researching and documentation reading can sometimes be time-consuming, ano
   <p>You've seen the syntax for the <code>pop</code> method but its utility was not explained. Before going down a potential rabbit hole in Google, open up irb. Declare an Array with 3 elements. Use the <code>pop</code> method with the syntax you learned earlier. Call the Array and observe the change that has been made since you initially declared it. Go through this process again, with the same Array. What can you infer the <code>pop</code> method does? Check Google (remember, ruby-docs has the most reliable documentation) to confirm your inference. Write this down!</p>
   <p>Your next task is to learn what the <code>push</code>, <code>shift</code> and <code>unshift</code> Array methods do. Consider - how easy or hard did the work you did for <code>pop</code> feel? Do you want to follow the same steps to learn about the other methods, or go straight to ruby documentation to learn about the other 3? Act on whatever you decide, and be sure to write down your learnings about these methods.</p>
 </div>
+<br>
 
+<div class="try-it">
+  <h3>Talking and Writing about Code</h3> 
+  <p>In your notebook, write down the code that follows, then write a sentence that describes that that line of code does:</p>
+  <p><code>ticket_prices.length</code></p>
+</div>
 ## Check For Understanding
 
-Create a new project and initialize a Git repository in it. Make 1 file - `arrays.rb`. In that file:
+Create a new project and initialize a Git repository in it. Make 1 file - `arrays.rb`, and _make an initial commit_. In that file:
 - Declare a variable that stores an Array of at least 4 Strings
 - Declare a variable that stores an Array of at least 4 Integers
 - Declare a variable that stores an Array of at least 4 Floats
 - Declare a variable that stores an Array of at least 4 Booleans
 - _Commit your work_
-- Call one of each of the 4 methods you learned, on each of the 4 arrays you created above. On the line of code above that, write ([in a Ruby comment](https://www.thoughtco.com/commenting-ruby-code-2908193#:~:text=Single%2DLine%20Comments,line%3B%20it%20can%20occur%20anywhere.)) an explanation in plain English as to what impact calling that method will have on that specific array
+- Call 1 of each of the 4 methods you learned, on each of the 4 arrays you created above. On the line of code above that, write ([in a Ruby comment](https://www.thoughtco.com/commenting-ruby-code-2908193#:~:text=Single%2DLine%20Comments,line%3B%20it%20can%20occur%20anywhere.)) an explanation in plain English as to what impact calling that method will have on that specific array
 - _Commit your work_
 - [intentionally open-ended] Demonstrate your understanding of index positions in this file. You can write an explanation, provide some examples with the Arrays you've created, or anything else.
 - _Commit your work_
@@ -150,6 +175,6 @@ Create another file in the same directory, name it `self-evaluation.md`. In Mark
 - What questions do you have about Arrays?
 - _Commit your work_
 
-After you've completed the tasks above, push your work up to a GitHub repository. Provide the GitHub repository (repo) link in the Google Form.
+After you've completed the tasks above, push your work up to a new GitHub repository. Provide the GitHub repository link in the submission form.
 
 <br><br><br>

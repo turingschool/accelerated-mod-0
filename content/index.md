@@ -44,7 +44,6 @@ PRODUCTIVE STRUGGLE _ intro session???
 * [Test Driven Development]({{ site.url }}/tdd)
 
 <div class="to-do">
-Data Types - solo love
 Arrays - solo love, details
 Conditionals - needs more practice
 Iteration - make a video (4 hours)
