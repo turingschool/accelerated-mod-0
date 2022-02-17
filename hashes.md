@@ -14,6 +14,7 @@ title: Hashes
 - Hash
 - hash rocket
 - key
+- key-value pair
 - value
 
 ## Warm Up
@@ -48,46 +49,42 @@ student1 = {
 - Values can be accessed with bracket notation:
   - `student1["name"]` returns `"Christie Soto"`
 
-## Hashes vs. Arrays
+<div class="try-it">
+  <h3>Hash or Array?</h3> 
+  <p>For each example, determine if a Hash or Array would be more appropriate, and explain why. Share your responses in the Slack small group channel for feedback and discussions.</p>
+  <ul>
+    <li>A store's inventory</li>
+    <li>The contents of a dishwasher</li>
+    <li>List of all the places you've traveled to</li>
+    <li>List of birthdays of all students</li>
+    <li>Names of all dogs at doggie daycare</li>
+    <li>Virtual address book</li>
+    <li>Items of clothing in a dresser</li>
+  </ul>
+</div>
 
-For each example, determine if a Hash or Array would be more appropriate, and explain why. Share your responses in the Mod 0 Slack channel for feedback.
-- A store's inventory
-- The contents of a dishwasher
-- List of all the places you've traveled to
-- List of birthdays of all students
-- Names of all dogs at doggie daycare
-- Virtual address book
-- Items of clothing in a dresser
-
-## Hash Syntax Practice
-
-Complete these activities in a new Ruby file, or IRB.
-1. For one of the examples in the previous activity that you selected would be best suited for a Hash, declare a variable that stores a Hash with some (possibly fake) data.
-1. Declare a variables that stores a Hash that represents [this tweet](https://twitter.com/MechEngSanchez/status/1485947286396014593)
-
-
-**STOP! Complete the rest of the lesson with your Mod 0 Instructor.**
-
-## Exploring Hashes
-
-The following activity is meant to be a CHALLENGE! You will get direct instruction after struggling for a bit with this on your own.
-
-1. Start with the hash: `suitcase = { “socks” => 4, “jeans” => 1 }`
-1. Check for how many jackets you have in your suitcase
-1. Add 3 shirts to your suitcase
-1. Add a key value pair of swimsuit/`true` to your suitcase
-1. Take the socks out of your suitcase
-1. Check how many shirts (and only shirts) are in your suitcase
-1. Call `.keys` and `.values` on your hash - what is returned? Why might this be useful?
-
-<br>
-<br>
-<br>
-<br>
+<div class="try-it">
+  <h3>Hash Syntax Practice</h3> 
+  <p>Complete the following work in an <code>irb</code> session or a new Ruby file, working in Atom:</p>
+  <ol>
+    <li>For one of the examples in the previous activity that you selected would be best suited for a Hash, declare a variable that stores a Hash with some (possibly fake) data.</li>
+    <li>Declare a variable that stores a Hash that represents <a href="https://twitter.com/MechEngSanchez/status/1485947286396014593" target="blank">this tweet</a></li>
+  </ol>
+  <p>Take a screenshot or save in this work in a file and be ready to share it in Stand Up tomorrow!</p>
+</div>
 
 ## Accessing a Hash
 
-We use brackets `[]` to access a Hash just like Arrays, only we don’t use indexes, we use _keys_.
+We use brackets `[]` to access a Hash just like Arrays, only we don’t use index positiona, we instead use _keys_.
+
+The examples below explore the `suitcase` Hash:
+
+```ruby
+suitcase = { 
+  "socks" => 4, 
+  "jeans" => 1
+}
+```
 
 Did we put any jackets on our list? Let’s check:
 ```ruby
@@ -95,7 +92,7 @@ suitcase["jackets"]
 => nil
 ```
 
-We can create a new key/value pair like this:
+We can create a new key-value pair:
 ```ruby
 suitcase["shirts"] = 3
 suitcase["swimsuit"] = true
@@ -126,12 +123,37 @@ suitcase.keys
 
 Let's check what values are in our Hash:
 ```ruby
-suitcase.keys
+suitcase.values
 => [1]
 ```
 <br>
 
-**Complete `hashes_1.rb` file [in the CFU repository](https://github.com/turingschool/hashes_cfu_am0) before moving on.**
+<div class="try-it">
+  <h3>Hash Syntax and Access Practice</h3> 
+  <p>Use the following <code>foods</code> variable to complete each prompt:</p>
+  <pre>
+  zoo = {
+    "giraffes" => 3,
+    "zebras" => 12,
+    "hippos" => 2
+  }
+  </pre>
+  <ol>
+    <li>Print all of the keys of the zoo Hash</li>
+    <li>Print all of the values of the zoo Hash</li>
+    <li>Print the value of the first animal of the zoo</li>
+    <li>Add an animal to the zoo</li>
+    <li>Check how many monkeys are in the zoo</li>
+    <li>Add another animal to the zoo</li>
+    <li>Print all of the keys of the zoo Hash</li>
+  </ol>
+</div>
+
+<div class="try-it">
+  <h3>Hash Syntax Refactor</h3> 
+  <p><a href="https://gist.github.com/ameseee/af01754c4c5d433657b913e44e35d9c6" target="blank">Refactor the code in this Gist</a> to improve the style and syntax (think: readability) of the Hashes.</p>
+</div>
+<br>
 
 ## Iterating over Hashes
 
@@ -145,7 +167,9 @@ end
 
 Now, instead of having _one_ block variable to work with, we have two. The first represents the key, and the second represents the value.
 
-**Complete `hashes_2.rb` file [in the CFU repository](https://github.com/turingschool/hashes_cfu_am0).**
+## Check For Understanding
+
+Complete the work [in the CFU repository](https://github.com/turingschool/hashes_cfu_am0) and submit your work using the submission form. Read the README carefully; it calls for submission of the Refactor Gist as well!
 
 <br>
 <br>

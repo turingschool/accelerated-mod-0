@@ -44,11 +44,11 @@ PRODUCTIVE STRUGGLE _ intro session???
 * [Test Driven Development]({{ site.url }}/tdd)
 
 <div class="to-do">
-Conditionals - needs more practice
-
-Iteration - make a video (4 hours)
 Hashes - needs adjustments
 Methods - lot of love, lot of practice
+
+Iteration - make a video (4 hours)
+
 OOP - live lesson, needs love, needs preview and review guide
 TDD - video - has nothing right now
 </div>
@@ -60,4 +60,6 @@ site: back links to content page on all lessons
 Style up Try It boxes
 Make KP boxes
 Make one other box for "Talking and Writing about Code"???
+
+clean up vocab - use tag for styling so they all match!!
 </div>
