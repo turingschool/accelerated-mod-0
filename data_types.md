@@ -22,7 +22,7 @@ title: Data Types
 
 ## Where To Run Code
 
-By the end of this session, you'll be able to use the your Terminal, specicially a tool called `irb`, to run and check your code. This is a great tool for a beginner, as well as a seasoned software developer, to have. `irb` will allow you to explore and learn Ruby and test out code you've written in a low stakes environment. It is quick and easy to open up the terminal and run your code immediately.
+By the end of this session, you'll be able to use the your Terminal, specicially a tool called `irb`, to run and check your code. This is a great tool for a beginner, as well as a seasoned software developer, to have. `irb` will allow you to explore and learn Ruby and test out code you've written in a low stakes environment. It is quick and easy to open up the Terminal and run your code immediately.
 
 ### `irb`: Tips & Tricks
 
@@ -55,6 +55,21 @@ To connect to how these data types are used in an application we all have some e
 - **Float** - You paid your deposit and that amount was stored as `1200.00`
 - **Boolean** - Once you paid your deposit, the "paid deposit" field said `true`
 
+<div class="try-it">
+  <h3>Deciding on a Data Type</h3>
+  <p>For each of the items listed below, determine which Data Type seems most appropriate to store it as. If you are unsure of any, start a discussion in your Slack small group.</p>
+  <ul>
+    <li>username/handle</li>
+    <li>Date of Birth</li>
+    <li>Age</li>
+    <li>Number of Likes</li>
+    <li>Balance on a bank account</li>
+    <li>Currently online</li>
+    <li>Daily countdown to a big event</li>
+    <li>Caption for an image</li>
+  </ul>
+</div>
+
 ## Variables
 
 Pieces of data in the various types we've discussed so far are valid Ruby code just as they are. We can demonstrate that by typing `"helloworld@gmail.com"` or `37` or `false` into irb. We know they are valid because we don't get an error. If `helloworld@gmail.com` is typed in, we _will_ get an error, and possibly a helpful suggestion! 
@@ -83,6 +98,21 @@ If our Ruby program has data stored in variables, we are able to reference those
 Naming can be hard, but is important to be thoughtful about and follow conventions of the language you are working with so that your code is easily accessible and readable for those you are collaborating with. A few key points:
 - All Ruby variables should use `snake_case` - all characters should be lower cased; in multi-word variables, words should be separated with an underscore
 - Variable names should descirbe the type of data they hold without being overly verbose or specific (examples: `name`, `email`, etc. non-examples: `x`, `ftga23`, `name_of_incoming_mod_1_be_student`)
+
+<div class="try-it">
+  <h3>Naming Conventions</h3>
+  <p>In your notebook, write down each of the following variable names and classify it as a strong variables name that follows Ruby conventions <em>or</em> a poor variable name. Be ready to explain why you deemed any variable name a poor one.</p>
+  <ul>
+    <li><code>isHungry</code></li>
+    <li><code>z</code></li>
+    <li><code>user_id</code></li>
+    <li><code>is_hungry</code></li>
+    <li><code>lastdateofcontact</code></li>
+    <li><code>deposit_has_been_paid</code></li>
+    <li><code>status</code></li>
+    <li><code>1st_class</code></li>
+  </ul>
+</div>
 
 ### Reassigning Variables
 
@@ -133,8 +163,8 @@ Use everything you’ve learned with Git, GitHub, Data Types and variables, comp
 1. Commit your work
 1. In your `variables.rb` file, leave the original String variables as declared, but add some code to _reassign_ them to different values
 1. Commit your work
-1. Annotate at least 3 of the lines of code in `variables.rb`
-1. Commit your work
 1. Push your changes to GitHub
+
+Please submit your CFU in the submission form.
 
 <br><br>
