@@ -40,7 +40,7 @@ Accelerated Mod 0 is short and fast! That may lead us to believe we don't have m
     <li>Consider what you are currently using for a calendaring tool. If you don't have anything, Google Calendar is a great place to start.</li>
     <li>Using the Trello board as a guide, create calendar events for the rest of the work left in Mod 0 to map out how your time might be used the rest of this week.</li>
     <li>Add in any personal responsibilities you need to fulfill.</li>
-    <li>Add in a reminder to reflect and adjust your calendar (to document what happened in the _past_) - probably at the end of each day. This will help you increase your awareness of where you spend your time.</li>
+    <li>Add in a reminder to reflect and adjust your calendar (to document what happened in the <em>past</em>) - probably at the end of each day. This will help you increase your awareness of where you spend your time.</li>
   </ul>
 </div>
 
@@ -56,7 +56,7 @@ When it comes to the way they spend their time, there are two major pitfalls we 
 
 Since each Mod is only 6 weeks long, if you fall behind by one week, it can be really hard to catch up. Having a proactive and realistic plan is the best way to set yourself up for success.
 
-The [Front End](https://frontend.turing.edu/today/) and [Back End](https://backend.turing.edu/additional_resources/calendars) calendars are available for you to add to your calendar or bookmark.
+The [Front End](https://frontend.turing.edu/today/) and [Back End](https://backend.turing.edu/additional_resources/calendars) calendars are available for you to add to your calendar or bookmarks. These calendars may not _yet_ have detailed agendas for your first few weeks. In that case, you can look back to the previous inning (either 7 or 8 weeks before your start date) to understand what your first few weeks will look like. The calendar is subject to change slightly, but this will give you the idea of what the day-to-day experience will be like.
 
 <div class="try-it">
   <h3>Mod 1 Calendar</h3>
@@ -73,4 +73,5 @@ The [Front End](https://frontend.turing.edu/today/) and [Back End](https://backe
 
 [Follow the directions in this Gist](https://gist.github.com/ameseee/7bddfce0738b864869aacacf5110e09d) and submit your fork of it in the Google Form.
 
+<br><br>
 <br><br>

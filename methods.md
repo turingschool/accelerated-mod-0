@@ -22,52 +22,35 @@ title: Methods
 
 ## Methods
 
-A Method is a group of related instructions that achieves some purpose. If you open up irb and type:
+A Method is a group of related instructions that achieves some purpose. If you open up `irb` and run the following:
 
 ```ruby
 irb(main):001:0> "Hello World".upcase
 => "HELLO WORLD"
 ```
 
-You are calling the upc`ase method. It’s job is to create a version of the String with all capital letters.
+You are calling the `upcase` method. It is a built-in String method whose job is to create a version of the String with all capital letters.
 
 One of the most important reasons we need methods is to **reuse** code. Instead of rewriting all those lines of code for creating an upcased string, we simply call the `upcase` method.
 
-The example illustrates another key point: **methods run on objects**. In the example above, the upcase method is running on "Hello World", which is a String object. You can think of methods like they are messages to an object. The above code is like saying, “Hey string, give me an upcased version of yourself.”
+The example illustrates another key point: **methods run on objects**. In the example above, the upcase method is running on "Hello World", which is a String object. You can think of methods like they are messages to an object. The above code is like saying, “Hey String, give me an upcased version of yourself.”
 
 To recap the Key Points from this section:
 - We use methods so we can reuse code
 - Methods run on objects
 
-## Return Values
-
-**A return value** is the output of a **method**.
-
-Every **method** has exactly one **return value**.
-
-A **return value** can be any type, for example `4`, `"Hello World"`, `true`, `[1,2,3]`, `nil`.
-
-If you open an irb session and type:
-
-```ruby
-irb(main):001:0> "Hello World".upcase
-=> "HELLO WORLD"
-```
-
-You are calling the `upcase` **method** on the string object "Hello World". The return value, denoted by the `=>`, is "HELLO WORLD".
-
 ## Arguments
 
 **Arguments** are the input(s) to a method. When you define a method, they are known as **parameters**. (In other words, a parameter is a generic placeholder for a specific argument).
 
-If you open a pry session and type
+If you open an `irb` session and run the following:
 
 ```ruby
 irb(main):005:0> "Hello World".include?("Hello")
 => true
 ```
 
-You are calling the `include?` method on the string `"Hello World"`. You are passing the **argument** `"Hello"` to the `include?` method. The **return value** is `true`.
+You are calling the `include?` method on the String `"Hello World"`. You are passing the **argument** `"Hello"` to the `include?` method. The **return value** is `true`.
 
 **Note:** Parenthesis are optional when passing arguments. The previous code snippet could also be written as:
 
@@ -111,7 +94,7 @@ Complete the `methods_variables.rb` file in the Check For Understanding repo.
 
 ## Defining Our Own Methods
 
-The mehtods we've used up until now were built into the Ruby language. Those are great and will be used by you heavily and regularly as a developer. And, there will be times when you need to write your own methods to solve the unique problems in your application. To do this, we'll use the `def` and `end` keywords, following the syntax in the example:
+The methods we've used up until now were built into the Ruby language. Those are great and will be used by you heavily and regularly as a developer. And, there will be times when you need to write your own methods to solve the unique problems in the application you are building or maintaining. To do this, we'll use the `def` and `end` keywords, following the syntax in the example:
 
 ```ruby
 # method definition

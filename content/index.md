@@ -44,7 +44,6 @@ PRODUCTIVE STRUGGLE _ intro session???
 * [Test Driven Development]({{ site.url }}/tdd)
 
 <div class="to-do">
-Hashes - needs adjustments
 Methods - lot of love, lot of practice
 
 Iteration - make a video (4 hours)
