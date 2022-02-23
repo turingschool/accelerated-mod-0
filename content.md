@@ -48,14 +48,14 @@ Methods - lot of love, lot of practice
 
 Iteration - make a video (4 hours)
 
-OOP - live lesson, needs love, needs preview and review guide
+OOP - Add Preview and Review "guides"
+
 TDD - video - has nothing right now
 </div>
 
 Please submit all deliverables with [this Google form.](https://forms.gle/NnyAMpJt9EALvKJk9)
 
 <div class="to-do">
-site: back links to content page on all lessons
 Style up Try It boxes
 Make KP boxes
 Make one other box for "Talking and Writing about Code"???
