@@ -38,10 +38,11 @@ code blocks
 
 <div class="s-card">
   <h3>Kaitlyn & Homework Help</h3>
-  <p>T</p>
+  <p>Kaitlyn's inital question for homework help puts a big demand on the reader, and probably doesn't set her up to learn a lot. Most companies prefer asynchronous communication until live communication is necessary; seeing that Kaitlyn isn't communicating a clear question in writing could be a flag that she won't work independently.</p>
   <blockquote>
     <img src="images/bad_q2.png" alt="Bad Question 2" style="width: 60%">
-  </blockquote>  <p></p>
+  </blockquote>  
+    <p>After she didn't get any responses, Kaitlyn DMed her instructor, who gave her some feedback about why she likely didn't get responses. She re-wrote a her post to make a specific ask, demonstrating she did her due diligence to learn a concept but wanted to confirm her understanding. This type of message demonstrates that Kaitlyn can problem-solve, and communicate her needs for technical support.</p>
   <blockquote>
     <img src="images/good_q2.png" alt="Good Question 2" style="width: 60%">
   </blockquote>
