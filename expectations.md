@@ -6,5 +6,5 @@ title:      Expectations
 Requirements to Pass
 - Attend and participate in all Stand-Ups
 - Schedule and engage in all Pairing Sessions
-- Pass Assessment with 80% or higher
+- Submit all Check For Understandings with quality work; make revisions as requested and apply any feedback given into future work products
 - Pass Live Paired Evaluation

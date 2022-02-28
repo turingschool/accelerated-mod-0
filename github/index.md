@@ -12,14 +12,12 @@ title: GitHub
 
 ## Vocabulary
 
-- clone
-- commit
-- fork
-- local
-- remote
-- repository
-- pull
-- push
+- <span class="vocab">clone</span>
+- <span class="vocab">fork</span>
+- <span class="vocab">local</span>
+- <span class="vocab">remote</span>
+- <span class="vocab">pull</span>
+- <span class="vocab">push</span>
 
 ## Prep Work
 
@@ -35,22 +33,23 @@ Additionally, complete the two tasks that follow before coming to the lesson. Yo
 
 ## Warm Up
 
-<div class="try-it">
+<div class="s-card">
   <h3>Discussion</h3>
-  <p>What does it mean to clone a repository?</p>
+  <p>What does it mean to <span class="vocab">clone</span> a repository?</p>
   <p>How does one clone a repository?</p>
   <p>What is the difference between HTTPS and SSH, and which should we use? Why?</p>
 </div>
+<br>
 
-<div class="try-it">
+<div class="s-card">
   <h3>Waterfall</h3>
-  <p>What is a fork?</p>
+  <p>What is a <span class="vocab">fork</span>?</p>
 </div>
 <br>
 
 ## Connecting a Local and Remote Repository
 
-There are many ways to create and connect local and remote repositories. We can't go through every combination of ways to do that, so will focus on one. Once you are comfortable with this, if you find another way to achieve the same outcome, you can absolutely use that.
+There are many ways to create and connect <span class="vocab">local</span> (on your machine) and <span class="vocab">remote</span> (in the cloud) repositories. We can't go through every combination of ways to do that, so will focus on one. Once you are comfortable with this, if you find another way to achieve the same outcome, you can absolutely use that.
 
 1. Create a local Git repository
 1. Create a GitHub repository (do NOT check the box to create a README)
@@ -66,8 +65,8 @@ What follows is a diagram that breaks down the anatomy of the `git push -u origi
 
 ## Pushing and Pulling Changes
 
-- **Pushing** work up to a repository is the act of using Git commands to send the current version of a local repository up to the remote repository
-- **Pulling** work down is the act of using Git commands to retreive the work on the remote repository so that it's available in the local repository
+- <span class="vocab">Pushing</span> work up to a repository is the act of using Git commands to send the current version of a local repository up to the remote repository
+- <span class="vocab">Pulling</span> work down is the act of using Git commands to retreive the work on the remote repository so that it's available in the local repository
 
 After making 1 or more commits on a local repository, we can push our work up using the following command:
 
@@ -97,7 +96,7 @@ Ocassionally, the command to push work up will not be successful. When this happ
 
 Almost always, the message tells the user what the problem is and **exactly** what to do. 
 
-<div class="try-it">
+<div class="s-card s-border-yellow-500">
   <h3>Reading Error Messages</h3>
   <p>Read the error message in the screenshot above and be ready to share what you would try if you ran into this error.</p>
 </div>
@@ -109,7 +108,7 @@ Let's take a tour of [a GitHub repository](https://github.com/letakeane/emotican
 
 <img src="./assets/leta-gh-repo.png" alt="Screen shot of Leta's GitHub repo">
 
-<div class="try-it">
+<div class="s-card">
   <h3>Navigate a GitHub Repository</h3>
   <p><a href="https://github.com/ameseee/cover" target="blank">Visit this repository</a> and answer the following:</p>
   <ul>
@@ -127,7 +126,7 @@ Let's take a tour of [a GitHub repository](https://github.com/letakeane/emotican
 
 Complete the following exercises to get practice and demonstrate your ability to use Git and GitHub:
 
-<div class="try-it">
+<div class="s-card">
   <h3>Solo: Practice the Workflow</h3>
   <ul>
     <li>Create a local repository</li>
@@ -138,8 +137,9 @@ Complete the following exercises to get practice and demonstrate your ability to
     <li>View the commit history in the GitHub interface</li>
   </ul>
 </div>
+<br>
 
-<div class="try-it">
+<div class="s-card">
   <h3>Class Driver/Navigator</h3>
   <ul>
     <li>Create a local repository</li>
@@ -150,8 +150,9 @@ Complete the following exercises to get practice and demonstrate your ability to
     <li>View the commit history in the GitHub interface</li>
   </ul>
 </div>
+<br>
 
-<div class="try-it">
+<div class="s-card">
   <h3>Pairing Session</h3>
   <p>In today's pairing session, each partner needs to take the following steps while driving, and whl navigating. Each partner is responsible for submitting hte repository they created while driving.</p>
   <ul>

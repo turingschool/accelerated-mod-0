@@ -10,12 +10,14 @@ title: Terminal
 
 ## Vocabulary
 
-- Command
-- Directory
-- File
-- File Path
-- "run a command"
-- Terminal
+- <span class="vocab">child</span>
+- <span class="vocab">command</span>
+- <span class="vocab">directory</span>
+- <span class="vocab">file</span>
+- <span class="vocab">file path</span>
+- <span class="vocab">"run a command"</span>
+- <span class="vocab">parent</span>
+- <span class="vocab">Terminal</span>
 
 ## Files, Directories, and Paths
 
@@ -23,7 +25,7 @@ On your computer, you probably have many <span class="vocab">files</span> and <s
 
 In the diagram below, we would say that there's a directory called `essays` that contains three files: `life_lessons.docx`, `book_report.docx`, and `literary_analysis.docx`:
 
-<hr>
+<br>
 <h3>Example #1</h3>
 <div class="flex-container">
   <div>
@@ -40,8 +42,9 @@ In the diagram below, we would say that there's a directory called `essays` that
     <textarea rows="1" name="" style="width:100%;"></textarea>
   </div>
 </div>
+<br>
 
-<div class="things-to-note">
+<div class="s-card s-border-yellow-500">
   <h3>Things to Note</h3>
   <ol>
     <li>A file cannot be inside of another file. This means that every part of the path <strong>before</strong> the actual file is a directory. </li>
@@ -54,8 +57,8 @@ In the diagram below, we would say that there's a directory called `essays` that
     <li>File extensions matter. A <strong>.md</strong> file will behave differently than a <strong>.docx</strong> file, which will also behave differently than a <strong>.rb</strong> file because the extensions help the operating system figure out which application can open the file an dhow to read it.</li>
   </ol>
 </div>
+<br>
 
-<hr>
 <h3>Example #2</h3>
 <div class="flex-container">
   <div>
@@ -73,28 +76,27 @@ In the diagram below, we would say that there's a directory called `essays` that
   </div>
 </div>
 
-<div class="things-to-note">
+<div class="s-card s-border-yellow-500">
   <h3>Things to Note</h3>
-  <p>We commonly refer to directories with an analogy of <span class="vocab">parent</span> and <span class="vocab">child</span>. In the previous example, <code>to_do</code> is the <span class="vocab">parent</span> directory of the <code>personal</code> and <code>work</code> directories. <code>projects_to_delegate</code> is a <span class="vocab">child</span> directory of the <code>work</code> directory.</p>
+  <p>We commonly refer to directories with an analogy of <span class="vocab">parent</span> and <span class="vocab">child</span>. In the previous example, <code>to_do</code> is the parent directory of the <code>personal</code> and <code>work</code> directories. <code>projects_to_delegate</code> is a child directory of the <code>work</code> directory.</p>
 </div>
-
-<hr>
 <br>
 
 ## Terminal
 
-The <span class="vocab">Terminal</span> is a program we use to give commands to the computer. We use the Terminal because it is a faster and more precise way to navigate our file systems, and certain tools can only be downloaded and accessed via the Terminal. In this lesson, you will learn 9 commonly used commands, but there are many more you'll learn throughout your time at Turing and in your career.
+The <span class="vocab">Terminal</span> is a program we use to give <span class="vocab">commands</span>, or directions, to the computer. We use the Terminal because it is a faster and more precise way to navigate our file systems, and certain tools can only be downloaded and accessed via the Terminal. In this lesson, you will learn 9 commonly used commands, but there are many more you'll learn throughout your time at Turing and in your career.
 
 Your Terminal will look something like this:
 
 <img src="images/amy_terminal.png" alt="Screenshot of Terminal window">
 
-<div class="try-it">
+<div class="s-card">
   <h3>Independent Research</h3>
   <p>Take 3 minutes (max) to research each of the following Terminal commands: <code>pwd</code>, <code>touch</code>, and <code>cd ..</code>. Take note of what you learn, or questions/confusion that arises from this research.</p>
 </div>
+<br>
 
-<div class="things-to-note">
+<div class="s-card s-border-yellow-500">
   <h3>Reflection</h3>
   <ul>
     <li>How did it feel to research a technical topic?</li>
@@ -102,6 +104,7 @@ Your Terminal will look something like this:
     <li>Did you stick to the time limits?</li>
   </ul>
 </div>
+<br>
 
 ### Terminal Commands
 
@@ -214,8 +217,8 @@ literary_analysis.docx    book_report.docx
   </div>
 </div>
 
-<div class="things-to-note">
-  <h4>Things to Note</h4>
+<div class="s-card s-border-yellow-500">
+  <h3>Things to Note</h3>
   <p>You can't pick any random directory from your computer to give to the <code>cd</code> command. It has to be a directory that is directly inside the current working directory (or you need to use the full path to get to that directory, which we won't talk about in this lesson).</p>
 </div>
 <br>
@@ -235,8 +238,7 @@ Notice that my path no longer includes `book_projects` because I'm outside of th
 
 _**Note:** You never want to `cd` into a directory above your home directory. This area requires admin permissions, and there is no practical use case for being there._
 
-
-<div class="try-it">
+<div class="s-card">
   <h3>Try It: <code>cd and cd ..</code></h3>
   <p>Using what you've learned, type a response to each prompt in the associated input field. If you aren't sure or want to check yourself, this is a great topic to bring up in your small group Slack channel.</p>
   <div class="flex-container">
@@ -256,9 +258,10 @@ _**Note:** You never want to `cd` into a directory above your home directory. Th
     </div>
   </div>
 </div>
+<br>
 
-<div class="things-to-note">
-  <h4>Things to Note</h4>
+<div class="s-card s-border-yellow-500">
+  <h3>Things to Note</h3>
   <ul>
     <li>Each level in the path is spearated by a <code>/</code></li>
     <li>One can combine commands to navigate multiple levels through your directory structure.</li>
@@ -313,8 +316,8 @@ timo@Tims-MacBook-Pro:~/latest_projects $ ls
 chapter_2.md
 ```
 
-<div class="things-to-note">
-  <h4>Things to Note</h4>
+<div class="s-card s-border-yellow-500">
+  <h3>Things to Note</h3>
   <ul>
     <li>A file removed using the <code>rm</code> command <strong>does not</strong> go into your trash where you could restore it later</li>
     <li>Although it may be possible to recover files deleted with <code>rm</code>, it is a difficult process requiring special tools and time. For now, assume that any file you remove using the <code>rm</code> command is gone for good</li>
@@ -335,7 +338,7 @@ timo@Tims-MacBook-Pro:~/latest_projects$ rm -rf books
 
 Now when I run `ls`, I will no longer see `books` listed.
 
-  <div class="try-it">
+  <div class="s-card">
     <h3>Try It: Removing files (<code>rm</code>) and directories (<code>rm -rf</code>)</h3>
     <p>Using what you've learned, type a response to each prompt in the associated input field. If you aren't sure or want to check yourself, this is a great topic to bring up in your small group Slack channel.</p>
     <div class="flex-container">

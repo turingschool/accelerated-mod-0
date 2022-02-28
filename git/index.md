@@ -16,7 +16,7 @@ Stop at the provided prompts to take notes and complete practice exercises as in
 
 ## Practice
 
-<div class="try-it">
+<div class="s-card">
   <h3>Exercise 1</h3>
   <ol>
     <li>Navigate to your root directory</li>
@@ -36,8 +36,9 @@ Stop at the provided prompts to take notes and complete practice exercises as in
     <li>Before you check the status, predict what it will say. Then, check the current status.</li>
   </ol>
 </div>
+<br>
 
-<div class="try-it">
+<div class="s-card">
   <h3>Exercise 2</h3>
   <p>Before you run each Git command, pause and predict what the output, if any, will be.</p>
   <ol>
@@ -60,7 +61,7 @@ Stop at the provided prompts to take notes and complete practice exercises as in
 
 ## Additional Resources
 
-- Read this [article on git commit messages](https://chris.beams.io/posts/git-commit/) staging area
+- Read this [article on Git commit messages](https://chris.beams.io/posts/git-commit/) staging area
 - [What's the use of the staging area in Git?](https://stackoverflow.com/questions/49228209/whats-the-use-of-the-staging-area-in-git) on Stack Overflow
 
 ## Check For Understanding

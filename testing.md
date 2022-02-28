@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Test Driven Development
+title: Intro to Testing
 ---
 
 ## Learning Goals

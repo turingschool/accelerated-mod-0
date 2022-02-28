@@ -86,12 +86,12 @@ Turing is a fully remote and highly collaborative program, which means you will 
 1. Scroll down to Screen Recording and click the small "plus sign" button. In the window that opens, navigate to the Applications, then click on "Zoom"
 
 <br>
-
-<div class="try-it">
+<div class="s-card">
   <h3>Running Commands in the Terminal</h3>
   <p>The remainder of the Computer Setup steps will be completed via the Terminal application. This may be very new and potentially overwhelming to you! Follow the directions closely to work through each section.</p>
   <p>The directions will use a phrase that may be new to you: "Run ____". When you are instructed to "run something", it means that you need to type those characters into the Terminal where you see the command prompt, then press <code>return</code>.</p>
 </div>
+<br>
 
 ### Install Xcode-select
 

@@ -11,11 +11,11 @@ title: Hashes
 
 ## Vocabulary
 
-- Hash
-- hash rocket
-- key
-- key-value pair
-- value
+- <span class="vocab">Hash</span>
+- <span class="vocab">hash rocket</span>
+- <span class="vocab">key</span>
+- <span class="vocab">key-value pair</span>
+- <span class="vocab">value</span>
 
 ## Warm Up
 
@@ -28,7 +28,7 @@ students = ["Cristie Soto", "A+", "B", "in progress", true, "Oscar Smith", "A-",
 
 ## Hashes
 
-Hashes allow us to structure data in a different way than Arrays. It's not better; it's just different. Like an Array, a Hash is a data structure used for representing a collection of things. But whereas an Array generally represents a list of ordered, indexed values, **a Hash represents a collection of _named_ values**. These names are called **keys**, and each key has a corresponding **value**. In a Hash, we can insert data by assigning it to a name and later retrieving it using the same name.
+Hashes allow us to structure data in a different way than Arrays. It's not better; it's just different. Like an Array, a Hash is a data structure used for representing a collection of things. But whereas an Array generally represents a list of ordered, indexed values, **a <span class="vocab">Hash</span> represents a collection of _named_ values**. These names are called <span class="vocab">keys</span>, and each key has a corresponding <span class="vocab">value</span>. In a Hash, we can insert data by assigning it to a name and later retrieving it using the same name.
 
 Some languages call their Hashes _dictionaries_ for this reason – you look up a word (the label) to retrieve its definition (the data or value with which the label was associated).
 
@@ -49,7 +49,7 @@ student1 = {
 - Values can be accessed with bracket notation:
   - `student1["name"]` returns `"Christie Soto"`
 
-<div class="try-it">
+<div class="s-card">
   <h3>Hash or Array?</h3> 
   <p>For each example, determine if a Hash or Array would be more appropriate, and explain why. Share your responses in the Slack small group channel for feedback and discussions.</p>
   <ul>
@@ -62,8 +62,9 @@ student1 = {
     <li>Items of clothing in a dresser</li>
   </ul>
 </div>
+<br>
 
-<div class="try-it">
+<div class="s-card">
   <h3>Hash Syntax Practice</h3> 
   <p>Complete the following work in an <code>irb</code> session or a new Ruby file, working in Atom:</p>
   <ol>
@@ -92,7 +93,7 @@ suitcase["jackets"]
 => nil
 ```
 
-We can create a new key-value pair:
+We can create a new <span class="vocab">key-value</span> pair:
 ```ruby
 suitcase["shirts"] = 3
 suitcase["swimsuit"] = true
@@ -128,7 +129,7 @@ suitcase.values
 ```
 <br>
 
-<div class="try-it">
+<div class="s-card">
   <h3>Hash Syntax and Access Practice</h3> 
   <p>Use the following <code>foods</code> variable to complete each prompt:</p>
   <pre>
@@ -148,8 +149,9 @@ suitcase.values
     <li>Print all of the keys of the zoo Hash</li>
   </ol>
 </div>
+<br>
 
-<div class="try-it">
+<div class="s-card">
   <h3>Hash Syntax Refactor</h3> 
   <p><a href="https://gist.github.com/ameseee/af01754c4c5d433657b913e44e35d9c6" target="blank">Refactor the code in this Gist</a> to improve the style and syntax (think: readability) of the Hashes.</p>
 </div>

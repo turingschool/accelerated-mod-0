@@ -10,16 +10,16 @@ title: Conditionals
 
 ## Vocabulary
 
-- comparison operators
-- logical operators
-- conditionals
-- if statements
+- <span class="vocab">comparison operators</span>
+- <span class="vocab">logical operators</span>
+- <span class="vocab">conditionals</span>
+- <span class="vocab">if statements</span>
 
 ## Comparison Operators
 
 _This will connect to Booleans, which you learned about in the Data Types lesson._
 
-Conditional statements (conditions) evaluate to `true` or `false`. The most common operators used for conditions are comparison operators:
+Conditional statements, or <span class="vocab">conditionals</span>, are Ruby statements that evaluate to `true` or `false`. The most common operators used for conditions are <span class="vocab">comparison operators</span>:
 
 - `==` (equal)
 - `!=` (not equal)
@@ -28,7 +28,7 @@ Conditional statements (conditions) evaluate to `true` or `false`. The most comm
 - `<` (less than)
 - `<=` (less than or equal to)
 
-<div class="things-to-note">
+<div class="s-card s-border-yellow-500">
   <h4>Equality vs. Assignment</h4>
   <p>The number one mistake people encounter when writing conditional statements is the difference between <code>=</code> and <code>==</code>.</p>
   <ul>
@@ -39,7 +39,7 @@ Conditional statements (conditions) evaluate to `true` or `false`. The most comm
 
 [Read more about comparison operators.](http://ruby-for-beginners.rubymonstas.org/operators/comparison.html)
 
-<div class="try-it">
+<div class="s-card">
   <h3>Comparisons</h3> 
   <p>Complete the following work in an irb session:</p>
   <ul>
@@ -54,7 +54,7 @@ Conditional statements (conditions) evaluate to `true` or `false`. The most comm
 
 ## Logical Operators
 
-There are 3 logical operators in Ruby; we will learn 2 today:
+There are 3 <span class="vocab">logical operators</span> in Ruby; we will learn 2 today:
 - `&&` or `and`
 - `||` or `or`
 
@@ -98,7 +98,7 @@ age < 30 || time < 2.0
 # false (neither meet requirement)
 ```
 
-<div class="try-it">
+<div class="s-card">
   <h3>Logical Operators</h3> 
   <p>Complete the following work in an irb session:</p>
   <ul>
@@ -113,6 +113,8 @@ age < 30 || time < 2.0
 
 ## If Statements
 
+<span class="vocab"><code>If statements</code></span> are the most common form of conditionals. The logic of an <code>if statement</code> in Ruby follows the same logic in other programming languages.
+
 ### `if`
 All of our conditional branches will begin with an `if`. The code following the `if` will run if the condition is true.
 
@@ -122,7 +124,7 @@ if condition
 end
 ```
 
-<div class="try-it">
+<div class="s-card">
   <h3><code>if</code> statements</h3> 
   <p>In an <code>irb</code> session, write code that defines an <code>age</code> variable and assign it to an Integer. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older.</p>
 </div>
@@ -141,7 +143,7 @@ elsif condition3
 end
 ```
 
-<div class="try-it">
+<div class="s-card">
   <h3><code>elsif</code> statements</h3> 
   <p>In an <code>irb</code> session, write code that defines an <code>age</code> variable and assign it to an Integer. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?".</p>
 </div>
@@ -161,7 +163,7 @@ else
   # code to execute if all previous conditions evaluate to false
 end
 ```
-<div class="try-it">
+<div class="s-card">
   <h3><code>else</code> statements</h3> 
   <p>In an <code>irb</code> session, you'll build on the previous work you've done with the <code>age</code> variable. Write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?". If the user is any other age, print out "You aren't quite old enough to visit, sorry!".</p>
 </div>
@@ -172,7 +174,7 @@ Notice that each of the previous examples have **one** `end` keyword. That is pa
 >_Optional:_ Read the [Conditionals section](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#9.-conditionals) from Ruby in 100 Minutes for a different explanation.
 
 <br>
-<div class="try-it">
+<div class="s-card">
   <h3>More Practice</h3> 
   <p>Complete the following work in an <code>irb</code> session:</p>
   <ul>

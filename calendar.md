@@ -34,7 +34,7 @@ One strategy we’ve seen our most successful students employ is using some type
 
 Accelerated Mod 0 is short and fast! That may lead us to believe we don't have much time to manage, so shouldn't worry about it. But, every minute matters even more when it is so fast-paced.
 
-<div class="try-it">
+<div class="s-card">
   <h3>Mod 0 Calendar</h3>
   <ul>
     <li>Consider what you are currently using for a calendaring tool. If you don't have anything, Google Calendar is a great place to start.</li>
@@ -58,7 +58,7 @@ Since each Mod is only 6 weeks long, if you fall behind by one week, it can be r
 
 The [Front End](https://frontend.turing.edu/today/) and [Back End](https://backend.turing.edu/additional_resources/calendars) calendars are available for you to add to your calendar or bookmarks. These calendars may not _yet_ have detailed agendas for your first few weeks. In that case, you can look back to the previous inning (either 7 or 8 weeks before your start date) to understand what your first few weeks will look like. The calendar is subject to change slightly, but this will give you the idea of what the day-to-day experience will be like.
 
-<div class="try-it">
+<div class="s-card">
   <h3>Mod 1 Calendar</h3>
   <p>Please create a calendar for your first 3 weeks of Mod 1. Consider your personal needs, relationships, hours you work best, etc. as well as the tool that works best for you to calendar this out. We suggest that your calendar should include the following:</p>
   <ul>
