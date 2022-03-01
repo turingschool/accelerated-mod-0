@@ -10,7 +10,7 @@ title: Mod 0 Content
 * [Career Development Prep & Survey](https://careerdev.turing.edu/module-1-prework/index)
 * [DTR Prep]({{ site.url}}/dtr)
 * [Mentorship Prep]({{ site.url }}/mentorship)
-* [Pair Programming]()
+* [Pair Programming]({{ site.url }}/pairing)
 
 ## Tools
 
