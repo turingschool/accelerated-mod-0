@@ -57,9 +57,9 @@ While there is no "right" or "perfect" way to pair, there are some best practice
 
 To help you become comfortable with pairing in what may be a very new environment for you, you will have 4 pairing sessions, each with a different classmate. Before and after each session, you'll be asked to prepare and reflect which will support your growth and awareness of your growth.
 
-- [Tuesday]({{ site.url }}/pairing_1)
-- [Wednesday]({{ site.url }}/pairing_2)
-- [Thursday]({{ site.url }}/pairing_3)
-- [Friday]({{ site.url }}/pairing_4)
+- [Tuesday: Pairing Session 1]({{ site.url }}/pairing_1)
+- [Wednesday: Pairing Session 2]({{ site.url }}/pairing_2)
+- [Thursday: Pairing Session 3]({{ site.url }}/pairing_3)
+- [Friday: Pairing Session 4]({{ site.url }}/pairing_4)
 
 You can absolutely choose to scheduled additional pairing sessions!
