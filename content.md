@@ -11,6 +11,10 @@ title: Mod 0 Content
 * [DTR Prep]({{ site.url}}/dtr)
 * [Mentorship Prep]({{ site.url }}/mentorship)
 * [Pair Programming]({{ site.url }}/pairing)
+  - [Pairing Session 1 (Tuesday)]({{ site.url }}/pairing_1)
+  - [Pairing Session 2 (Wednesday)]({{ site.url }}/pairing_2)
+  - [Pairing Session 3 (Thursday)]({{ site.url }}/pairing_3)
+  - [Pairing Session 4 (Friday)]({{ site.url }}/pairing_4)
 
 ## Tools
 
