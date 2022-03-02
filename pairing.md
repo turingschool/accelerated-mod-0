@@ -8,7 +8,7 @@ title: Pair Programming
 - Explain the Driver Navigator Pair Programming style
 - Identify strengths and opportunities when observing others pair program
 - Identify strengths and opportunities in oneself as a pair programmer
-- Become comfortable screen sharing, typing in front of others, and communication technical concepts
+- Become comfortable screen sharing, typing in front of others, and communicating technical concepts
 
 ## Vocabulary
 
