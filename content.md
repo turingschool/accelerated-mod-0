@@ -3,6 +3,8 @@ layout: page
 title: Mod 0 Content
 ---
 
+Please submit all deliverables with [this submission form.](https://forms.gle/NnyAMpJt9EALvKJk9)
+
 ## Career Development
 
 * [Asking Technical Questions]({{ site.url }}/asking_qs) 
@@ -42,7 +44,6 @@ Iteration - make a video (4 hours)
 Intro to Testing - video - has nothing right now
 </div>
 
-Please submit all deliverables with [this submission form.](https://forms.gle/NnyAMpJt9EALvKJk9)
 
 <br>
 <br>
