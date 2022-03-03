@@ -3,6 +3,17 @@ layout: lesson
 title: DTR Prep
 ---
 
+<div class="s-card s-border-yellow-500">
+  <h3>Prepare to Engage</h3>
+  <p>Whether you are starting your day with this activity or wrapping up a long day of technical work with this, take a moment to ground yourself in why you became a student at Turing. This Career Development work is arguably the most component of your education that will lead you into your new career.</p>
+  <p>Take a moment to reset if needed, meditate, or do some physical stretches/movement to get yourself into the space you need to be in to engage in this work. Some optional guiding questions follow.</p>
+  <ul>
+    <li>Why did you come to Turing?</li>
+    <li>What is the thing that will motivate you to keep going on the days/weeks you feel <em>most</em> challenged at Turing?</li>
+  </ul>
+</div>
+<br>
+
 ## Purpose
 
 You will be a contributor in several paired/group project throughout your Turing career working on complex technical challenges. You may be surprised to find out that < 1% of failing projects at Turing are due solely to technical definicines - in fact, the majority of failing projects are due to intrapersonal/team issues. In order to set yourself (and your teammates) up for success, it is critical to clearly communicate and set expectations with your teammates. 

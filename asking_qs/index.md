@@ -3,6 +3,17 @@ layout: lesson
 title: Asking Technical Questions
 ---
 
+<div class="s-card s-border-yellow-500">
+  <h3>Prepare to Engage</h3>
+  <p>Whether you are starting your day with this activity or wrapping up a long day of technical work with this, take a moment to ground yourself in why you became a student at Turing. This Career Development work is arguably the most component of your education that will lead you into your new career.</p>
+  <p>Take a moment to reset if needed, meditate, or do some physical stretches/movement to get yourself into the space you need to be in to engage in this work. Some optional guiding questions follow.</p>
+  <ul>
+    <li>Why did you come to Turing?</li>
+    <li>What is the thing that will motivate you to keep going on the days/weeks you feel <em>most</em> challenged at Turing?</li>
+  </ul>
+</div>
+<br>
+
 Asking technical questions may seem so easy when one is a beginner "I know so little, how could I NOT have questions?" However, effectively asking questions is a skill. This skill will be essential in your success - not just at Turing, but on the job hunt and on the job. How a developer asks questions communications a lot about their overall effectiveness. During your time at Turing, you will continue to hone this skill.
 
 ## Best Practices
@@ -56,7 +67,7 @@ As you prepare to ask questions - in written form or in live communications - **
 
 ## Check For Understanding
 
-You won't submit anything in the submission form for this topic; but you will be asked to ask at least 1 question in your Slack small group daily. And, you'll be asked to reflect on questions (asked by you and peers) in some of your Daily Synthesis prompts. So, keep this in mind - come back to this document when you go to Slack to type of a question or keep a sticky note on your desk with the 4 best practices - whatever it takes to build a strong habit for yourself!
+You won't submit anything in the submission form for this topic; but you will be asked to ask at least 1 question in your Slack small group daily. And, you'll be asked to reflect on questions (asked by you and peers) in some of your End of Day Synthesis prompts. So, keep this in mind - come back to this document when you go to Slack to type of a question or keep a sticky note on your desk with the 4 best practices - whatever it takes to build a strong habit for yourself!
 
 <br>
 <br>

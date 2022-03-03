@@ -19,7 +19,7 @@ Before meeting with your partner, reflect on the following:
 
 Be ready to share your answers with your partner.
 
-## Mini-DTR
+## Set Collaboration Expectations
 
 Spend a few minutes getting to know each other and discussing the questions you were asked to prepare answers to. This will help set expectations for what you each need and can commit to doing, and is an important habit to build when you start a working relationship. You'll be asked to reflect on both preparation questions (and how the session went in regards to those) after the pairing session.
 
@@ -28,6 +28,8 @@ Decide if you will share feedback live at the end of this call, or in writing vi
 Then, decide who will be the Driver and Navigator for the first challenge, then switch roles for the second exercise.
 
 ## Exercises
+
+>**Make sure to record this pairing session as you'll be asked to submit the video as part of today's reflection.**
 
 Note: Some language in used in these prompts that you have not had direct exposure to in the Mod 0 curriculum. This is _intentional_ and designed to support you in being flexible while reading documentation and specifications (as that is an essential skill for a developer to have). Use your context clues, make educated guesses with the knowledge you have, and if you are completely unsure "does it mean X or Y?" - do the exercise both ways - x and y - just to cover yourself!
 

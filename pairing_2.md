@@ -17,7 +17,7 @@ Before meeting with your partner, reflect on the following:
 
 Be ready to share your answers with your partner.
 
-## Mini-DTR
+## Set Collaboration Expectations
 
 Spend a few minutes getting to know each other and discussing the questions you were asked to prepare answers to. This will help set expectations for what you each need and can commit to doing, and is an important habit to build when you start a working relationship. You'll be asked to reflect on both preparation questions (and how the session went in regards to those) after the pairing session.
 
