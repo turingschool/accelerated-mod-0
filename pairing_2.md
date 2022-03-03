@@ -12,7 +12,8 @@ title: Pairing Session 2
 ## Prepare
 
 Before meeting with your partner, reflect on the following:
-- What is one thing you are going to commit to doing, to be a great pair programmer today? 
+- What is one thing you are going to commit to doing, to be a great driver today? 
+- What is one thing you are going to commit to doing, to be a great navigator today? 
 - What is one thing you really need your partner to do to help you have an effective pairing session?
 
 Be ready to share your answers with your partner.
