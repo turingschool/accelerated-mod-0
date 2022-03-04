@@ -64,6 +64,6 @@ Then, decide who will be the Driver and Navigator for the first challenge, then 
 
 ## Reflection
 
-[Follow the directions in this Gist](https://gist.github.com/ameseee/efe1c490a8ee0c99c8ad2eb7ae63dcf4) and submit your fork of it in the Google Form.
+[Follow the directions in this Gist](https://gist.github.com/ameseee/efe1c490a8ee0c99c8ad2eb7ae63dcf4) and submit your fork of it in the submission form.
 
 <br><br>

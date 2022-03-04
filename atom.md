@@ -127,6 +127,6 @@ Complete the challenges below to continue to build fluency with using your Termi
 
 ## Check For Understanding
 
-[Follow the directions in this Gist](https://gist.github.com/ameseee/9dce3499a045f8bc5f00508ef1ccf0c3) and submit your fork of it in the Google Form.
+[Follow the directions in this Gist](https://gist.github.com/ameseee/9dce3499a045f8bc5f00508ef1ccf0c3) and submit your fork of it in the submission Form.
 
 <br><br>

@@ -66,6 +66,6 @@ Stop at the provided prompts to take notes and complete practice exercises as in
 
 ## Check For Understanding
 
-[Follow the directions in this Gist](https://gist.github.com/ameseee/e9ccdf8fae906a3bd1a3d5e81731413b) and submit your fork of it in the Google Form.
+[Follow the directions in this Gist](https://gist.github.com/ameseee/e9ccdf8fae906a3bd1a3d5e81731413b) and submit your fork of it in the submission form.
 
 <br><br>

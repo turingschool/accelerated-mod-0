@@ -126,7 +126,7 @@ Use the `each` method to solve each problem. You can do this work in the place t
 
 ## Check For Understanding
 
-[Follow the directions in the README of this GitHub repository](https://github.com/turingschool/arrays2_cfu-am0), and submit your fork in the Google Form.
+[Follow the directions in the README of this GitHub repository](https://github.com/turingschool/arrays2_cfu-am0), and submit your fork in the submission form.
 
 <br>
 <br>

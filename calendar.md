@@ -82,7 +82,7 @@ The [Front End](https://frontend.turing.edu/today/) and [Back End](https://backe
 
 ## Check For Understanding
 
-[Follow the directions in this Gist](https://gist.github.com/ameseee/7bddfce0738b864869aacacf5110e09d) and submit your fork of it in the Google Form.
+[Follow the directions in this Gist](https://gist.github.com/ameseee/7bddfce0738b864869aacacf5110e09d) and submit your fork of it in the submission form.
 
 <br><br>
 <br><br>

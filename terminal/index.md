@@ -382,6 +382,6 @@ Now when I run `ls`, I will no longer see `books` listed.
 
 ## Check For Understanding
 
-[Follow the directions in this Gist](https://gist.github.com/ameseee/db5de325c40100dde3d6a5ad4888fa29) and submit your fork of it in the Google Form.
+[Follow the directions in this Gist](https://gist.github.com/ameseee/db5de325c40100dde3d6a5ad4888fa29) and submit your fork of it in the submission form.
 
 <br><br>

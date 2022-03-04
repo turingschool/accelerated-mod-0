@@ -72,6 +72,6 @@ Come back to the areas that you asked each other to provide feedback on.
 
 ## Reflection
 
-[Follow the directions in this Gist](https://gist.github.com/ameseee/13dfa032e730549547a6ca72716ac9d3) and submit your fork of it in the Google Form.
+[Follow the directions in this Gist](https://gist.github.com/ameseee/13dfa032e730549547a6ca72716ac9d3) and submit your fork of it in the submission form.
 
 <br><br>

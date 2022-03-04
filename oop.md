@@ -204,7 +204,7 @@ In OOP, it is common to store instances in a list, or array, like the one above.
 
 ## Check For Understanding
 
-[Follow the directions in the README of this repo](https://github.com/turingschool/oop_cfu_am0), and submit your fork in the Google Form! 
+[Follow the directions in the README of this repo](https://github.com/turingschool/oop_cfu_am0), and submit your fork in the submission form! 
 
 <br>
 <br>

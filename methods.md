@@ -184,6 +184,6 @@ puts sum2
 
 ## Check For Understanding
 
-Complete the `final_practice.rb` in the Check For Understanding repo. Submit your copy of the repo to the Google Form.
+Complete the `final_practice.rb` in the Check For Understanding repo. Submit your copy of the repo to the submission form.
 
 <br><br><br>
