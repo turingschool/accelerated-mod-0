@@ -36,14 +36,6 @@ Please submit all deliverables with [this submission form.](https://forms.gle/Nn
 * [Object Oriented Programming]({{ site.url }}/oop)
 * [Intro to Testing]({{ site.url }}/testing)
 
-<div class="to-do">
-Methods - lot of love, lot of practice
-
-Iteration - make a video (4 hours)
-
-Intro to Testing - video - has nothing right now
-</div>
-
 
 <br>
 <br>

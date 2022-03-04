@@ -92,7 +92,7 @@ end
 
 ## Practice
 
-Use the `each` method to solve each problem:
+Use the `each` method to solve each problem. You can do this work in the place that works best for you - `irb`, a Ruby file you create and open in Atom, or something else.
 
 <div class="s-card">
   <p>Print out a greeting to each friend:</p>
