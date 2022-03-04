@@ -28,7 +28,7 @@ To open Atom from the Terminal, navigate to the directory you want to open, and 
 atom .
 ```
 
-**Practice this right now.** If Atom does not open, make sure Atom is in the Applications folder, not the Downloads folder. If it is still not working, share this isna message to your small group on Slack.
+**Practice this right now.** If Atom does not open, make sure Atom is in the Applications folder, not the Downloads folder. If it is still not working, share this in a message to your small group on Slack.
 
 <div class="s-card">
   <h3>Install Auto-Save</h3>
@@ -46,8 +46,8 @@ atom .
 </div>
 
 - In the box to title your Gist, follow this format: `firstName_lastName_mod_0_plan.md`
-- Images can be a little tricky in gists and GitHub - be sure to check out the [drag-n-drop shortcut from the first answer on this Stack Overflow post](https://stackoverflow.com/questions/16425770/gist-how-are-images-uploaded-to-a-gist)! 
-- Remember to add a `.md` file extension to filename of your new Gist. Otherwise it will not register as markdown.
+- Images can be a little tricky in gists and GitHub - be sure to check out the [drag-n-drop shortcut from the first answer on this Stack Overflow post](https://stackoverflow.com/questions/16425770/gist-how-are-images-uploaded-to-a-gist)!
+- Remember to add a `.md` file extension to the filename of your new Gist. Otherwise it will not register as markdown.
 
 **In addition to documenting your gameplan for success in Mod 0, incorporate each of the following Markdown features into your Gist:**
 
@@ -69,7 +69,7 @@ atom .
 
 ## Atom Keyboard Shortcuts
 
-To maximize your time as a developer, use of <span class="vocab">keyboard shortcuts</span> will be essential. If you are new to a Mac and/or a development enviroment, it can feel overwhelming at first. Don't try to learn them all at once. A list of commonly used shortcuts that we recommend starting with follows:
+To maximize your time as a developer, use of <span class="vocab">keyboard shortcuts</span> will be essential. If you are new to a Mac and/or a development environment, it can feel overwhelming at first. Don't try to learn them all at once. A list of commonly used shortcuts that we recommend starting with follows:
 
 - `cmd + ,` - opens the Preferences Pane
 - `cmd + \` - toggles the File Tree
@@ -98,7 +98,7 @@ Complete the challenges below to continue to build fluency with using your Termi
 1. Navigate into the `my_first_projects` directory
 1. Make a file called `ruby.md`
 1. Make a file called `javascript.md`
-1. Open the project in Atom 
+1. Open the project in Atom
 1. Add a list of things you already know about Ruby in the `ruby.md` file
 1. List the contents of your directory (you should see the three files you just created)
 1. Demonstrate how to expand and collapse the file tree with a keyboard shortcut
