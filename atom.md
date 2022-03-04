@@ -28,7 +28,7 @@ To open Atom from the Terminal, navigate to the directory you want to open, and 
 atom .
 ```
 
-**Practice this right now.** If Atom does not open, make sure Atom is in the Applications folder, not the Downloads folder. If it is still not working, share this isna message to your small group on Slack.
+**Practice this right now.** If Atom does not open, make sure Atom is in the Applications folder, not the Downloads folder. If it is still not working, share this in a message to your small group on Slack.
 
 <div class="s-card">
   <h3>Install Auto-Save</h3>
@@ -47,7 +47,7 @@ atom .
 
 - In the box to title your Gist, follow this format: `firstName_lastName_mod_0_plan.md`
 - Images can be a little tricky in gists and GitHub - be sure to check out the [drag-n-drop shortcut from the first answer on this Stack Overflow post](https://stackoverflow.com/questions/16425770/gist-how-are-images-uploaded-to-a-gist)!
-- Remember to add a `.md` file extension to filename of your new Gist. Otherwise it will not register as markdown.
+- Remember to add a `.md` file extension to the filename of your new Gist. Otherwise it will not register as markdown.
 
 **In addition to documenting your gameplan for success in Mod 0, incorporate each of the following Markdown features into your Gist:**
 
