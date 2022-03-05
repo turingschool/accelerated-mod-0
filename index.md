@@ -37,6 +37,6 @@ title: Home
 <footer class="s-footer">
  <div class="s-footer-content">
    <p class="s-text-white">Turing School of Software and Design, a Colorado Non-Profit Organization.</p>
-   <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+   <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
  </div>
 </footer>
