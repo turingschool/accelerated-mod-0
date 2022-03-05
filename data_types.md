@@ -5,7 +5,7 @@ title: Data Types
 
 ## Learning Goals
 
-- Identify and use 3 basic Data Types
+- Identify and use 4 basic Data Types
 - Assign and reassign variables in Ruby
 - Comfortably use `irb` within the Terminal
 
@@ -26,18 +26,18 @@ By the end of this session, you'll be able to use the your Terminal, specificall
 
 ### `irb`: Tips & Tricks
 
-- Open and close the Terminal quickly with keyboard shortcut `cmd + space` to open Spotlight. Then start typing "terminal" and it should auto-fill. Press `return`. _Note: there are other ways to open your Terminal but keyboard shortcuts are most efficient and the norm in the industry_
-- Regardless of your working directory, you can type `irb` then press `return` to open up an what is referred to as an "irb session". A prompt that looks something like `irb(main):001:0>` will appear; you'll eventually type code to the right of that
-- The font size of your terminal can be increased or decreased with shortcuts `cmd + +` or `cmd + -`
-- To exit the `irb` session, type `exit` in all lowercase, then press `return`
+- Open and close the Terminal quickly with keyboard shortcut `cmd + space` to open Spotlight. Then start typing "terminal" and it should auto-fill. Press `return`. _Note: there are other ways to open your Terminal but keyboard shortcuts are most efficient and the norm in the industry_.
+- Regardless of your working directory, you can type `irb` then press `return` to open up an what is referred to as an "irb session". A prompt that looks something like `irb(main):001:0>` will appear; you'll eventually type code to the right of that.
+- The font size of your terminal can be increased or decreased with shortcuts `cmd + +` or `cmd + -`.
+- To exit the `irb` session, type `exit` in all lowercase, then press `return`.
 
 <div class="s-card">
-  <h3>Practice: <code>irb</code></h3> 
+  <h3>Practice: <code>irb</code></h3>
   <ul>
     <li>Open the Terminal using Spotlight.</li>
-    <li>Open an <code>irb</code> session</li>
-    <li>Increase the size of your font</li>
-    <li>Exit the <code>irb</code> session</li>
+    <li>Open an <code>irb</code> session.</li>
+    <li>Increase the size of your font.</li>
+    <li>Exit the <code>irb</code> session.</li>
   </ul>
 </div>
 
@@ -59,7 +59,7 @@ To connect to how these data types are used in an application we all have some e
   <h3>Deciding on a Data Type</h3>
   <p>For each of the items listed below, determine which Data Type seems most appropriate to store it as. If you are unsure of any, start a discussion in your Slack small group.</p>
   <ul>
-    <li>username/handle</li>
+    <li>Username/handle</li>
     <li>Date of Birth</li>
     <li>Age</li>
     <li>Number of Likes</li>
@@ -96,12 +96,12 @@ If our Ruby program has data stored in variables, we are able to reference those
 ### Best Practices for Naming Variables
 
 Naming can be hard, but is important to be thoughtful about and follow conventions of the language you are working with so that your code is easily accessible and readable for those you are collaborating with. A few key points:
-- All Ruby variables should use `snake_case` - all characters should be lower cased; in multi-word variables, words should be separated with an underscore
-- Variable names should describe the type of data they hold without being overly verbose or specific (examples: `name`, `email`, etc. non-examples: `x`, `ftga23`, `name_of_incoming_mod_1_be_student`)
+- All Ruby variables should use `snake_case` - all characters should be lower cased; in multi-word variables, words should be separated with an underscore.
+- Variable names should describe the type of data they hold without being overly verbose or specific (examples: `name`, `email`, etc. non-examples: `x`, `ftga23`, `name_of_incoming_mod_1_be_student`).
 
 <div class="s-card">
   <h3>Naming Conventions</h3>
-  <p>In your notebook, write down each of the following variable names and classify it as a strong variables name that follows Ruby conventions <em>or</em> a poor variable name. Be ready to explain why you deemed any variable name a poor one.</p>
+  <p>In your notebook, write down each of the following variable names and classify it as a strong variable name that follows Ruby conventions <em>or</em> a poor variable name. Be ready to explain why you deemed any variable name a poor one.</p>
   <ul>
     <li><code>isHungry</code></li>
     <li><code>z</code></li>
@@ -117,8 +117,8 @@ Naming can be hard, but is important to be thoughtful about and follow conventio
 ### Reassigning Variables
 
 We often need to write code that changes the data stored in a variable. Consider this Populi example:
-- When a student first creates a profile, the `deposit_paid` variable is automatically assigned to `false`
-- Once the student pays their deposit, some code is triggered to change that value to `true`
+- When a student first creates a profile, the `deposit_paid` variable is automatically assigned to `false`.
+- Once the student pays their deposit, some code is triggered to change that value to `true`.
 
 To do that, we use the exact same syntax that we used to make the original assignment. We can run the code that follows, or code like it, in `irb` to demonstrate that the value has changed.
 
@@ -133,11 +133,11 @@ deposit_paid # true
 <div class="s-card">
   <h3>Variables Practice</h3>
   <ul>
-    <li>Open an <code>irb</code> session</li>
-    <li>Declare 4 variables; a String, Integer, Float, and Boolean</li>
-    <li>Call each variable to confirm it was stored correctly</li>
-    <li>Reassign each variable to a new value, then call it again to confirm it does indeed store the new value</li>
-    <li>Exit the <code>irb</code> session</li>
+    <li>Open an <code>irb</code> session.</li>
+    <li>Declare 4 variables; a String, Integer, Float, and Boolean.</li>
+    <li>Call each variable to confirm it was stored correctly.</li>
+    <li>Reassign each variable to a new value, then call it again to confirm it does indeed store the new value.</li>
+    <li>Exit the <code>irb</code> session.</li>
   </ul>
 </div>
 
@@ -147,24 +147,24 @@ _Complete this CFU after you've done the live GitHub lesson._
 
 Use everything you’ve learned with Git, GitHub, Data Types and variables, complete this challenge:
 
-1. Create a new directory called `variable_practice`
-1. Inside that directory, create a file called `variables.rb`
-1. Initialize `git` inside of the directory
-1. Commit your work (Think about what message should you use here)
-1. Go to GitHub and create a repo with the same name - `variable_practice`
-1. Push your local directory to GitHub by following the instructions
-1. In your `variables.rb` file, add a few variables that are assigned to Strings
-1. Commit your work
-1. In your `variables.rb` file, add a few variables that are assigned to Integers
-1. Commit your work
-1. In your `variables.rb` file, add a few variables that are assigned to Floats
-1. Commit your work
-1. In your `variables.rb` file, add a few variables that are assigned to Booleans
-1. Commit your work
-1. In your `variables.rb` file, leave the original String variables as declared, but add some code to _reassign_ them to different values
-1. Commit your work
-1. Push your changes to GitHub
+1. Create a new directory called `variable_practice`.
+1. Inside that directory, create a file called `variables.rb`.
+1. Initialize `git` inside of the directory.
+1. Commit your work (Think about what message should you use here).
+1. Go to GitHub and create a repo with the same name - `variable_practice`.
+1. Push your local directory to GitHub by following the instructions.
+1. In your `variables.rb` file, add a few variables that are assigned to Strings.
+1. Commit your work.
+1. In your `variables.rb` file, add a few variables that are assigned to Integers.
+1. Commit your work.
+1. In your `variables.rb` file, add a few variables that are assigned to Floats.
+1. Commit your work.
+1. In your `variables.rb` file, add a few variables that are assigned to Booleans.
+1. Commit your work.
+1. In your `variables.rb` file, leave the original String variables as declared, but add some code to _reassign_ them to different values.
+1. Commit your work.
+1. Push your changes to GitHub.
 
-Please submit your CFU in the submission form.
+- Please submit the link to your GitHub repository in the submission form.
 
 <br><br>

@@ -48,13 +48,13 @@ In the diagram below, we would say that there's a directory called `essays` that
   <h3>Things to Note</h3>
   <ol>
     <li>A file cannot be inside of another file. This means that every part of the path <strong>before</strong> the actual file is a directory. </li>
-    <li>For now, we will follow two convention rules: </li>
+    <li>For now, we will follow two naming conventions: </li>
     <ul>
-      <li>Use lower case letters when naming directories and files</li>
+      <li>Use lower case letters when naming directories and files.</li>
       <li>Use underscores (_) or hyphens (-) instead of spaces when naming directories and files. However, keep in mind that different languages and frameworks have different conventions. Rather than arguing over which approach is "correct" (you'll find a lot of this on the internet), it is more important to pick an approach and be consistent. For today's lesson, we'll use the underscore (_) convention.</li>
     </ul>
     <li>Folders do not have extensions (like <strong>.docx</strong> or <strong>.md</strong> or <strong>.csv</strong>, etc.). File names do have extensions.</li>
-    <li>File extensions matter. A <strong>.md</strong> file will behave differently than a <strong>.docx</strong> file, which will also behave differently than a <strong>.rb</strong> file because the extensions help the operating system figure out which application can open the file an dhow to read it.</li>
+    <li>File extensions matter. A <strong>.md</strong> file will behave differently than a <strong>.docx</strong> file, which will also behave differently than a <strong>.rb</strong> file because the extensions help the operating system figure out which application can open the file and how to read it.</li>
   </ol>
 </div>
 <br>
@@ -92,7 +92,7 @@ Your Terminal will look something like this:
 
 <div class="s-card">
   <h3>Independent Research</h3>
-  <p>Take 3 minutes (max) to research each of the following Terminal commands: <code>pwd</code>, <code>touch</code>, and <code>cd ..</code>. Take note of what you learn, or questions/confusion that arises from this research.</p>
+  <p>Take 3 minutes (max) to research each of the following Terminal commands: <code>pwd</code>, <code>touch</code>, and <code>cd ..</code>. Take note of what you learn and any questions that arise from this research.</p>
 </div>
 <br>
 
@@ -134,7 +134,7 @@ Each command has a different utility. Some find it helpful to categorize the typ
 
 When you open the Terminal, you will be in your home directory. Being in various directories will allow you to do different things, just like you can do different things at home vs. on vacation vs. at work.
 
-To figure out where you are in your computer's directory structure, run `pwd`. `pwd` stands for "print working directory"
+To figure out where you are in your computer's directory structure, run `pwd`. This command stands for "print working directory".
 
 ```
 timo@Tims-MacBook-Pro:~$ pwd
@@ -263,12 +263,12 @@ _**Note:** You never want to `cd` into a directory above your home directory. Th
 <div class="s-card s-border-yellow-500">
   <h3>Things to Note</h3>
   <ul>
-    <li>Each level in the path is separated by a <code>/</code></li>
+    <li>Each level in the path is separated by a <code>/</code></li>.
     <li>One can combine commands to navigate multiple levels through your directory structure.</li>
-    <li>For the third example in the previous <strong>Try It</strong> section, one could navigate to the <code>projects_to_delegate</code> in a single command: <code>cd ../work/projects_to_delegate</code></li>
-    <li>For the final example above: <code>cd ../../personal</code></li>
+    <li>For the third example in the previous <strong>Try It</strong> section, one could navigate to the <code>projects_to_delegate</code> in a single command: <code>cd ../work/projects_to_delegate</code>.</li>
+    <li>For the final example above: <code>cd ../../personal</code>.</li>
   </ul>
-  <p>If you don't feel comfortable combining commands yet - that is ok! We shared the last two bullet points on how to combine commands for those who are curious about a more efficient way, but it's not necessary that is part of your workflow in Mod 0.</p>
+  <p>If you don't feel comfortable combining commands yet - that is ok! We shared the last two bullet points on how to combine commands for those who are curious about a more efficient way, but it's not an essential part of your workflow in Mod 0.</p>
 </div>
 <br>
 
@@ -319,8 +319,8 @@ chapter_2.md
 <div class="s-card s-border-yellow-500">
   <h3>Things to Note</h3>
   <ul>
-    <li>A file removed using the <code>rm</code> command <strong>does not</strong> go into your trash where you could restore it later</li>
-    <li>Although it may be possible to recover files deleted with <code>rm</code>, it is a difficult process requiring special tools and time. For now, assume that any file you remove using the <code>rm</code> command is gone for good</li>
+    <li>A file removed using the <code>rm</code> command <strong>does not</strong> go into your trash where you could restore it later.</li>
+    <li>Although it may be possible to recover files deleted with <code>rm</code>, it is a difficult process requiring special tools and time. For now, assume that any file you remove using the <code>rm</code> command is gone for good.</li>
   </ul>
 </div>
 <br>
@@ -365,8 +365,8 @@ Now when I run `ls`, I will no longer see `books` listed.
 
 ## Practice
 
-- Go to <a href="http://learn-terminal.turing.io/challenges" target="_blank">Turing Terminal</a> to use the Playground and complete the Challenges
-- In your Terminal, recreate the file structures shown in the diagrams below. Assume that the extensions for any files notated is `.md`
+- Go to <a href="http://learn-terminal.turing.io/challenges" target="_blank">Turing Terminal</a> to use the Playground and complete the Challenges.
+- In your Terminal, recreate the file structures shown in the diagrams below. Assume that the extensions for any files notated is `.md`.
 
 ### Challenge #1
 <img src="images/practice-1.png">

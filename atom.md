@@ -28,7 +28,7 @@ To open Atom from the Terminal, navigate to the directory you want to open, and 
 atom .
 ```
 
-**Practice this right now.** If Atom does not open, make sure Atom is in the Applications folder, not the Downloads folder. If it is still not working, share this in a message to your small group on Slack now.
+**Practice this right now.** If Atom does not open, make sure Atom is in the Applications folder, not the Downloads folder. If it is still not working, share this in a message to your small group on Slack.
 
 <div class="s-card">
   <h3>Install Auto-Save</h3>
@@ -99,7 +99,7 @@ Complete the challenges below to continue to build fluency with using your Termi
 1. Navigate into the `my_first_projects` directory
 1. Make a file called `ruby.md`
 1. Make a file called `javascript.md`
-1. Open the project in Atom 
+1. Open the project in Atom
 1. Add a list of things you already know about Ruby in the `ruby.md` file
 1. List the contents of your directory (you should see the three files you just created)
 1. Demonstrate how to expand and collapse the file tree with a keyboard shortcut

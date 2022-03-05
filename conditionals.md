@@ -43,11 +43,11 @@ Conditional statements, or <span class="vocab">conditionals</span>, are Ruby sta
   <h3>Comparisons</h3> 
   <p>Complete the following work in an <code>irb</code> session:</p>
   <ul>
-    <li>Check if 3 is less than or equal to 6</li>
-    <li>Check if "T" is equal to "t"</li>
-    <li>Check if "P" is equal to " P"</li>
-    <li>Check if 10 is not equal to 10</li>
-    <li>Declare a variable that store your name in a String</li>
+    <li>Check if 3 is less than or equal to 6.</li>
+    <li>Check if "T" is equal to "t".</li>
+    <li>Check if "P" is equal to " P".</li>
+    <li>Check if 10 is not equal to 10.</li>
+    <li>Declare a variable that store your name in a String.</li>
     <li>Check if the length of your name is greater than or equal to 10 (not sure how to do that programmatically? Google!)</li>
   </ul>
 </div>
@@ -102,12 +102,12 @@ age < 30 || time < 2.0
   <h3>Logical Operators</h3> 
   <p>Complete the following work in an <code>irb</code> session:</p>
   <ul>
-    <li>Declare two variables - one that stores your age and someone elses age</li>
-    <li>Check if both ages are under 100</li>
-    <li>Check if at least one age is under 78</li>
-    <li>Check if your age is over 18 and the other age is under 60</li>
-    <li>Check if your age is over 21 or if the other age is over 25</li>
-    <li>Check if your age is under 20 or if the other age is over 40</li>
+    <li>Declare two variables - one that stores your age and another person's age.</li>
+    <li>Check if both ages are under 100.</li>
+    <li>Check if at least one age is under 78.</li>
+    <li>Check if your age is over 18 and the other age is under 60.</li>
+    <li>Check if your age is over 21 or if the other age is over 25.</li>
+    <li>Check if your age is under 20 or if the other age is over 40.</li>
   </ul>
 </div>
 
@@ -125,7 +125,7 @@ end
 ```
 
 <div class="s-card">
-  <h3><code>if</code> statements</h3> 
+  <h3><code>if</code> statements</h3>
   <p>In an <code>irb</code> session, write code that defines an <code>age</code> variable and assign it to an Integer. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older.</p>
 </div>
 <br>
@@ -144,7 +144,7 @@ end
 ```
 
 <div class="s-card">
-  <h3><code>elsif</code> statements</h3> 
+  <h3><code>elsif</code> statements</h3>
   <p>In an <code>irb</code> session, write code that defines an <code>age</code> variable and assign it to an Integer. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?".</p>
 </div>
 <br>
@@ -164,7 +164,7 @@ else
 end
 ```
 <div class="s-card">
-  <h3><code>else</code> statements</h3> 
+  <h3><code>else</code> statements</h3>
   <p>In an <code>irb</code> session, you'll build on the previous work you've done with the <code>age</code> variable. Write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?". If the user is any other age, print out "You aren't quite old enough to visit, sorry!".</p>
 </div>
 <br>
@@ -175,12 +175,12 @@ Notice that each of the previous examples have **one** `end` keyword. That is pa
 
 <br>
 <div class="s-card">
-  <h3>More Practice</h3> 
+  <h3>More Practice</h3>
   <p>Complete the following work in an <code>irb</code> session:</p>
   <ul>
-    <li>Declare a variable that stores your name in a String</li>
-    <li>Write an if/else statement - if your name is "Oscar", puts "Hello, Oscar!". If not, puts "Hello, Stranger!"</li>
-    <li>Challenge: Use string interpolation to interpolate any non-Oscar name in after the word "Stranger"</li>
+    <li>Declare a variable that stores your name in a String.</li>
+    <li>Write an if/else statement - if your name is "Oscar", puts "Hello, Oscar!". If not, puts "Hello, Stranger!".</li>
+    <li>Challenge: Use string interpolation to interpolate any non-Oscar name in after the word "Stranger".</li>
   </ul>
 </div>
 
