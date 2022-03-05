@@ -34,7 +34,7 @@ title: Pair Programming
 
 ## Driver Navigator
 
-There are many styles of pairing. In Mod 0, we will introduce and focus on the Driver Navigator style. In this style of pairing, the person determined to be the <span class="vocab">Driver</span> should screenshare and type all work the pair does. The <span class="vocab">Navigator</span> is responsible for doing the problem-solving and communicating to the Driver what they should be typing.
+There are many styles of pairing. In Mod 0, we will introduce and focus on the Driver Navigator style. In this style of pairing, the person determined to be the <span class="vocab">Driver</span> should screen share and type all work the pair does. The <span class="vocab">Navigator</span> is responsible for doing the problem-solving and communicating to the Driver what they should be typing.
 
 ### Example
 

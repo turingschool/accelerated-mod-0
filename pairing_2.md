@@ -29,7 +29,7 @@ Then, decide who will be the Driver and Navigator for the first challenge, then 
 <div class="s-card">
   <h3>Pairing Exercise 1</h3>
   <ul>
-    <li>In your Mod 0 directory, reate a new directory called <code>pairing_2</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository</li>
+    <li>In your Mod 0 directory, create a new directory called <code>pairing_2</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository</li>
     <li>Define a variable named <code>arrays</code> that stores an Array of 5 Strings with friends names.</li>
     <li>Write code to instruct Ruby to print the third element</li>
     <li>Write code to instruct Ruby to print the last element</li>
@@ -48,7 +48,7 @@ Then, decide who will be the Driver and Navigator for the first challenge, then 
 <div class="s-card">
   <h3>Pairing Exercise 2</h3>
   <ul>
-    <li>In your Mod 0 directory, reate a new directory called <code>pairing_2</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository</li>
+    <li>In your Mod 0 directory, create a new directory called <code>pairing_2</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository</li>
     <li>Define a variable that stores a String containing a name of a best friend</li>
     <li>Write an if statement that prints out a statement for your best friend, and one for any other friend</li>
     <li>Run the file in the Terminal to verify your code is working as expected.</li>
