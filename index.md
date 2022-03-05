@@ -24,7 +24,7 @@ title: Home
     <li>Developing strategies to thrive in a rigorous, remote learning environment</li>
   </ul>
   <br>
-  <p>It is expected that students arrive to your first Accelerated Mod 0 Stand-Up prepared to engage, which includes having their computer, notebook, and workspace set up. Students can prepare by carefully following the directions on the Computer Setup page.</p>
+  <p>It is expected that students arrive to their first Accelerated Mod 0 Stand-Up prepared to engage, which includes having their computer, notebook, and workspace set up. Students can prepare by carefully following the directions on the Computer Setup page.</p>
   <br>
   <p><strong>In order to pass the Accelerated Mod 0 Course and start Mod 1 on the expected timeline, students must attend all live Sessions, submit all deliverables, and pass the final Assessment and Evaluations.</strong></p>
   <br>
