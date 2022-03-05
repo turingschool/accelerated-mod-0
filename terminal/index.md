@@ -263,12 +263,12 @@ _**Note:** You never want to `cd` into a directory above your home directory. Th
 <div class="s-card s-border-yellow-500">
   <h3>Things to Note</h3>
   <ul>
-    <li>Each level in the path is spearated by a <code>/</code></li>
+    <li>Each level in the path is separated by a <code>/</code></li>
     <li>One can combine commands to navigate multiple levels through your directory structure.</li>
     <li>For the third example in the previous <strong>Try It</strong> section, one could navigate to the <code>projects_to_delegate</code> in a single command: <code>cd ../work/projects_to_delegate</code></li>
     <li>For the final example above: <code>cd ../../personal</code></li>
   </ul>
-  <p>If you don't feel comfortable combining commands yet - that is ok! We shared the last two bullet points on how to combine commands for those who are curious about a more efficient way, but it's not neccesary that is part of your workflow in Mod 0.</p>
+  <p>If you don't feel comfortable combining commands yet - that is ok! We shared the last two bullet points on how to combine commands for those who are curious about a more efficient way, but it's not necessary that is part of your workflow in Mod 0.</p>
 </div>
 <br>
 
