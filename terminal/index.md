@@ -365,7 +365,7 @@ Now when I run `ls`, I will no longer see `books` listed.
 
 ## Practice
 
-- Go to [Turing Terminal](http://learn-terminal.turing.io/challenges) to use the Playground and complete the Challenges
+- Go to <a href="http://learn-terminal.turing.io/challenges" target="_blank">Turing Terminal</a> to use the Playground and complete the Challenges
 - In your Terminal, recreate the file structures shown in the diagrams below. Assume that the extensions for any files notated is `.md`
 
 ### Challenge #1
@@ -382,6 +382,6 @@ Now when I run `ls`, I will no longer see `books` listed.
 
 ## Check For Understanding
 
-[Follow the directions in this Gist](https://gist.github.com/ameseee/db5de325c40100dde3d6a5ad4888fa29) and submit your fork of it in the submission form.
+<a href="https://gist.github.com/ameseee/db5de325c40100dde3d6a5ad4888fa29" target="_blank">Follow the directions in this Gist</a> and submit your fork of it in the submission form.
 
 <br><br>
