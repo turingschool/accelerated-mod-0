@@ -10,7 +10,7 @@ title: Git
 
 ## Video
 
-[Watch this video](https://www.loom.com/share/bb896ed8eb5a44998331c581c250a12b), and take notes througout, to learn about the purpose of Git and see the workflow modeled several times. 
+[Watch this video](https://www.loom.com/share/bb896ed8eb5a44998331c581c250a12b), and take notes througout, to learn about the purpose of Git and see the workflow modeled several times.
 
 Stop at the provided prompts to take notes and complete practice exercises as instructed.
 
@@ -42,18 +42,18 @@ Stop at the provided prompts to take notes and complete practice exercises as in
   <h3>Exercise 2</h3>
   <p>Before you run each Git command, pause and predict what the output, if any, will be.</p>
   <ol>
-    <li>Create a new directory called <code>ruby_101</code>. Inside of that directory, create a file called <code>learning_ruby.md</code></li>
+    <li>Create a new directory called <code>ruby_101</code>. Inside of that directory, create a file called <code>learning_ruby.md</code>.</li>
     <li>Initialize Git inside of the <code>ruby_101</code> directory so that we have Git available to track change.</li>
     <li>Before you check the status, predict what it will say. Then, check the current status</li>
-    <li>Add <code>learning_ruby.md</code> to the staging area</li>
-    <li>Commit your work</li>
-    <li>In Atom, create a header and either a fact or question about Ruby in the  <code>ruby_101.md</code> file</li>
+    <li>Add <code>learning_ruby.md</code> to the staging area.</li>
+    <li>Commit your work.</li>
+    <li>In Atom, create a header and either a fact or question about Ruby in the  <code>ruby_101.md</code> file.</li>
     <li>Add the changes to the staging area.</li>
     <li>Commit the changes using a properly formatted commit message.</li>
-    <li>Create a directory inside of <code>ruby_101</code> titled <code>practice</code>. Inside of that, create 3 files - you choose the names</li>
-    <li>Add some content to each of the three files inside the <code>practice</code> directory</li>
-    <li>Add and commit your changes</li>
-    <li>Check the status to ensure you have a clean working tree</li>
+    <li>Create a directory inside of <code>ruby_101</code> titled <code>practice</code>. Inside of that, create 3 files - you choose the names.</li>
+    <li>Add some content to each of the three files inside the <code>practice</code> directory.</li>
+    <li>Add and commit your changes.</li>
+    <li>Check the status to ensure you have a clean working tree.</li>
   </ol>
 </div>
 
