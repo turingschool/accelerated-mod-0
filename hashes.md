@@ -24,7 +24,6 @@ Look at the following array? What is problematic about it? How would you prefer 
 ```ruby
 students = ["Cristie Soto", "A+", "B", "in progress", true, "Oscar Smith", "A-", "D", "dropped", true]
 ```
-<br><br>
 
 ## Hashes
 
@@ -76,7 +75,7 @@ student1 = {
 
 ## Accessing a Hash
 
-We use brackets `[]` to access a Hash just like Arrays, only we don’t use index positiona, we instead use _keys_.
+We use bracket notation (`[]`) to access values stored in a Hash just like Arrays, only we don’t use index position, we instead use _keys_.
 
 The examples below explore the `suitcase` Hash:
 
@@ -90,7 +89,7 @@ suitcase = {
 Did we put any jackets on our list? Let’s check:
 ```ruby
 suitcase["jackets"]
-=> nil
+#=> nil
 ```
 
 We can create a new <span class="vocab">key-value</span> pair:
@@ -113,20 +112,22 @@ suitcase.delete("socks")
 Check on the shirts:
 ```ruby
 suitcase["shirts"]
-=> 3
+#=> 3
 ```
 
 Let's check what keys are in our Hash:
 ```ruby
 suitcase.keys
-=> ["jeans"]
+#=> ["jeans", "shirts", "swimsuit"]
 ```
 
 Let's check what values are in our Hash:
 ```ruby
 suitcase.values
-=> [1]
+#=> [1, 3, true]
 ```
+
+Note that when we use the `.keys` and `.values` Hash methods, the return value of each is an Array!
 <br>
 
 <div class="s-card">
@@ -162,18 +163,27 @@ suitcase.values
 Oftentimes,  we will want to iterate over a Hash to do something with each key/value pair. This works a lot like iterating over an Array, with one small exception. Take a look at the code snippet below and see if you can identify the difference between iterating over a Hash vs over an Array:
 
 ```ruby
+suitcase = { 
+  "socks" => 4, 
+  "shirts" => 2
+}
+
+#=> {"socks" => 4, "shirts" => 2}
+
 suitcase.each do |clothing_item, quantity|
 	p "I need #{quantity} #{clothing_item}"
 end
+
+#=> "I need 4 socks"
+#=> "I need 2 shirts"
 ```
 
 Now, instead of having _one_ block variable to work with, we have two. The first represents the key, and the second represents the value.
 
 ## Check For Understanding
 
-Complete the work [in the CFU repository](https://github.com/turingschool/hashes_cfu_am0) and submit your work using the submission form. Read the README carefully; it calls for submission of the Refactor Gist as well!
+Complete the work <a href="https://github.com/turingschool/hashes_cfu_am0" target="_blank">in the CFU repository</a> and submit your work using the submission form. Read the README carefully; it calls for submission of the Refactor Gist as well!
 
-<br>
 <br>
 <br>
 <br>

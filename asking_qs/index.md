@@ -25,7 +25,7 @@ Information to include in every question:
 1. What have you attempted/read to find a solution?
 
 Your goal is probably to get an answer ASAP, and a secondary goal should be to document this issue/challenge to help someone who may encounter the same thing in the future. Formatting your question well supports both of these goals. Some things to consider:
-- Code snippets should not be formatted as plain text. Very short snippets could be formatted as `inline code` and longer snippets should be formatted in...
+- Code snippets should not be formatted as plain text. Very short snippets should be formatted as `inline code` and longer snippets should be formatted in...
 ```
 code blocks
 ```
@@ -36,11 +36,11 @@ code blocks
 
 <div class="s-card">
   <h3>Robyn & Arrays</h3>
-  <p>The question that follows, from Robyn, isn't specific and puts a lot of work on the people potentially answering the question. Not only will people not completely know how to answer this, the answers probably won't help Robyn's learning much. If an employer saw a question like this from Robyn, they'd learn that she isn't resourceful and doesn't communicate her needs well; therefore will likely be a very expensive employee and one that doesn't contribute much.</p>
+  <p>The question that follows, from Robyn, isn't specific and puts a lot of work on the people potentially answering the question. Not only will people not completely know how to answer this question, the answers also won't help Robyn's learning much. If an employer saw a question like this from Robyn, they'd learn that they aren't resourceful and don't communicate their needs well. An employer might conclude that Robyn will be a costly employee who won't contribute much.</p>
   <blockquote>
     <img src="images/bad_q1.png" alt="Bad Question 1" style="width: 60%">
   </blockquote>
-  <p>After she received some feedback, Robyn re-wrote her question. She provided a code snippet, shared the error message in her Terminal, and told the group what she'd tried. This question is quite easy for someone to read and answer quickly, demonstrating she is an effective communicator in a technical environment.</p>
+  <p>After receiving some feedback, Robyn re-wrote their question. They provided a code snippet, shared the error message in their Terminal, and told the group what they'd tried. This question is quite easy for someone to read and answer quickly, demonstrating Robyn is an effective communicator in a technical environment.</p>
   <blockquote>
     <img src="images/good_q1.png" alt="Good Question 1" style="width: 60%">
   </blockquote>
@@ -49,11 +49,11 @@ code blocks
 
 <div class="s-card">
   <h3>Kaitlyn & Homework Help</h3>
-  <p>Kaitlyn's inital question for homework help puts a big demand on the reader, and probably doesn't set her up to learn a lot. Most companies prefer asynchronous communication until live communication is necessary; seeing that Kaitlyn isn't communicating a clear question in writing could be a flag that she won't work independently.</p>
+  <p>Kaitlyn's initial question for help on her homework puts a big demand on the reader, and probably doesn't set her up to learn a lot. Most companies prefer asynchronous communication until live communication is necessary; seeing that Kaitlyn isn't communicating a clear question in writing could be a flag that she won't work independently.</p>
   <blockquote>
     <img src="images/bad_q2.png" alt="Bad Question 2" style="width: 60%">
   </blockquote>  
-    <p>After she didn't get any responses, Kaitlyn DMed her instructor, who gave her some feedback about why she likely didn't get responses. She re-wrote a her post to make a specific ask, demonstrating she did her due diligence to learn a concept but wanted to confirm her understanding. This type of message demonstrates that Kaitlyn can problem-solve, and communicate her needs for technical support.</p>
+    <p>After she didn't get any responses, Kaitlyn DMed her instructor, who gave her some feedback about why she likely didn't get responses. She re-wrote her post to make a specific ask, demonstrating she did her due diligence to learn a concept but wanted to confirm her understanding. This type of message demonstrates that Kaitlyn can problem-solve and communicate her needs for technical support.</p>
   <blockquote>
     <img src="images/good_q2.png" alt="Good Question 2" style="width: 60%">
   </blockquote>
@@ -61,9 +61,9 @@ code blocks
 
 ## Asking Questions
 
-As you prepare to ask questions - in written form or in live communications - **think about how you can best present the necessary information to get your question answered and to demonstrate that your are an effective communicator in a technical environment.** Things to be prepared for, and ok with:
-- It's not always easy to write up a question. It might take several minutes to find the words to describe the scenario - that's ok. Part of the job as a developer is asking questions, so it's ok to take time on it. Budget this into your time estimates for projects and work.
-- This usually prompts what we call "rubber ducking" - or talking through the problem to yourself or an inanimate object. Many times, the act of talking or writing through the components of a good question will help us answer our own question. In that case - it's definitely something to celebrate, and not a waste of time. If you didn't answer the question yourself and still need to ask, that's ok too!
+As you prepare to ask questions—in written form or in live communications—**think about how you can best present the necessary information to get your question answered and to demonstrate that your are an effective communicator in a technical environment.** Things to be prepared for, and ok with:
+- It's not always easy to write up a question. It might take several minutes to find the words to describe the scenario. Part of the job as a developer is asking questions, so **it's ok to take time on it**. Budget this into your time estimates for projects and work.
+- This usually prompts what we call "rubber ducking"—or talking through the problem to yourself or an inanimate object. **The act of talking or writing through the 4 components of a good question will often help you answer it yourself**. In that case, it's definitely something to celebrate and not a waste of time. If you didn't answer the question yourself and still need to ask, that's ok too!
 
 ## Check For Understanding
 

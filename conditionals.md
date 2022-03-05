@@ -37,10 +37,10 @@ Conditional statements, or <span class="vocab">conditionals</span>, are Ruby sta
   </ul>
 </div>
 
-[Read more about comparison operators.](http://ruby-for-beginners.rubymonstas.org/operators/comparison.html)
+<a href="http://ruby-for-beginners.rubymonstas.org/operators/comparison.html" target="_blank">Read more about comparison operators.</a>
 
 <div class="s-card">
-  <h3>Comparisons</h3>
+  <h3>Comparisons</h3> 
   <p>Complete the following work in an <code>irb</code> session:</p>
   <ul>
     <li>Check if 3 is less than or equal to 6.</li>
@@ -99,7 +99,7 @@ age < 30 || time < 2.0
 ```
 
 <div class="s-card">
-  <h3>Logical Operators</h3>
+  <h3>Logical Operators</h3> 
   <p>Complete the following work in an <code>irb</code> session:</p>
   <ul>
     <li>Declare two variables - one that stores your age and another person's age.</li>
@@ -169,9 +169,9 @@ end
 </div>
 <br>
 
-Notice that each of the previous examples have **one** `end` keyword. That is paired with the opening `if` keyword, and is required. [What happens if you forget the `end` keyword?](https://teamtreehouse.com/community/syntax-error-unexpected-endofinput-expecting-keywordend)
+Notice that each of the previous examples have **one** `end` keyword. That is paired with the opening `if` keyword, and is required. <a href="https://teamtreehouse.com/community/syntax-error-unexpected-endofinput-expecting-keywordend" target="_blank">What happens if you forget the `end` keyword?</a>
 
->_Optional:_ Read the [Conditionals section](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#9.-conditionals) from Ruby in 100 Minutes for a different explanation.
+>_Optional:_ Read the <a href="http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#9.-conditionals" target="_blank">Conditionals section</a> from Ruby in 100 Minutes for a different explanation.
 
 <br>
 <div class="s-card">
@@ -186,5 +186,5 @@ Notice that each of the previous examples have **one** `end` keyword. That is pa
 
 ## Check For Understanding
 
-[Follow the directions in the README of this GitHub repository](https://github.com/ameseee/conditionals-cfu-am0), and submit your fork in the submission form. Upload the video (requirements outlined in the GitHub repo) to your Slack small group channel.
+<a href="https://github.com/ameseee/conditionals-cfu-am0" target="_blank">Follow the directions in the README of this GitHub repository</a>, and submit your fork in the submission form. Upload the video (requirements outlined in the GitHub repo) to your Slack small group channel.
 <br><br><br>

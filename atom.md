@@ -40,16 +40,17 @@ atom .
 <span class="vocab">Markdown</span> is a lightweight markup language that converts to HTML and can be displayed on the web. It is used widely in the tech industry for documentation. You'll use it in various ways at Turing - most commonly, to document and showcase your projects.
 
 <div class="s-card">
-  <h3>Markdown Practice - Mod 0 Gameplan</h3>
+  <h3>Markdown Practice - Mod 0 Game Plan</h3>
   <p>Using <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="blank">this markdown cheatsheet</a>, create a new Gist in GitHub of your own by clicking the New Gist button in the upper right-hand corner of the screen.</p>
-  <p>Your task is to create a "Plan for Mod 0" <strong>documenting your gameplan for success in Mod 0</strong>, using Markdown. Use the tips and guidance that follows to ensure your complete it successfully.</p>
+  <p>Your task is to create a "Plan for Mod 0" <strong>documenting your game plan for success in Mod 0</strong>, using Markdown. Use the tips and guidance that follows to ensure your complete it successfully.</p>
 </div>
 
-- In the box to title your Gist, follow this format: `firstName_lastName_mod_0_plan.md`
-- Images can be a little tricky in gists and GitHub - be sure to check out the [drag-n-drop shortcut from the first answer on this Stack Overflow post](https://stackoverflow.com/questions/16425770/gist-how-are-images-uploaded-to-a-gist)!
-- Remember to add a `.md` file extension to the filename of your new Gist. Otherwise it will not register as markdown.
+- In the filename box, follow this format: `firstName_lastName_mod_0_plan.md`.
+- You can create your Gist, see how it looks, and then continue editing it.
+- Note that a `.md` file extension is required at the end of your Gist's filename. Otherwise it will not register as markdown.
+- Images can be a little tricky in gists and GitHub - be sure to check out the <a href="https://stackoverflow.com/a/53560172" target="_blank">drag-n-drop shortcut from this Stack Overflow answer</a>!
 
-**In addition to documenting your gameplan for success in Mod 0, incorporate each of the following Markdown features into your Gist:**
+**In addition to documenting your game plan for success in Mod 0, incorporate each of the following Markdown features into your Gist:**
 
 - at least two headings of different sizes
 - at least one numbered list
@@ -102,7 +103,7 @@ Complete the challenges below to continue to build fluency with using your Termi
 1. Add a list of things you already know about Ruby in the `ruby.md` file
 1. List the contents of your directory (you should see the three files you just created)
 1. Demonstrate how to expand and collapse the file tree with a keyboard shortcut
-1. Close Atom with a kayboard shortcut
+1. Close Atom with a keyboard shortcut
 1. Delete the `javascript.md` file
 1. Get back out of the `my_first_projects` directory
 1. List the contents of your directory (you should see `my_first_projects`)
@@ -119,7 +120,7 @@ Complete the challenges below to continue to build fluency with using your Termi
 1. List the contents of your directory (you should see the `terminal.md` file you just created)
 1. In the `terminal.md` file, write 1-3 sentences explaining what the Terminal is and does, in your own words. Add an appropriate title/header
 1. Demonstrate how to highlight the entire file with a keyboard shortcut
-1. Close Atom with a kayboard shortcut
+1. Close Atom with a keyboard shortcut
 1. Get back out of the `practice` directory
 1. Remove the `practice` directory
 <br>

@@ -3,13 +3,13 @@ layout: page
 title: Mod 0 Content
 ---
 
-Please submit all deliverables with [this submission form.](https://forms.gle/NnyAMpJt9EALvKJk9)
+Please submit all deliverables with <a href="https://forms.gle/NnyAMpJt9EALvKJk9" target="_blank">this submission form</a>.
 
 ## Career Development
 
 * [Asking Technical Questions]({{ site.url }}/asking_qs) 
 * [Calendaring & Time Management]({{ site.url }}/calendar)
-* [Career Development Prep & Survey](https://careerdev.turing.edu/module-1-prework/index)
+* <a href="https://careerdev.turing.edu/module-1-prework/index" target="_blank">Career Development Prep & Survey</a>
 * [DTR Prep]({{ site.url}}/dtr)
 * [Mentorship Prep]({{ site.url }}/mentorship)
 * [Pair Programming]({{ site.url }}/pairing)

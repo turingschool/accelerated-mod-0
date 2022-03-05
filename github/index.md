@@ -26,8 +26,8 @@ When you see any live lesson on your calendar - in Mod 0, 1 and beyond, it's a b
 **Preview this lesson by writing down the vocabulary terms, skimming through the headers and key points, and writing down some initial questions that come to mind.**
 
 Additionally, complete the two tasks that follow before coming to the lesson. You don't need to be an expert in these areas, but it's expected you come to the lesson having done this and ready to engage in asking questions and discussing the topics.
-- [Use GitHub's documentation to learn how to create a GitHub repository](https://docs.github.com/en/get-started/quickstart/create-a-repo) - Complete Steps 1-6 then stop at "Commit your first change".
-- [Use GitHub's documentation to learn how to fork a repository, and clone a forked repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo). When given the option to use HTTPS or SSH, use SSH. Do not use GitHub CLI. Stop at "Configuring Git to sync your fork with the original repository".
+- <a href="https://docs.github.com/en/get-started/quickstart/create-a-repo" target="_blank">Use GitHub's documentation to learn how to create a GitHub repository</a> - Complete Steps 1-6 then stop at "Commit your first change".
+- <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo" target="_blank">Use GitHub's documentation to learn how to fork a repository, and clone a forked repository</a>. When given the option to use HTTPS or SSH, use SSH. Do not use GitHub CLI. Stop at "Configuring Git to sync your fork with the original repository".
 <br>
 <br>
 
@@ -80,7 +80,7 @@ Since we used the `-u` in our original push to connect the two repos, we can tec
 git push
 ```
 
-After running this command, Git will send the message up to GitHub (you must be connected to WiFi), and you'll get many lines of output, finally telling you the work was successful sent up. Refresh the browser tab that GitHub is in, and the changes will be available there.
+After running this command, Git will send the message up to GitHub (you must be connected to the internet), and you'll get many lines of output, finally telling you the work was successfully sent up. Refresh the browser tab that GitHub is in, and the changes will be available there.
 
 For the extent of our use of Git and GitHub workflows _during Mod 0_, you will primarily be pushing work up. If you ever need to pull work down, the following command can be used:
 
@@ -104,7 +104,7 @@ Almost always, the message tells the user what the problem is and **exactly** wh
 
 ## Key Information on a GitHub Repository
 
-Let's take a tour of [a GitHub repository](https://github.com/letakeane/emotican-app) to identify some key pieces of information.
+Let's take a tour of <a href="https://github.com/letakeane/emotican-app" target="_blank">a GitHub repository</a> to identify some key pieces of information.
 
 <img src="./assets/leta-gh-repo.png" alt="Screen shot of Leta's GitHub repo">
 

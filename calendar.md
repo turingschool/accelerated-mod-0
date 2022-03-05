@@ -21,7 +21,7 @@ title: Calendaring & Time Management
 
 ## Time Management at Turing
 
-Turing is a full-time, immersive program. You are going to learn the technical and professional skills needed to succeed in demanding, yet high-paying technical careers inless than a year.
+Turing is a full-time, immersive program. You are going to learn the technical and professional skills needed to succeed in demanding, yet high-paying technical careers in less than a year.
 
 Most students estimate they work an **average of 65-75 hours per week** at Turing; some weeks with fewer hours, some weeks with more hours. While at Turing, **time** is your most valuable commodity. How you use your time will be a determining factor in your overall success in the program.
 
@@ -67,7 +67,7 @@ When it comes to the way they spend their time, there are two major pitfalls we 
 
 Since each Mod is only 6 weeks long, if you fall behind by one week, it can be really hard to catch up. Having a proactive and realistic plan is the best way to set yourself up for success.
 
-The [Front End](https://frontend.turing.edu/today/) and [Back End](https://backend.turing.edu/additional_resources/calendars) calendars are available for you to add to your calendar or bookmarks. These calendars may not _yet_ have detailed agendas for your first few weeks. In that case, you can look back to the previous inning (either 7 or 8 weeks before your start date) to understand what your first few weeks will look like. The calendar is subject to change slightly, but this will give you the idea of what the day-to-day experience will be like.
+The <a href="https://frontend.turing.edu/today/" target="_blank">Front End</a> and <a href="https://backend.turing.edu/additional_resources/calendars" target="_blank">Back End</a> calendars are available for you to add to your calendar or bookmarks. These calendars may not _yet_ have detailed agendas for your first few weeks. In that case, you can look back to the previous inning (either 7 or 8 weeks before your start date) to understand what your first few weeks will look like. The calendar is subject to change slightly, but this will give you the idea of what the day-to-day experience will be like.
 
 <div class="s-card">
   <h3>Mod 1 Calendar</h3>
@@ -82,7 +82,7 @@ The [Front End](https://frontend.turing.edu/today/) and [Back End](https://backe
 
 ## Check For Understanding
 
-[Follow the directions in this Gist](https://gist.github.com/ameseee/7bddfce0738b864869aacacf5110e09d) and submit your fork of it in the submission form.
+<a href="https://gist.github.com/ameseee/7bddfce0738b864869aacacf5110e09d" target="_blank">Follow the directions in this Gist</a> and submit your fork of it in the submission form.
 
 <br><br>
 <br><br>
