@@ -5,7 +5,7 @@ title: Calendaring & Time Management
 
 <div class="s-card s-border-yellow-500">
   <h3>Prepare to Engage</h3>
-  <p>Whether you are starting your day with this activity or wrapping up a long day of technical work with this, take a moment to ground yourself in why you became a student at Turing. This Career Development work is arguably the most component of your education that will lead you into your new career.</p>
+  <p>Whether you are starting your day with this activity or wrapping up a long day of technical work with this, take a moment to ground yourself in why you became a student at Turing. This Career Development work is arguably the most important component of your education that will lead you into your new career.</p>
   <p>Take a moment to reset if needed, meditate, or do some physical stretches/movement to get yourself into the space you need to be in to engage in this work. Some optional guiding questions follow.</p>
   <ul>
     <li>Why did you come to Turing?</li>
@@ -21,7 +21,7 @@ title: Calendaring & Time Management
 
 ## Time Management at Turing
 
-Turing is a full-time, immersive program. You are going to learn the technical and professional skills needed to succeed in demanding, yet high-paying technical careers inless than a year.
+Turing is a full-time, immersive program. You are going to learn the technical and professional skills needed to succeed in demanding, yet high-paying technical careers in less than a year.
 
 Most students estimate they work an **average of 65-75 hours per week** at Turing; some weeks with fewer hours, some weeks with more hours. While at Turing, **time** is your most valuable commodity. How you use your time will be a determining factor in your overall success in the program.
 
