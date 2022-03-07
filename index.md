@@ -28,6 +28,8 @@ title: Home
   <br>
   <p><strong>In order to pass the Accelerated Mod 0 Course and start Mod 1 on the expected timeline, students must attend all live Sessions, submit all deliverables, and pass the final Assessment and Evaluations.</strong></p>
   <br>
+  <p>Copy <a href="https://trello.com/b/BJlBXegK/accelerated-mod-0" target="blank">this Trello board</a> to get started.</p>
+  <br>
   <br>
   <a class="s-button" href="{{site.url}}/computer-setup">Computer Setup</a>
   <a class="s-button" href="{{site.url}}/before-mod-0">Before Starting Mod 0</a>
