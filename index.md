@@ -24,7 +24,7 @@ title: Home
     <li>Developing strategies to thrive in a rigorous, remote learning environment</li>
   </ul>
   <br>
-  <p>It is expected that students arrive to your first Accelerated Mod 0 Stand-Up prepared to engage, which includes having their computer, notebook, and workspace set up. Students can prepare by carefully following the directions on the Computer Setup page.</p>
+  <p>It is expected that students arrive to their first Accelerated Mod 0 Stand-Up prepared to engage, which includes having their computer, notebook, and workspace set up. Students can prepare by carefully following the directions on the Computer Setup page.</p>
   <br>
   <p><strong>In order to pass the Accelerated Mod 0 Course and start Mod 1 on the expected timeline, students must attend all live Sessions, submit all deliverables, and pass the final Assessment and Evaluations.</strong></p>
   <br>
@@ -39,6 +39,6 @@ title: Home
 <footer class="s-footer">
  <div class="s-footer-content">
    <p class="s-text-white">Turing School of Software and Design, a Colorado Non-Profit Organization.</p>
-   <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+   <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
  </div>
 </footer>

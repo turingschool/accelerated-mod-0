@@ -36,7 +36,7 @@ Note: Some language in used in these prompts that you have not had direct exposu
 <div class="s-card">
   <h3>Pairing Exercise 1: Hashes</h3>
   <ul>
-    <li>In your Mod 0 directory, reate a new directory called <code>pairing_3</code>. Inside of that directory, touch a file called <code>hash_practice</code>. Initialize a Git repository</li>
+    <li>In your Mod 0 directory, create a new directory called <code>pairing_3</code>. Inside of that directory, touch a file called <code>hash_practice</code>. Initialize a Git repository</li>
     <li>Define a variable named <code>person</code> that stores a Hash. This Hash should have 4 key-value pairs; you choose the key and use appropriate Data Types for the values</li>
     <li>Write code to instruct Ruby to print the entire Hash</li>
     <li>Write code to instruct Ruby to print one of the key-value pairs</li>
@@ -54,7 +54,7 @@ Note: Some language in used in these prompts that you have not had direct exposu
 <div class="s-card">
   <h3>Pairing Exercise 2: Iteration</h3>
   <ul>
-    <li>In your Mod 0 directory, reate a new directory called <code>pairing_2</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository</li>
+    <li>In your Mod 0 directory, create a new directory called <code>pairing_2</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository</li>
     <li>Define a variable that stores an Array containing 8 Integers between 1 and 100</li>
     <li>Write a program that checks each Integer, and prints out only those above 30</li>
     <li>Run the file in the Terminal to verify your code is working as expected</li>

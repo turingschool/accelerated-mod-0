@@ -56,7 +56,7 @@ That example about the car factory ties directly to concepts of OOP. We will use
 
 While this may feel uncomfortable at first, research shows that one of the most effective ways to learn is to explore. Instead of your instructor typing code and explaining every character, you are going to read some Ruby code that's already been written. You will likely have some questions about what X or Y is doing, and you'll also likely be able to make some deductions about what other pieces are doing. We will talk through it all after you've had a chance to use your brain and make some connections on your own.
 
-[Look at the code in this repl.it](https://replit.com/@turingschool/oop-intro-ford-escape#main.rb) and think through the guiding questions:
+<a href="https://replit.com/@turingschool/oop-intro-ford-escape#main.rb" target="_blank">Look at the code in this repl.it</a> and think through the guiding questions:
 
 - What is the name of the class?
 - How many instances are being made?
@@ -71,11 +71,11 @@ In the previous section, you identified an object in your physical space and wro
 
 <div class="s-card">
   <h3>Driver-Navigator</h3> 
-  <p>The person with the largest number of characters in their name is the Driver, the other is the Navigator. The Navigator should have this document opened, and the Driver should be screensharing with their Terminal opened. The Navigator will direct the Driver through the steps listed below.</p>
+  <p>The person with the largest number of characters in their name is the Driver, the other is the Navigator. The Navigator should have this document opened, and the Driver should be screen sharing with their Terminal opened. The Navigator will direct the Driver through the steps listed below.</p>
   <ul>
     <li>Create a new project called <code>oop_lesson</code></li>
     <li>Inside the project, create a file called <code>first_class.rb</code></li>
-    <li>Inside that file, write a class. Navigator - the class should represent the object your identified in your physical space. It does not yet need attirbutes, just the class name.</li>
+    <li>Inside that file, write a class. Navigator - the class should represent the object your identified in your physical space. It does not yet need attributes, just the class name.</li>
     <li>Below the class declaration, create an object instance. Print it out and run the file to confirm it has been created successfully.</li>
     <li>Now, add a default attribute.</li>
     <li>Now, add a dynamic attribute. Remember, something about the object instance will need to change now that the class expects dynamic info.</li>
@@ -158,14 +158,14 @@ For this final section, you will choose the pace at which you want to work and t
 <div class="s-card">
   <h3>Mild 🔥</h3> 
   <p>You will get starter code and some step-by-step directions that walk you through what to do and why you're doing it.</p>
-  <p><a href="https://replit.com/@turingschool/oop-mild-starter#main.rb">This is your starter kit.</a></p>
+  <p><a href="https://replit.com/@turingschool/oop-mild-starter#main.rb" target="_blank">This is your starter kit.</a></p>
 </div>
 <br>
 
 <div class="s-card">
   <h3>Medium 🔥🔥</h3> 
   <p>You will get some starter code and some direction on what to add to it, but will be pushed to apply all of today's learning without explicit direction at times.</p>
-  <p><a href="https://replit.com/@turingschool/oop-medium-starter#main.rb">This is your starter kit.</a></p>
+  <p><a href="https://replit.com/@turingschool/oop-medium-starter#main.rb" target="_blank">This is your starter kit.</a></p>
 </div>
 <br>
 
@@ -204,7 +204,7 @@ In OOP, it is common to store instances in a list, or array, like the one above.
 
 ## Check For Understanding
 
-[Follow the directions in the README of this repo](https://github.com/turingschool/oop_cfu_am0), and submit your fork in the submission form! 
+<a href="https://github.com/turingschool/oop_cfu_am0" target="_blank">Follow the directions in the README of this repo</a>, and submit your fork in the submission form! 
 
 <br>
 <br>
