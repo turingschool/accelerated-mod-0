@@ -38,14 +38,7 @@ There are many styles of pairing. In Mod 0, we will introduce and focus on the D
 
 ### Example
 
-insert video of KVG and Amy Pairing
-
-Answer the following questions while or after watching the video:
-- What did Amy do blah
-- What did Kaitlyn do?
-- Something to hit on the fact they were both present
-- Something to hit on the fact they switched roles very quickly
-- Something to hit on - we make mistakes, and it's ok
+[This video shows two developers pairing on a simple task you probably did earlier today](https://turingschool.zoom.us/rec/share/EC89i-P37Wnke3mSf0_Jk4nCTkP4CUgm97IXmSJAYYog1FdBYkDdzlGdsHMXG2Oq.ksixjk2usE-Cvhz0?startTime=1646316847000). Watch it, and reflect on how they interacted, and what they each did in the Driver and Navigator role.
 
 ## Tools
 
