@@ -152,7 +152,7 @@ Complete the following exercises to get practice and demonstrate your ability to
 </div>
 <br>
 
-<div class="s-card">
+<!-- <div class="s-card">
   <h3>Pairing Session</h3>
   <p>In today's pairing session, each partner needs to take the following steps while driving, and while navigating. Each partner is responsible for submitting the repository they created while driving.</p>
   <ul>
@@ -163,7 +163,7 @@ Complete the following exercises to get practice and demonstrate your ability to
     <li>Make another change, commit it, push it up.</li>
     <li>Make another change, commit it, push it up.</li>
   </ul>
-</div>
+</div> -->
 
 <br>
 <br>
