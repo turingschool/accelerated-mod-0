@@ -149,31 +149,6 @@ Many times, you'll build a class based on specifications (commonly referred to a
   </ul>
 </div>
 
-## Build Your Own Class
-
-Now that we have an understanding of OOP and have used some Ruby syntax to write classes and create objects from them, we are ready to write a program that generates many instances of a class!
-
-For this final section, you will choose the pace at which you want to work and the level of support you get. Read through the three options below and select the one you feel most comfortable and excited about:
-
-<div class="s-card">
-  <h3>Mild 🔥</h3> 
-  <p>You will get starter code and some step-by-step directions that walk you through what to do and why you're doing it.</p>
-  <p><a href="https://replit.com/@turingschool/oop-mild-starter#main.rb" target="_blank">This is your starter kit.</a></p>
-</div>
-<br>
-
-<div class="s-card">
-  <h3>Medium 🔥🔥</h3> 
-  <p>You will get some starter code and some direction on what to add to it, but will be pushed to apply all of today's learning without explicit direction at times.</p>
-  <p><a href="https://replit.com/@turingschool/oop-medium-starter#main.rb" target="_blank">This is your starter kit.</a></p>
-</div>
-<br>
-
-<div class="s-card">
-  <h3>Spicy 🔥🔥🔥</h3> 
-  <p>You will not have any starter code for this option. Choose your own topic to make a class and instances of that class. There is no starter kit; create a new file on your own!</p>
-</div>
-
 ## FYI: Storing Many Objects
 
 If you’d like to print out all your sentences with one line of code, one way to do that is by storing them in an array. A couple changes were made from our original code in order to write this solution.
@@ -205,6 +180,32 @@ In OOP, it is common to store instances in a list, or array, like the one above.
 ## Check For Understanding
 
 <a href="https://github.com/turingschool/oop_cfu_am0" target="_blank">Follow the directions in the README of this repo</a>, and submit your fork in the submission form! 
+<br>
+
+## Extensions
+
+Now that we have an understanding of OOP and have used some Ruby syntax to write classes and create objects from them, we are ready to write a program that generates many instances of a class!
+
+For this final section, you will choose the pace at which you want to work and the level of support you get. Read through the three options below and select the one you feel most comfortable and excited about:
+
+<div class="s-card">
+  <h3>Mild 🔥</h3> 
+  <p>You will get starter code and some step-by-step directions that walk you through what to do and why you're doing it.</p>
+  <p><a href="https://replit.com/@turingschool/oop-mild-starter#main.rb" target="_blank">This is your starter kit.</a></p>
+</div>
+<br>
+
+<div class="s-card">
+  <h3>Medium 🔥🔥</h3> 
+  <p>You will get some starter code and some direction on what to add to it, but will be pushed to apply all of today's learning without explicit direction at times.</p>
+  <p><a href="https://replit.com/@turingschool/oop-medium-starter#main.rb" target="_blank">This is your starter kit.</a></p>
+</div>
+<br>
+
+<div class="s-card">
+  <h3>Spicy 🔥🔥🔥</h3> 
+  <p>You will not have any starter code for this option. Choose your own topic to make a class and instances of that class. There is no starter kit; create a new file on your own!</p>
+</div>
 
 <br>
 <br>
