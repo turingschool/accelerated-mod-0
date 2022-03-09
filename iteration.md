@@ -83,7 +83,7 @@ end
 names = ["Cindy", "Oscar", "Rigo", "Joe", "Stephanie", "Tiff"]
 
 names.each do |name|
-  puts names.length
+  puts name.length
 end
 
 # How many times did the code in the each block run? Why?
