@@ -139,6 +139,18 @@ describe Student do
 end
 ```
 
+The code that follows would allow the previous tests to pass:
+
+```ruby
+class Student
+  attr_reader :name
+
+  def initialize(name)
+    @name = name
+  end
+end
+```
+
 <div class="s-card">
   <h3>Explore <code>rspec</code></h3> 
   <p>Follow the directions to set up a small project that uses <code>rspec</code>:</p>
