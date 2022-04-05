@@ -14,7 +14,7 @@ title: Asking Technical Questions
 </div>
 <br>
 
-Asking technical questions may seem so easy when one is a beginner "I know so little, how could I NOT have questions?" However, effectively asking questions is a skill. It takes a lot longer than you expect to write a good question, but you’re guaranteed to get a better answer when you ask a better question. How a developer asks questions communications a lot about their overall effectiveness. This skill will be essential in your success - not just at Turing, but on the job hunt and on the job. During your time at Turing, you will continue to hone this skill.
+Asking technical questions may seem so easy when one is a beginner - "I know so little, how could I NOT have questions?" However, _effectively_ asking questions is a skill. It takes a lot longer than you expect to write a good question, but you’re guaranteed to get a better answer when you ask a better question. How a developer asks questions communications a lot about their overall effectiveness. This skill will be essential in your success - not just at Turing, but on the job hunt and on the job. During your time at Turing, you will continue to hone this skill.
 
 ## Best Practices
 
@@ -22,12 +22,14 @@ Information to include in every question:
 1. What were you trying to do?
 1. What were you expecting to happen?
 1. What happened instead?
-1. What have you attempted/read to find a solution?
+1. What have you attempted/googled/read to find a solution?
 
 Your goal is probably to get an answer ASAP, and a secondary goal should be to document this issue/challenge to help someone who may encounter the same thing in the future. Formatting your question well supports both of these goals. Some things to consider:
-- Code snippets should not be formatted as plain text. Very short snippets should be formatted as `inline code` and longer snippets should be formatted in...
+- Code snippets should not be formatted as plain text. Very short snippets should be formatted as `inline code` and ...
 ```
-code blocks
+longer snippets 
+should be formatted 
+in code blocks.
 ```
 - Screenshots of Terminal output are usually helpful (if Terminal output is relevant).
 - A wall of text isn't something most people want to read. If you have a lot of context to provide, give a TL;DR in the main channel, then thread your details in manageable chunks. Another strategy is to use bold text and/or emojis strategically to highlight key information or questions.
