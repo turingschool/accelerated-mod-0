@@ -16,33 +16,15 @@ title: Atom & Markdown
 - <span class="vocab">Markdown</span>
 - <span class="vocab">Keyboard shortcuts</span>
 
-## Atom
-
-<span class="vocab">Atom</span> is a <span class="vocab">code editor</span>. It is a desktop application where we write the code that powers our applications. It offers features like syntax highlighting and line numbers (and many more!) that make it easier for developers to write code efficiently. There are many other code editors - some similar to Atom and some with even more built-in tools. We ask all incoming students to start with Atom so the whole class is using the same set of tools while we focus on learning goals for foundational coding concepts. After Mod 1, students can choose to learn and use other editors.
-
-We will open the Atom application _from_ the Terminal. Since you'll have so many files and directories on your machine, you'll want to get into the habit of only opening the project you are currently working on.
-
-To open Atom from the Terminal, navigate to the directory you want to open, and run:
-
-```bash
-atom .
-```
-
-**Practice this right now.** If Atom does not open, make sure Atom is in the Applications folder, not the Downloads folder. If it is still not working, share this in a message to your small group on Slack.
-
-<div class="s-card">
-  <h3>Install Auto-Save</h3>
-  <p>Either through exploring the options in the menu or Googling, figure out to install auto-save in Atom. Having this installed will save you a ton of headaches in the future!</p>
-</div>
 
 ## Markdown Files
 
-<span class="vocab">Markdown</span> is a lightweight markup language that converts to HTML and can be displayed on the web. It is used widely in the tech industry for documentation. You'll use it in various ways at Turing - most commonly, to document and showcase your projects.
+<span class="vocab">Markdown</span> is a lightweight markup language that converts to HTML and can be displayed on the web. It is used widely in the tech industry for documentation. You'll use it in various ways at Turing. Most frequently, you'll use it to document and showcase your projects.
 
 <div class="s-card">
   <h3>Markdown Practice - Mod 0 Game Plan</h3>
-  <p>Using <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="blank">this markdown cheatsheet</a>, create a new Gist in GitHub of your own by clicking the New Gist button in the upper right-hand corner of the screen.</p>
-  <p>Your task is to create a "Plan for Mod 0" <strong>documenting your game plan for success in Mod 0</strong>, using Markdown. Use the tips and guidance that follows to ensure your complete it successfully.</p>
+  <p><a href="https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists" target="blank">Create a new Gist on GitHub</a></p>
+  <p>Using <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="blank">this markdown cheatsheet</a> as a resource, your task is to create a "Plan for Mod 0" <strong>documenting your game plan for success in Mod 0</strong>, using Markdown. Use the tips and guidance that follows to ensure your complete it successfully.</p>
 </div>
 
 - In the filename box, follow this format: `firstName_lastName_mod_0_plan.md`.
@@ -65,6 +47,26 @@ atom .
 <div class="s-card s-border-yellow-500">
   <h3>Pro Tip</h3>
   <p>It can sometimes be hard to tell if you are writing valid Markdown. Use a Markdown Preview Tool such as <a href="https://markdownlivepreview.com/" target="blank">Markdown Live Preview</a> to ensure your Markdown renders as expected. If you are writing Markdown in Atom, you can use the Markdown Previewer which can be opened with the shortcut <code> ctrl + shft + m</code>.</p>
+</div>
+<br>
+
+## Atom
+
+<span class="vocab">Atom</span> is a <span class="vocab">code editor</span>. It is a desktop application where we write the code that powers our applications. It offers features like syntax highlighting and line numbers (and many more!) that make it easier for developers to write code efficiently. There are many other code editors - some similar to Atom and some with even more built-in tools. We ask all incoming students to start with Atom so the whole class is using the same set of tools while we focus on learning goals for foundational coding concepts. After Mod 1, students can choose to learn and use other editors.
+
+We will open the Atom application _from_ the Terminal. Since you'll have so many files and directories on your machine, you'll want to get into the habit of only opening the project you are currently working on.
+
+To open Atom from the Terminal, navigate to the directory you want to open, and run:
+
+```bash
+atom .
+```
+
+**Practice this right now.** If Atom does not open, make sure Atom is in the Applications folder, not the Downloads folder. If it is still not working, share this in a message to your small group on Slack.
+
+<div class="s-card">
+  <h3>Install Auto-Save</h3>
+  <p>Either through exploring the options in the menu or Googling, figure out to install auto-save in Atom. Having this installed will save you a ton of headaches in the future!</p>
 </div>
 <br>
 
