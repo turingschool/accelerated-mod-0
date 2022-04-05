@@ -92,6 +92,7 @@ Your Terminal will look something like this:
 
 <div class="s-card">
   <h3>Independent Research</h3>
+  <p><em>Be prepared: You are about to be asked to go reseach a technical topic you have received no instruction on. This might feel scary! You might be wondering if it's a mistake! It's not - this is a big part of Turing's teaching and learning, and something we are sending you all the way into on your very first day. It might feel challenging or uncomfortable - sit with that feeling, embrace it, and push yourself to engage!</em></p>
   <p>Take 3 minutes (max) to research each of the following Terminal commands: <code>pwd</code>, <code>touch</code>, and <code>cd ..</code>. Take note of what you learn and any questions that arise from this research.</p>
 </div>
 <br>
@@ -108,7 +109,7 @@ Your Terminal will look something like this:
 
 ### Terminal Commands
 
-Each command has a different utility. Some find it helpful to categorize the type of utility by action, safe/informative, and destructive. Read below and follow the activities provided to learn about each of the 9 commands.
+Each command has a different utility. Some find it helpful to categorize the type of utility as "Action", "Safe/Informative", or "Destructive". Read and follow the activities provided to learn about each of the 9 commands.
 
 #### Action Commands
 
@@ -132,7 +133,7 @@ Each command has a different utility. Some find it helpful to categorize the typ
 
 ### 1. Where am I? (`pwd`)
 
-When you open the Terminal, you will be in your home directory. Being in various directories will allow you to do different things, just like you can do different things at home vs. on vacation vs. at work.
+When you open the Terminal, you will be in your home directory. Just like you can do different things at home vs. on vacation vs. at work, the location you are in within your file structure determines what actions you can take.
 
 To figure out where you are in your computer's directory structure, run `pwd`. This command stands for "print working directory".
 
@@ -143,6 +144,8 @@ timo@Tims-MacBook-Pro:~$ pwd
 
 You'll see the path from the root of your computer to your current directory.
 
+_This is classified as a "Safe" command because there is **nothing** you can mess up by running this. Ever._
+<br>
 <br>
 
 ### 2. Make a Directory (`mkdir`)
@@ -151,17 +154,18 @@ To make a folder using the visual interface of Finder, this is what you might do
 
 <img src="images/mkdir.gif" alt="making a folder using finder" style="height: 250px">
 
-We can make new directories with the `mkdir` command. Unlike `pwd` where we didn't need to run anything else, we'll need to add a name for the directory. Keep your directories lowercase with no spaces. If you want to create a multi-word directory, use the underscore (\_) instead of a space.
+In the Terminal, we can make new directories with the `mkdir` command. Unlike `pwd` where we didn't need to run anything else, we'll need to add a name for the directory. Directory naming should follow a convention - we'll use all lowercase letters with no spaces; if you want to create a multi-word directory, use the underscore (\_) instead of a space.
 
-For example, the following two commands will create two directories called `work_spreadsheets` and `latest_projects`:
+The following commands will create two directories called `work_spreadsheets` and `latest_projects`:
 
 ```
 timo@Tims-MacBook-Pro:~$ mkdir work_spreadsheets
 timo@Tims-MacBook-Pro:~$ mkdir latest_projects
 ```
 
-You won't get any confirmation that your directory was created -- you'll just see a new command prompt ready for your next command.
+You won't get any confirmation that your directory was created; you'll just see a new command prompt ready for your next command.
 
+<br>
 <br>
 
 ### 3. Listing Contents of a Directory (`ls`)
@@ -189,6 +193,11 @@ To see what is inside of a directory, we use the `ls` command, which is short fo
 
   </div>
 </div>
+
+`ls` is a great command to run after you've made a new directory as it will allow you to confirm you made the directory.
+
+_This is classified as a "Safe" command because there is **nothing** you can mess up by running this. Ever._
+
 <br>
 
 ### 4. Go Into a Directory (`cd`)
@@ -225,7 +234,7 @@ literary_analysis.docx    book_report.docx
 
 ### 5. Get Out of a Directory (`cd ..`)
 
-To get out of a directory you're in, we use `cd ..` (with a space between the d and the first dot). This means "go back up one level."
+To get out of a directory you're in, we use `cd ..` (note the space between the d and the first dot). This means "go back up one level."
 
 If I'm in the `book_projects` directory and I want to get back to `essays`, this is what I'd run:
 
@@ -236,8 +245,9 @@ timo@Tims-MacBook-Pro:~/essays$
 
 Notice that my path no longer includes `book_projects` because I'm outside of that folder now.
 
-_**Note:** You never want to `cd` into a directory above your home directory. This area requires admin permissions, and there is no practical use case for being there._
+>_**Note:** You never want to `cd` into a directory above your home directory. This area requires admin permissions, and there is no practical use case for being there._
 
+<br>
 <div class="s-card">
   <h3>Try It: <code>cd and cd ..</code></h3>
   <p>Using what you've learned, type a response to each prompt in the associated input field. If you aren't sure or want to check yourself, this is a great topic to bring up in your small group Slack channel.</p>
@@ -320,7 +330,7 @@ chapter_2.md
   <h3>Things to Note</h3>
   <ul>
     <li>A file removed using the <code>rm</code> command <strong>does not</strong> go into your trash where you could restore it later.</li>
-    <li>Although it may be possible to recover files deleted with <code>rm</code>, it is a difficult process requiring special tools and time. For now, assume that any file you remove using the <code>rm</code> command is gone for good.</li>
+    <li>Although it may be possible to recover files deleted with <code>rm</code>, it is a difficult process requiring special tools and time. For now, assume that any file you remove using the <code>rm</code> command is permanently destroyed.</li>
   </ul>
 </div>
 <br>
@@ -365,8 +375,7 @@ Now when I run `ls`, I will no longer see `books` listed.
 
 ## Practice
 
-- Go to <a href="http://learn-terminal.turing.io/challenges" target="_blank">Turing Terminal</a> to use the Playground and complete the Challenges.
-- In your Terminal, recreate the file structures shown in the diagrams below. Assume that the extensions for any files notated is `.md`.
+In your Terminal, recreate the file structures shown in the diagrams below. Assume that the extensions for any files notated is `.md`.
 
 ### Challenge #1
 <img src="images/practice-1.png">
