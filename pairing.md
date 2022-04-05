@@ -36,9 +36,12 @@ title: Pair Programming
 
 There are many styles of pairing. In Mod 0, we will introduce and focus on the Driver Navigator style. In this style of pairing, the person determined to be the <span class="vocab">Driver</span> should screen share and type all work the pair does. The <span class="vocab">Navigator</span> is responsible for doing the problem-solving and communicating to the Driver what they should be typing.
 
-### Example
-
-[This video shows two developers pairing on a simple task you probably did earlier today](https://turingschool.zoom.us/rec/share/EC89i-P37Wnke3mSf0_Jk4nCTkP4CUgm97IXmSJAYYog1FdBYkDdzlGdsHMXG2Oq.ksixjk2usE-Cvhz0?startTime=1646316847000). Watch it, and reflect on how they interacted, and what they each did in the Driver and Navigator role.
+<div class="s-card">
+  <h3>Watch an Example</h3>
+  <p><a href="https://turingschool.zoom.us/rec/share/EC89i-P37Wnke3mSf0_Jk4nCTkP4CUgm97IXmSJAYYog1FdBYkDdzlGdsHMXG2Oq.ksixjk2usE-Cvhz0?startTime=1646316847000" target="blank">This video shows two developers pairing on a simple task you probably did earlier today</a></p>
+  <p>Watch it, and reflect on how they interacted, and what they each did in the Driver and Navigator role.</p>
+</div>
+<br>
 
 ## Tools
 
@@ -55,10 +58,12 @@ While there is no "right" or "perfect" way to pair, there are some best practice
   - Be fully present. Neither Driver or Navigator should be checking Slack, their phones, or anything outside of work for the task at hand. Commit to checking those other things during breaks.
   - Switch Driver/Navigator roles frequently so both teammates get practice with both roles!
 
-[Read the "Remote Pairing" section of this blog post from Martin Fowler](https://martinfowler.com/articles/on-pair-programming.html#RemotePairing) for more learning!
+Optional: [Read the "Remote Pairing" section of this blog post from Martin Fowler](https://martinfowler.com/articles/on-pair-programming.html#RemotePairing) for more learning!
 
 ## Pairing Activities
 
-To help you become comfortable with pairing in what may be a very new environment for you, you will have 4 pairing sessions, each with a different classmate. Before and after each session, you'll be asked to prepare and reflect which will support your growth and awareness of your growth.
+To help you become comfortable with pairing in what may be a very new environment for you, you will have 4 pairing sessions this week, each with a different classmate. Before and after each session, you'll be asked to prepare and reflect which will support your growth and awareness of your growth.
 
 You can absolutely choose to schedule additional pairing sessions!
+<br>
+<br>
