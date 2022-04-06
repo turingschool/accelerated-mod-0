@@ -65,8 +65,8 @@ What follows is a diagram that breaks down the anatomy of the `git push -u origi
 
 ## Pushing and Pulling Changes
 
-- <span class="vocab">Pushing</span> work up to a repository is the act of using Git commands to send the current version of a local repository up to the remote repository
-- <span class="vocab">Pulling</span> work down is the act of using Git commands to retrieve the work on the remote repository so that it's available in the local repository
+- <span class="vocab">Pushing</span> work up to a repository is the act of using Git commands to send the current version of a local repository up to the remote repository.
+- <span class="vocab">Pulling</span> work down is the act of using Git commands to retrieve the work on the remote repository so that it's available in the local repository.
 
 After making 1 or more commits on a local repository, we can push our work up using the following command:
 
@@ -128,6 +128,7 @@ Complete the following exercises to get practice and demonstrate your ability to
 
 <div class="s-card">
   <h3>Solo: Practice the Workflow</h3>
+  <p>Student will work through this prompt independently, while on the call if time permits, to have the support and opportunities for feedback from each other:</p>
   <ul>
     <li>Create a local repository.</li>
     <li>Create a GitHub repository.</li>
@@ -141,6 +142,7 @@ Complete the following exercises to get practice and demonstrate your ability to
 
 <div class="s-card">
   <h3>Class Driver/Navigator</h3>
+  <p>One student will Drive while other students are randomly selected to Navigate for each bulleted task:</p>
   <ul>
     <li>Create a local repository.</li>
     <li>Create a GitHub repository.</li>
@@ -151,6 +153,8 @@ Complete the following exercises to get practice and demonstrate your ability to
   </ul>
 </div>
 <br>
+
+There is no submission for the Check For Understanding for this lesson.
 
 <!-- <div class="s-card">
   <h3>Pairing Session</h3>

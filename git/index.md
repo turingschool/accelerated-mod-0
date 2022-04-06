@@ -19,7 +19,7 @@ Stop at the provided prompts to take notes and complete practice exercises as in
 <div class="s-card">
   <h3>Exercise 1</h3>
   <ol>
-    <li>Navigate to your root directory</li>
+    <li>Navigate to your root directory.</li>
     <li>If you have a Turing and/or Mod 0 directory, navigate to that (highly recommended)!</li>
     <li>Create a new directory called <code>to_do</code>. Inside of that directory, create a file called <code>tasks.md</code>.</li>
     <li>Initialize Git inside of the <code>to_do</code> directory so that we have Git available to track changes.</li>
@@ -44,7 +44,7 @@ Stop at the provided prompts to take notes and complete practice exercises as in
   <ol>
     <li>Create a new directory called <code>ruby_101</code>. Inside of that directory, create a file called <code>learning_ruby.md</code>.</li>
     <li>Initialize Git inside of the <code>ruby_101</code> directory so that we have Git available to track change.</li>
-    <li>Before you check the status, predict what it will say. Then, check the current status</li>
+    <li>Before you check the status, predict what it will say. Then, check the current status.</li>
     <li>Add <code>learning_ruby.md</code> to the staging area.</li>
     <li>Commit your work.</li>
     <li>In Atom, create a header and either a fact or question about Ruby in the  <code>ruby_101.md</code> file.</li>
@@ -59,7 +59,7 @@ Stop at the provided prompts to take notes and complete practice exercises as in
 
 <br>
 
-## Additional Resources
+## Additional Resources (Optional)
 
 - Read this <a href="https://chris.beams.io/posts/git-commit/" target="_blank">article on Git commit messages</a> staging area
 - <a href="https://stackoverflow.com/questions/49228209/whats-the-use-of-the-staging-area-in-git" target="_blank">What's the use of the staging area in Git?</a> on Stack Overflow

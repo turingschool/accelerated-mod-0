@@ -45,8 +45,8 @@ By the end of this session, you'll be able to use the your Terminal, specificall
 
 In this lesson, we will use 4 of Ruby's Data Types. A <span class="vocab">Data Type</span> classifies each piece of data in a Ruby program.
 - <span class="vocab">String</span> - Any series of characters (alpha, numeric, or symbol) between quotation marks
-- <span class="vocab">Integer</span> - Any whole positive and negative number, including 0
-- <span class="vocab">Float</span> - Any positive and negative number that involves a decimal
+- <span class="vocab">Integer</span> - Any whole positive or negative number, including 0
+- <span class="vocab">Float</span> - Any positive or negative number that involves a decimal
 - <span class="vocab">Boolean</span> - `true` or `false`
 
 To connect to how these data types are used in an application we all have some experience with, consider the steps you took to enroll at Turing in the Populi application:
@@ -80,7 +80,7 @@ However, if we ever want to reference that email address ever again in our code,
 
 ### Variable Syntax
 
-In Ruby, we declare variables by typing the name of the variable, the <span class="vocab">assignment operator</span>, then the value being stored.
+In Ruby, we define variables by typing the name of the variable we wish to create, the <span class="vocab">assignment operator</span>, then the value being stored.
 
 ```ruby
 email = "helloworld@gmail.com"
@@ -97,7 +97,7 @@ If our Ruby program has data stored in variables, we are able to reference those
 
 Naming can be hard, but is important to be thoughtful about and follow conventions of the language you are working with so that your code is easily accessible and readable for those you are collaborating with. A few key points:
 - All Ruby variables should use `snake_case` - all characters should be lower cased; in multi-word variables, words should be separated with an underscore.
-- Variable names should describe the type of data they hold without being overly verbose or specific (examples: `name`, `email`, etc. non-examples: `x`, `ftga23`, `name_of_incoming_mod_1_be_student`).
+- Variable names should describe the type of data they hold without being overly verbose or specific (examples: `name`, `email`, etc. non-examples: `x`, `ftga23`, `name_of_incoming_mod_1_back_end_student`).
 
 <div class="s-card">
   <h3>Naming Conventions</h3>
@@ -113,6 +113,7 @@ Naming can be hard, but is important to be thoughtful about and follow conventio
     <li><code>1st_class</code></li>
   </ul>
 </div>
+<br>
 
 ### Reassigning Variables
 
@@ -143,7 +144,7 @@ deposit_paid # true
 
 ## Check For Understanding
 
-_Complete this CFU after you've done the live GitHub lesson._
+_Complete this CFU **after** you've done the live GitHub lesson._
 
 Use everything you’ve learned with Git, GitHub, Data Types and variables, complete this challenge:
 
@@ -165,6 +166,6 @@ Use everything you’ve learned with Git, GitHub, Data Types and variables, comp
 1. Commit your work.
 1. Push your changes to GitHub.
 
-- Please submit the link to your GitHub repository in the submission form.
+Please submit the link to your GitHub repository in the submission form.
 
 <br><br>

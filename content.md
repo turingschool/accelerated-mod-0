@@ -10,8 +10,8 @@ Please submit all deliverables with <a href="https://forms.gle/NnyAMpJt9EALvKJk9
 * [Asking Technical Questions]({{ site.url }}/asking_qs) 
 * [Calendaring & Time Management]({{ site.url }}/calendar)
 * <a href="https://careerdev.turing.edu/module-1-prework/index" target="_blank">Career Development Prep & Survey</a>
-* [DTR Prep]({{ site.url}}/dtr)
 * [Mentorship Prep]({{ site.url }}/mentorship)
+* [DTR Prep]({{ site.url}}/dtr)
 * [Pair Programming]({{ site.url }}/pairing)
   - [Pairing Session 1 (Tuesday)]({{ site.url }}/pairing_1)
   - [Pairing Session 2 (Wednesday)]({{ site.url }}/pairing_2)
