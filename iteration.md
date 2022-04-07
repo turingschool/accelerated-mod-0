@@ -38,8 +38,8 @@ Let's break down each part of the code:
 - **`nums`** - we first must tell Ruby which Array we'd like to iterate over
 - **`.each`** - we call the `each` method on the Array. Ruby now expects the following:
   - **`do`** - this is a Ruby keyword that must follow `each`; it tells the program to start taking action
-  - **`|num|`** - inside the pipe characters (`|`, which can be found just under the delete key on your keyboard), the developer decides on a name for a single element in the Array. Usually, this is the singluer form of the Arrays variable name
-  - 1+ lines of code, indented. This code will run for **each** of the elements in the Array. If there are 100 elements, this line will run 100 times. If there is 1 element, this line will run 1 time
+  - **`|num|`** - inside the pipe characters (`|`, which can be found just under the delete key on your keyboard), the developer decides on a name for a single element in the Array. Usually, this is the singular form of the Arrays variable name
+  - 1 or more lines of code, indented. This code will run for **each** of the elements in the Array. If there are 100 elements, this line will run 100 times. If there is 1 element, this line will run 1 time
   - **`end`** - this tells the program we are done with the `each` block, and is required.
 - Anything written inside of the `do` and `end` is referred to as the <span class="vocab">code block</span>
 
@@ -58,16 +58,16 @@ nums.each do |num|
 end
 
 # The each block will run 4 times because there are 4 elements in the Array
-# The first time it runs, the Integer 1 is the value of the num variable. 
-# The second time it runs, the Integer 2 is the value of the num variable. 
-# The third time it runs, the Integer 3 is the value of the num variable. 
-# The fourth time it runs, the Integer 4 is the value of the num variable. 
+# The first time it runs, the Integer 1 is the value of the num variable
+# The second time it runs, the Integer 2 is the value of the num variable
+# The third time it runs, the Integer 3 is the value of the num variable
+# The fourth time it runs, the Integer 4 is the value of the num variable
 # Once it's run on every element in the Array, it reads the end keyword, and is finished
 ```
 
 ## Predict What Will Happen
 
-Read each of the following code snippets and predict what the output will be. Then, run the code in IRB and confirm your prediction.
+Read each of the following code snippets and predict what the output will be. Then, run the code in `irb` (or in your preferred environment) to confirm your prediction.
 
 ```ruby
 balances = [100, 49, 98, 73, 56]
@@ -92,7 +92,7 @@ end
 
 ## Practice
 
-Use the `each` method to solve each problem. You can do this work in the place that works best for you - `irb`, a Ruby file you create and open in Atom, or something else.
+Use the `each` method to solve each problem. You can do this work in the place that works best for you - `irb`, a Ruby file you create and open in Atom, or somewhere else.
 
 <div class="s-card">
   <p>Print out a greeting to each friend:</p>
