@@ -11,9 +11,9 @@ title: Conditionals
 ## Vocabulary
 
 - <span class="vocab">comparison operators</span>
-- <span class="vocab">logical operators</span>
 - <span class="vocab">conditionals</span>
 - <span class="vocab">if statements</span>
+- <span class="vocab">logical operators</span>
 
 ## Comparison Operators
 
@@ -29,15 +29,17 @@ Conditional statements, or <span class="vocab">conditionals</span>, are Ruby sta
 - `<=` (less than or equal to)
 
 <div class="s-card s-border-yellow-500">
-  <h4>Equality vs. Assignment</h4>
-  <p>The number one mistake people encounter when writing conditional statements is the difference between <code>=</code> and <code>==</code>.</p>
+  <h3>Equality vs. Assignment</h3>
+  <p>The most common mistake people encounter when writing conditional statements is related to the difference between <code>=</code> and <code>==</code>.</p>
   <ul>
-    <li><code>=</code> is an assignment. It means "take the value on the right side and store it into whatever is on the left side" – it’s telling, not asking.</li>
-    <li><code>==</code> is a question. It means "is the value on the right the exact same as the value on the left?" – it’s asking, not telling.</li>
+    <li><code>=</code> is an assignment. It instructs, "take the value on the right side and store it into whatever is on the left side" – it’s telling, not asking.</li>
+    <li><code>==</code> is a question. It asks, "is the value on the right the exact same as the value on the left?" – it’s asking, not telling.</li>
   </ul>
 </div>
 
-<a href="http://ruby-for-beginners.rubymonstas.org/operators/comparison.html" target="_blank">Read more about comparison operators.</a>
+<em>Optional:</em> <a href="http://ruby-for-beginners.rubymonstas.org/operators/comparison.html" target="_blank">Read more about comparison operators.</a>
+
+<br>
 
 <div class="s-card">
   <h3>Comparisons</h3> 
@@ -54,7 +56,7 @@ Conditional statements, or <span class="vocab">conditionals</span>, are Ruby sta
 
 ## Logical Operators
 
-There are 3 <span class="vocab">logical operators</span> in Ruby; we will learn 2 today:
+There are three <span class="vocab">logical operators</span> in Ruby; we will learn two today:
 - `&&` or `and`
 - `||` or `or`
 
@@ -113,10 +115,12 @@ age < 30 || time < 2.0
 
 ## If Statements
 
-<span class="vocab"><code>If statements</code></span> are the most common form of conditionals. The logic of an <code>if statement</code> in Ruby follows the same logic in other programming languages.
+>For the practice activities in this section, you can use `irb`, create a Ruby file in your Terminal and edit it in Atom, or use an online IDE such as repl.it - it's your preference!
+
+<span class="vocab">If statements</span> are the most common form of conditionals. The logic of an <code>if statement</code> in Ruby follows the same logic in other programming languages.
 
 ### `if`
-All of our conditional branches will begin with an `if`. The code following the `if` will run if the condition is true.
+All of our conditional branches will begin with an `if`. To communicate to the Ruby program that the `if statement` should end, they keyword `end` must be used. Any code following the `if`, but before the `end` will run **if** the condition is true.
 
 ```ruby
 if condition
@@ -124,9 +128,19 @@ if condition
 end
 ```
 
+The following example checks if a store is open, and prints out a statment to send directions if the store is indeed open:
+
+```ruby
+is_open = true
+
+if is_open == true
+  puts "send directions
+end
+```
+
 <div class="s-card">
   <h3><code>if</code> statements</h3>
-  <p>In an <code>irb</code> session, write code that defines an <code>age</code> variable and assign it to an Integer. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older.</p>
+  <p>Write code that defines an <code>age</code> variable and assign it to an Integer. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older.</p>
 </div>
 <br>
 
@@ -145,7 +159,7 @@ end
 
 <div class="s-card">
   <h3><code>elsif</code> statements</h3>
-  <p>In an <code>irb</code> session, write code that defines an <code>age</code> variable and assign it to an Integer. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?".</p>
+  <p>Write code that defines an <code>age</code> variable and assign it to an Integer. Then, write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?".</p>
 </div>
 <br>
 
@@ -165,7 +179,7 @@ end
 ```
 <div class="s-card">
   <h3><code>else</code> statements</h3>
-  <p>In an <code>irb</code> session, you'll build on the previous work you've done with the <code>age</code> variable. Write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?". If the user is any other age, print out "You aren't quite old enough to visit, sorry!".</p>
+  <p>You will now build on the previous work you've done with the <code>age</code> variable; write code that will print out the String "Welcome to the Website" only if the user is 21 or older. If the user is under the age of 2, print out "How are you even on this device?". If the user is any other age, print out "You aren't quite old enough to visit, sorry!".</p>
 </div>
 <br>
 
@@ -176,7 +190,6 @@ Notice that each of the previous examples have **one** `end` keyword. That is pa
 <br>
 <div class="s-card">
   <h3>More Practice</h3>
-  <p>Complete the following work in an <code>irb</code> session:</p>
   <ul>
     <li>Declare a variable that stores your name in a String.</li>
     <li>Write an if/else statement - if your name is "Oscar", puts "Hello, Oscar!". If not, puts "Hello, Stranger!".</li>
