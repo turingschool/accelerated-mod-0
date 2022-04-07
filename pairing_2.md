@@ -48,16 +48,16 @@ Then, decide who will be the Driver and Navigator for the first challenge, then 
 <div class="s-card">
   <h3>Pairing Exercise 2</h3>
   <ul>
-    <li>In your Mod 0 directory, create a new directory called <code>pairing_2</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository</li>
-    <li>Define a variable that stores a String containing a name of a best friend</li>
-    <li>Write an if statement that prints out a statement for your best friend, and one for any other friend</li>
+    <li>In your Mod 0 directory, create a new directory called <code>pairing_2</code>. Inside of that directory, touch a file called <code>friends</code>. Initialize a Git repository.</li>
+    <li>Define a variable that stores a String containing a name of a best friend.</li>
+    <li>Write an if statement that prints out a statement for your best friend, and one for any other friend.</li>
     <li>Run the file in the Terminal to verify your code is working as expected.</li>
-    <li>Create a GitHub repository</li>
-    <li>Push your work from the local repository to the remote repository</li>
-    <li>Define another variable that stores a name of another very good friend</li>
-    <li>Modify your is statement to include and elsif that prints out a different statement for that very good friend</li>
-    <li>Run the file in the Terminal to verify your code is working as expected</li>
-    <li>Push that new work up to the remote repository</li>
+    <li>Create a GitHub repository.</li>
+    <li>Push your work from the local repository to the remote repository.</li>
+    <li>Define another variable that stores a name of another very good friend.</li>
+    <li>Modify your is statement to include and elsif that prints out a different statement for that very good friend.</li>
+    <li>Run the file in the Terminal to verify your code is working as expected.</li>
+    <li>Push that new work up to the remote repository.</li>
   </ul>
 </div>
 <br>
