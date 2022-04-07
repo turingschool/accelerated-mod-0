@@ -51,7 +51,7 @@ Notice that in the previous examples, the items in a given list are all of the _
 students = ["Cindy", "Josiah", "Rigo"]
 ```
 
->To describe what the previous line of code does, one might say, "The `students` variable stores an array of Strings. This array has 3 elements."
+>To describe what the previous line of code does, one might say, "The `students` variable stores an Array of Strings. This array has 3 elements."
 
 <br>
 <div class="s-card">
@@ -61,13 +61,18 @@ students = ["Cindy", "Josiah", "Rigo"]
 </div>
 
 <br>
-Notes on best practices for Arrays:
-- The name of a variable that stores an Array should usually be plural to indicate that it has the potential to hold _many_ elements of that type.
-- While Ruby technically allows an Array to hold multiple Data Types, it is not best practice and in any real-world application, will usually be unhelpful anyways.
+<div class="s-card s-border-yellow-500">
+  <h3>Best Practices for Arrays</h3>
+  <ul>
+    <li>The name of a variable that stores an Array should usually be plural to indicate that it has the potential to hold <em>many</em> elements of that type.</li>
+    <li>While Ruby technically allows an Array to hold multiple Data Types, it is not best practice and in any real-world application, will usually be unhelpful anyways.</li>
+  </ul>
+</div>
+<br>
 
 ### Accessing Elements
 
-If we just want to access one element from an array, we can use bracket notation and a number that corresponds with that element. As weird as it may seem, <a href="https://skillcrush.com/blog/why-programmers-start-counting-at-zero/" target="_blank">counting starts with 0 in most programming languages</a>. That number is referred to as an <span class="vocab">index position</span>.
+To access one element from an array, bracket notation and a number that corresponds with that element should be used. As weird as it may seem, <a href="https://skillcrush.com/blog/why-programmers-start-counting-at-zero/" target="_blank">counting starts with 0 in most programming languages</a>. That number is referred to as an <span class="vocab">index position</span>.
 
 Through reading the code snippets below, one can infer that the first element is in index position 0, and counting increments by 1.
 
@@ -100,7 +105,7 @@ puts students[2]
   <ul>
     <li>How many elements are in this Array?</li>
     <li>What is the index position of the Integer <code>99</code>?</li>
-    <li>What is the value of the element in index position 2?</li>
+    <li>What is the value of the element in index position 3?</li>
     <li>What is the value of the element in index position 0?</li>
     <li>What is the index position of the last element in this Array?</li>
   </ul>
@@ -121,7 +126,7 @@ puts students[2]
 
 ### Array Methods
 
-In most cases, we will want to modify data in an Array at one point or another. Today, we will learn a number of ways to do that. They will probably not satisfy your every question of "How does X app do Y?" but this will lay an important foundation for the concept of Array methods, and some strategies to get that information you are craving!
+In most cases, a developer want to modify data in an Array at one point or another. Today, we will learn a number of ways to do that. They will probably not satisfy your every question of "How does X app do Y?" but this will lay an important foundation for the concept of Array methods, and some strategies to get that information you are craving!
 
 An Array <span class="vocab">method</span> is a piece of functionality that is built into the Ruby language, intended to be used on Arrays specifically. Each method has a specific job to perform; we can use it if we want, but we can't modify a built-in method. There are many Array methods - like anything else in programming, you will memorize a handful that you regularly use, then look to documentation for those you don't use as regularly.
 
@@ -133,10 +138,12 @@ To use an Array method in Ruby, we first must tell Ruby which Array we want to p
 students = ["Cindy", "Josiah", "Rigo"]
 students.pop
 
-students
+p students
 ```
 
->To describe what the previous line of code does, one might say, "This line of code calls the `pop` method on the `students` array."
+>To describe what the previous line of code does, one might say, "This line of code calls the `pop` method on the `students` Array."
+
+<br>
 
 ### Learning From Reading Code You Don't Know
 
