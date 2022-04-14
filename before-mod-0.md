@@ -54,8 +54,6 @@ Read [these reflections](https://drive.google.com/file/d/1LNyXge4p6OQTWbo_Y9XIJA
 1. What surprised you after reading this?
 1. How will this impact your approach to Mod 0?
 
-You will be sharing these reflections during your first session of Mod 0.
-
 ## Expert Share
 
 During the first live session of your Mod 0 class, each student will present an "Expert Share". You'll have 2-3 minutes to present to the group on something you are an expert in. Present in any way you’d like - just you on camera, have a couple slides with photos, key points, etc. Don’t spend a TON of time prepping, but do not show up and “wing it”.
