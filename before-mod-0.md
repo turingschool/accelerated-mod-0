@@ -56,4 +56,14 @@ Read [these reflections](https://drive.google.com/file/d/1LNyXge4p6OQTWbo_Y9XIJA
 
 You will be sharing these reflections during your first session of Mod 0.
 
+## Expert Share
+
+During the first live session of your Mod 0 class, each student will present an "Expert Share". You'll have 2-3 minutes to present to the group on something you are an expert in. Present in any way you’d like - just you on camera, have a couple slides with photos, key points, etc. Don’t spend a TON of time prepping, but do not show up and “wing it”.
+
+Be ready to share:
+- What is the topic/area you are an expert in?
+- How did you become an expert? How long did it take?
+- Did you always know you would be an expert in this?
+- What challenges did you face along the way in becoming an expert?
+
 <br>
