@@ -19,11 +19,13 @@ title: Hashes
 
 ## Warm Up
 
-Look at the following array? What is problematic about it? How would you prefer to structure a list of students and such information?
+Look at the following array and take a moment to consider: What is problematic about it? How would you prefer to structure a list of students and such information?
 
 ```ruby
 students = ["Cristie Soto", "A+", "B", "in progress", true, "Oscar Smith", "A-", "D", "dropped", true]
 ```
+<br>
+<br>
 
 ## Hashes
 
@@ -33,10 +35,10 @@ Some languages call their Hashes _dictionaries_ for this reason – you look up 
 
 ## Hash Syntax
 
-- A hash is enclosed in curly braces `{ }`, key/value pairs are separated by commas, and keys and values are separated by either a **hash rocket (`=>`)** or a colon.
+- A hash is enclosed in curly braces `{ }`, <span class="vocab">key-value</span> pairs are separated by commas, and keys and values are separated by either a hash rocket (`=>`) (or a colon).
 - Each key in a hash must be unique
   - If you attempt to have duplicate keys when you first create a hash, you will get a warning: `key :key_name is duplicated and overwritten on line X error`
-  - If you try to add a new key/value pair using a key that already exists, that new key/value pair will overwrite the previous one - _dangerous_.
+  - If you try to add a new key-value pair using a key that already exists, that new key-value pair will overwrite the previous one - _dangerous_.
 - Keys and values can be any type of object:
 ```ruby  
 student1 = {
@@ -68,14 +70,14 @@ student1 = {
   <p>Complete the following work in an <code>irb</code> session or a new Ruby file, working in Atom:</p>
   <ol>
     <li>For one of the examples in the previous activity that you selected would be best suited for a Hash, declare a variable that stores a Hash with some (possibly fake) data.</li>
-    <li>Declare a variable that stores a Hash that represents <a href="https://twitter.com/MechEngSanchez/status/1485947286396014593" target="blank">this tweet</a></li>
+    <li>Declare a variable that stores a Hash that represents <a href="https://twitter.com/MechEngSanchez/status/1485947286396014593" target="blank">this tweet</a>.</li>
   </ol>
   <p>Take a screenshot or save in this work in a file and be ready to share it in Stand Up tomorrow!</p>
 </div>
 
 ## Accessing a Hash
 
-We use bracket notation (`[]`) to access values stored in a Hash just like Arrays, only we don’t use index position, we instead use _keys_.
+We use bracket notation (`[]`) to access values stored in a Hash just like Arrays, only we don’t reference the index position, we instead reference _keys_.
 
 The examples below explore the `suitcase` Hash:
 
@@ -92,7 +94,7 @@ suitcase["jackets"]
 #=> nil
 ```
 
-We can create a new <span class="vocab">key-value</span> pair:
+We can create a new key-value pair:
 ```ruby
 suitcase["shirts"] = 3
 suitcase["swimsuit"] = true
@@ -132,7 +134,7 @@ Note that when we use the `.keys` and `.values` Hash methods, the return value o
 
 <div class="s-card">
   <h3>Hash Syntax and Access Practice</h3> 
-  <p>Use the following <code>foods</code> variable to complete each prompt:</p>
+  <p>Use the following <code>zoo</code> variable to complete each prompt:</p>
   <pre>
   zoo = {
     "giraffes" => 3,
@@ -160,7 +162,7 @@ Note that when we use the `.keys` and `.values` Hash methods, the return value o
 
 ## Iterating over Hashes
 
-Oftentimes,  we will want to iterate over a Hash to do something with each key/value pair. This works a lot like iterating over an Array, with one small exception. Take a look at the code snippet below and see if you can identify the difference between iterating over a Hash vs over an Array:
+Oftentimes,  we will want to iterate over a Hash to do something with each key-value pair. This works a lot like iterating over an Array, with one small exception. Take a look at the code snippet below and see if you can identify the difference between iterating over a Hash vs over an Array:
 
 ```ruby
 suitcase = { 
@@ -179,6 +181,8 @@ end
 ```
 
 Now, instead of having _one_ block variable to work with, we have two. The first represents the key, and the second represents the value.
+<br>
+<br>
 
 ## Check For Understanding
 

@@ -3,6 +3,16 @@ layout: lesson
 title: Object Oriented Programming
 ---
 
+<div class="s-card s-border-yellow-500">
+  <h3>Previewing a Lesson</h3> 
+  <p>As you preview this lesson before the live session, keep a few things in mind:</p>
+  <ul>
+    <li>This document was written with the intention of being facilitated by a human - it might be the case that you feel some parts are missing or require an explanation.</li>
+    <li>You are not expected to have mastery, or even fluency with these concepts when you attend the live session. You should be familiar with the vocabulary, the realm of things surrounding the concepts.</li>
+    <li>How can previewing this help you to get the most out of the time you have in the live session? Can you set up some notes in advance? In looking through this, do you realize you have a knowledge gap with a foundational concept that you should review? Do you already have questions? (if so, write them down so you don't forget them!).</li>
+  </ul>
+</div>
+
 ## Learning Goals
 
 - Explain the core concepts of Object Oriented Programming
@@ -182,11 +192,11 @@ In OOP, it is common to store instances in a list, or array, like the one above.
 <a href="https://github.com/turingschool/oop_cfu_am0" target="_blank">Follow the directions in the README of this repo</a>, and submit your fork in the submission form! 
 <br>
 
-## Extensions
+<br>
 
-Now that we have an understanding of OOP and have used some Ruby syntax to write classes and create objects from them, we are ready to write a program that generates many instances of a class!
+## _Extensions_
 
-For this final section, you will choose the pace at which you want to work and the level of support you get. Read through the three options below and select the one you feel most comfortable and excited about:
+Use these as resources for extra practice and challenge!
 
 <div class="s-card">
   <h3>Mild 🔥</h3> 

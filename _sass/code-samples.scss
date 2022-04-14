@@ -8,15 +8,12 @@ code {
   border-radius: 3px;
 }
 
-.try-it {
-  background-color: lighten($teal, 50);
-  border: 1px solid $teal;
-  padding: 1em;
-  margin-bottom: 2em;
+.s-card {
   pre {
-    border: 1px solid black;
-    background-color: rgb(50, 50, 50);
-    color: white;
+    border: 1px solid var(--s-color-gray-700);
+    background-color: var(--s-color-gray-700);
+    color: var(--s-color-white);
+    border-radius: 2px;
   } 
 }
 

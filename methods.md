@@ -11,29 +11,28 @@ title: Methods
 
 ## Vocabulary
 
-- argument
-- execute
-- explicit return
-- implicit return
-- method
-- parameter
-- return
-- variable
+- <span class="vocab">argument</span>
+- <span class="vocab">execute</span>
+- <span class="vocab">explicit return</span>
+- <span class="vocab">implicit return</span>
+- <span class="vocab">method</span>
+- <span class="vocab">parameter</span>
+- <span class="vocab">return</span>
 
 ## Methods
 
-A Method is a group of related instructions that achieves some purpose. If you open up `irb` and run the following:
+A <span class="vocab">Method</span> is a package of instructions. Once a method is defined, it can be used as many times as needed. If you open up `irb` and run the following:
 
 ```ruby
 irb(main):001:0> "Hello World".upcase
 => "HELLO WORLD"
 ```
 
-You are calling the `upcase` method. It is a built-in String method whose job is to create a version of the String with all capital letters.
+This code calling the `upcase` method. It is a built-in String method whose job is to create a version of the String with all capital letters.
 
-One of the most important reasons we need methods is to **reuse** code. Instead of rewriting all those lines of code for creating an upcased string, we simply call the `upcase` method.
+One of the most important reasons we need methods is to reuse code. Instead of rewriting all those lines of code for creating an upcased string, we simply call the `upcase` method.
 
-The example illustrates another key point: **methods run on objects**. In the example above, the upcase method is running on "Hello World", which is a String object. You can think of methods like they are messages to an object. The above code is like saying, “Hey String, give me an upcased version of yourself.”
+The example illustrates another key point: **methods run on objects**. In the example above, the upcase method is running _on_ "Hello World", which is a String object. You can think of methods like they are messages to an object. The above code is like saying, “Hey String, give me an upcased version of yourself.”
 
 To recap the Key Points from this section:
 - We use methods so we can reuse code
@@ -41,7 +40,7 @@ To recap the Key Points from this section:
 
 ## Arguments
 
-**Arguments** are the input(s) to a method. When you define a method, they are known as **parameters**. (In other words, a parameter is a generic placeholder for a specific argument).
+<span class="vocab">Arguments</span> are the input(s) to a method.
 
 If you open an `irb` session and run the following:
 
@@ -50,7 +49,7 @@ irb(main):005:0> "Hello World".include?("Hello")
 => true
 ```
 
-You are calling the `include?` method on the String `"Hello World"`. You are passing the **argument** `"Hello"` to the `include?` method. The **return value** is `true`.
+You are calling the `include?` method on the String `"Hello World"`. The argument `"Hello"` is being passed to the `include?` method. The return value is `true`.
 
 **Note:** Parenthesis are optional when passing arguments. The previous code snippet could also be written as:
 
@@ -73,9 +72,13 @@ irb(main):007:0> "Hello World".gsub "World", "Turing"
 => "Hello Turing"
 ```
 
-## Define and Identify
+<br>
+<div class="s-card">
+  <h3>Practice: Define and Identify</h3> 
+  <p>In the <a href="https://github.com/turingschool/methods_cfu_am0/blob/main/self_eval.md" target="blank">Check For Understanding repo</a>, complete the <code>define_and_id.rb</code> file.</p>
+</div>
+<br>
 
-In the [Check For Understanding repo](https://github.com/turingschool/methods_cfu_am0/blob/main/self_eval.md), complete the `define_and_id.rb` file.
 
 ## Variables
 
@@ -88,9 +91,12 @@ irb(main):002:0> greeting.upcase
 => "HELLO"
 ```
 
-## Practice
-
-Complete the `methods_variables.rb` file in the Check For Understanding repo.
+<br>
+<div class="s-card">
+  <h3>Practice: Calling Methods on Variables</h3> 
+  <p>Complete the <code>methods_variables.rb</code> file in the Check For Understanding repo.</p>
+</div>
+<br>
 
 ## Defining Our Own Methods
 
@@ -106,11 +112,11 @@ end
 print_age
 ```
 
-In the example above, the developer chose the method name of `print_age`. Method names should usually include verbs, since methods _do_ something. The definition just tells the program that it's a set of directions ready to be followed; the method call is what makes the code in the method execute. You can call a method as many times as you want, once it's been defined!
+In the example above, the developer chose the method name of `print_age`. Method names should usually include verbs, since methods _do_ something. The definition just tells the program that it's a set of directions ready to be followed; the method call is what makes the code in the method <span class="vocab">execute</span>, or follow the packaged directions. You can call a method as many times as you want, once it's been defined!
 
 ### Defining Methods with Arguments
 
-We can also define methods designed to take arguments. As developers, we have control to name the parameters, or placeholders, for the data that will be passed in. Those names should follow variable name conventions and be concise, yet descriptive.
+We can also define methods designed to take arguments. As developers, we have control to name the <span class="vocab">parameters</span>, or placeholders, for the data that will be passed in. Those names should follow variable name conventions and be concise, yet descriptive.
 
 ```ruby
 def add(num1, num2)
@@ -123,15 +129,16 @@ add(9, 12)
 
 add 8, -8
 ```
+<br>
 
 ## Return Values
 
-A return value is either:
+A <span class="vocab">return value</span> is either:
 
 - defined _explicitly_ using the `return` keyword OR
 - is the last line of code run, if no `return` keyword was used
 
-In the `print_age` example, the return value is `nil`. The reason for this is, the last line of code is `puts 100`, and `puts` is a built-in command whose return value is `nil`. This is called an **implicit return**.
+In the `print_age` example, the return value is `nil`. The reason for this is, the last line of code is `puts 100`, and `puts` is a built-in command whose return value is `nil`. This is called an <span class="vocab">implicit return</span>.
 
 ```ruby
 def print_age
@@ -143,7 +150,7 @@ print_age
 #  => nil (puts retuns nil, since puts is on the last line of the method, the return value of the method is nil)
 ```
 
-In the `add` example, the return value is an Integer or Float, based on what values were passed in as arguments. If 2 and 3 are passed in, the return value is 5. This is called an **implicit return**.
+In the `add` example, the return value is an Integer or Float, based on what values were passed in as arguments. If 2 and 3 are passed in, the return value is 5. This is called an implicit return.
 
 ```ruby
 def add(num1, num2)
@@ -154,7 +161,7 @@ add(2, 3)
 # => 5 (return value is 5 since that's the sum of 2+3, and on the last line of the method)
 ```
 
-In the `subtract` example, the return value will be whatever is stored in the `difference` variable. If 10 and 7 are passed in, the return value is 3 because 3 is stored in the `difference` variable, and the last line of the method uses the return keyword to return the `difference` variable. This is called an **explicit return**.
+In the `subtract` example, the return value will be whatever is stored in the `difference` variable. If 10 and 7 are passed in, the return value is 3 because 3 is stored in the `difference` variable, and the last line of the method uses the return keyword to return the `difference` variable. This is called an <span class="vocab">explicit return</span>.
 
 ```ruby
 def subtract(bigger, smaller)
@@ -181,9 +188,11 @@ sum2 = add(7, 9)
 puts sum1
 puts sum2
 ```
+<br>
 
-## Check For Understanding
-
-Complete the `final_practice.rb` in the Check For Understanding repo. Submit your copy of the repo to the submission form.
+<div class="s-card">
+  <h3>Check For Understanding</h3>
+  <p>Complete the <code>final_practice.rb</code> in the Check For Understanding repo. Submit your copy of the repo to the submission form.</p>
+</div>
 
 <br><br><br>
