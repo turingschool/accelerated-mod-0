@@ -23,7 +23,7 @@ In software, it is common to write automated <span class="vocab">tests</span> to
 
 ### File Structure
 
-There are many ways a file structure can be designed when we have many files in a project. A common convention, and one you'll use in Mod 1 is illustrated:
+There are many ways a file structure can be designed when there are many files in a project. A common convention, and one you'll use in Mod 1 is illustrated:
 
 ```
 project_name
@@ -40,32 +40,38 @@ project_name
 
 ### Setup `rspec`
 
-While navigated to the project that is applicable, tun this command in the Terminal to add the `rspec` framework to project. This command only needs to be run once per project.
+While navigated to the project that is applicable, run this command in the Terminal to add the `rspec` framework to that project. This command only needs to be run once per project.
 
 ```bash
 $ gem install rspec
 ```
 
-The first two lines of every test, or spec, file should be:
+The first two lines of every test (or spec) file should be:
 
 ```ruby
 require 'rspec'
-require './lib/name_of_class.rb'
+require './lib/<name_of_class>.rb'
 ```
 
 To run a test, or spec, file, in the Terminal:
 
 ```bash
-rspec name_of_class_spec.rb
+rspec <name_of_class_spec>.rb
 ```
+
+<div class="s-card s-border-yellow-500">
+  <h3>Documentation Reading</h3> 
+  <p>There are times when you need to follow directions exactly, and times when you might need to adjust to add in custom information. In the previous examples, we can infer that <code>name_of_class_spec</code> is not actually a file name, but the documention is intending to show the reader that the last part of the file name should be <code>name_of_class_spec</code>, preceded by the name of the class the test file will be testing.</p>
+</div>
+<br>
 
 ### Syntax and Anatomy of an `rspec` Test
 
->A series of codes snippets is provided to show a progression of a test file being built. In Mod 0, you do not need to be proficient in writing tests; this progression is shown to help you focus on each piece with a paired explanation.
+>A series of code snippets is provided to show a progression of a test file being built. In Mod 0, you do not need to be proficient in writing tests; this progression is shown to help you focus on each piece with a paired explanation.
 
 The code snippet that follows shows the skeleton of an `rspec` test. The class it is testing is named `Student`, and lives in a file with the same naming convention.
 
-After requiring `rspec` and the code file, a `describe` block is opened up, where `rspec` expectst the class name. The `do` and `end` open and close the block, similar to other Ruby structures. The code snippet that follows is not enough to test any code; but it's the first step:
+After requiring `rspec` and the code file, a `describe` block is opened up, where `rspec` expects the class name. The `do` and `end` open and close the block, similar to other Ruby structures. The code snippet that follows is not enough to _test_ any code; but it's the first step:
 
 ```ruby
 # student_spec.rb
@@ -77,7 +83,12 @@ describe Student do
 end
 ```
 
-In the next code snippet, one test has been added inside of the `describe` block, to test a very small thing - this test verifies that when an object instance is created, it is actually an instance created from the class it should be created from:
+In the next code snippet, one test has been added inside of the `describe` block, to test a very small thing - this test verifies that when an object instance is created, it is actually an instance created from the class it should be created from.
+
+This `describe` block contains:
+- An `it` statement - a String that uses plain English to describe what _it_ (the test) tests
+- Definition of a variable that stores a student object
+- An assertion written with `rspec` 
 
 ```ruby
 # student_spec.rb
@@ -92,7 +103,7 @@ describe Student do
 end
 ```
 
-The final snippet add a test (in an `it` block) that checks if a student object instance has a name attribute that matches the value that was passed in upon creating the object instance:
+The final snippet adds a test (in a new `it` block) that checks if a student object instance has a name attribute that matches the value that was passed in upon creating the object instance:
 
 ```ruby
 # student_spec.rb
@@ -166,12 +177,13 @@ end
     <li>Delete the entire Student class and re-run the tests; observe what happens</li>
     <li>Bring back all the original code into the Student file and re-run the tests to ensure they now pass</li>
   </ul>
+  <p>Challenge: Write a new test, that checks that the student has a dynamic age property. Write the code to make the test pass.</p>
 </div>
 
 
 ## Test Driven Development
 
-<span class="vocab">Test Driven Development</span> is a common process for writing software. It entails writing the tests before the code, then using the test to guide the developers while writing the actual code. This lesson will provide some exposure to the process, and the Mod 1 curriculum will dive deep into it and erquire it of students.
+<span class="vocab">Test Driven Development</span> is a common process for writing software. It entails writing the tests before the code, then using the test to guide the developers while writing the actual code. This lesson will provide some _exposure_ to the process, and the Mod 1 curriculum will dive deep into it and require it of students.
 
 When provided the test file that follows (the same one we've been looking at in previous examples), one can turn that code into directions that inform what should be written into the `Student` class.
 
@@ -227,4 +239,4 @@ There is not a formal Mod 0 Check For Understanding for Testing. Students are en
 
 ## Mod 0 Extensions
 
-Coming soon! Mythical Creatures Repo. Amy is making a PR on it to update the setup directions.
+Your Mod 1 instructors have created [this repository](https://github.com/turingschool/ruby-exercises) to give you something to work on in between Mod 0 and Mod 1. Nothing is required; but students in the past have found it as helpful and aligned practice during the "down time" before Mod 1. Have fun!
