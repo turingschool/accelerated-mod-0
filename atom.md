@@ -103,7 +103,7 @@ Complete the challenges below to continue to build fluency with using your Termi
 1. Make a file called `javascript.md`
 1. Open the project in Atom
 1. Add a list of things you already know about Ruby in the `ruby.md` file
-1. List the contents of your directory (you should see the three files you just created)
+1. List the contents of your directory (you should see the files you just created)
 1. Demonstrate how to expand and collapse the file tree with a keyboard shortcut
 1. Close Atom with a keyboard shortcut
 1. Delete the `javascript.md` file
