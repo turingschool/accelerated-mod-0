@@ -163,6 +163,8 @@ Use everything you’ve learned with Git, GitHub, Data Types and variables, comp
 1. In your `variables.rb` file, add a few variables that are assigned to Booleans.
 1. Commit your work.
 1. In your `variables.rb` file, leave the original String variables as declared, but add some code to _reassign_ them to different values.
+1. Write several `puts` statements.
+1. `NEW` Run your code by going to the Terminal and running `ruby variables.rb` - make sure you are inside the `variable_practice` directory when doing so.
 1. Commit your work.
 1. Push your changes to GitHub.
 
