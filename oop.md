@@ -119,7 +119,7 @@ class EscapeCar
   end
 
   def change_gear(new_gear)
-    @gear = newGear
+    @gear = new_gear
   end
 end
 
