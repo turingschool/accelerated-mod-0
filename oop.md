@@ -83,8 +83,7 @@ In the previous section, you identified an object in your physical space and wro
   <h3>Driver-Navigator</h3> 
   <p>The person with the largest number of characters in their name is the Driver, the other is the Navigator. The Navigator should have this document opened, and the Driver should be screen sharing with their Terminal opened. The Navigator will direct the Driver through the steps listed below.</p>
   <ul>
-    <li>Create a new project called <code>oop_lesson</code></li>
-    <li>Inside the project, create a file called <code>first_class.rb</code></li>
+    <li>Create a new project called <code>oop_lesson</code>. Inside the project, create a file called <code>first_class.rb</code> OR, create a Ruby file in repl.it - your choice.</li>
     <li>Inside that file, write a class. Navigator - the class should represent the object your identified in your physical space. It does not yet need attributes, just the class name.</li>
     <li>Below the class declaration, create an object instance. Print it out and run the file to confirm it has been created successfully.</li>
     <li>Now, add a default attribute.</li>
