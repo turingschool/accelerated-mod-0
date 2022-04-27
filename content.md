@@ -12,6 +12,7 @@ Please submit all deliverables with <a href="https://forms.gle/NnyAMpJt9EALvKJk9
 * <a href="https://careerdev.turing.edu/module-1-prework/index" target="_blank">Career Development Prep & Survey</a>
 * [Mentorship Prep]({{ site.url }}/mentorship)
 * [DTR Prep]({{ site.url}}/dtr)
+* [Letter to Instructors]({{ site.url }}/letter)
 * [Pair Programming]({{ site.url }}/pairing)
   - [Pairing Session 1 (Tuesday)]({{ site.url }}/pairing_1)
   - [Pairing Session 2 (Wednesday)]({{ site.url }}/pairing_2)
