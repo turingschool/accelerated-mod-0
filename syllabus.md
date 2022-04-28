@@ -15,7 +15,7 @@ Staff will use the cohort Slack channel as the primary means of communication wi
 
 ## Time Commitment
 
-Students will be expected to join a zoom every morning from approximately 8-9am MT. A handful of other live sessions will be placed on the calednar, schedule will vary based, but students should plan to work for about 10 hours/day each day of the week. Students should not have any other work commitments or responsibilities while taking this course.
+Students will be expected to join a zoom every morning from approximately 8-9am MT. A handful of other live sessions will be placed on the calendar, schedule will vary based, but students should plan to work for about 10 hours/day each day of the week. Students should not have any other work commitments or responsibilities while taking this course.
 
 ## Attendance
 
@@ -33,4 +33,4 @@ The final check for readiness is in the form of a Live Paired Evaluation. Each s
 
 ## Feedback
 
-Students will be provided feedback throughout the week. It is expected that students implement feedback provided by staff - sometimes this will mean revising submissions, sometimes they will just need to implement it in future assignments. Students should also take it upon themselves to frequently self-evaluate; tools, including hte evaluation rubric and EOD Synthesis prompts, will be provided to support students in strengthening their ability to self-evaluate.
+Students will be provided feedback throughout the week. It is expected that students implement feedback provided by staff - sometimes this will mean revising submissions, sometimes they will just need to implement it in future assignments. Students should also take it upon themselves to frequently self-evaluate; tools, including the evaluation rubric and EOD Synthesis prompts, will be provided to support students in strengthening their ability to self-evaluate.
