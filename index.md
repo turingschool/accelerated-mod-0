@@ -33,7 +33,7 @@ title: Home
   <br>
   <a class="s-button" href="{{site.url}}/computer-setup">Computer Setup</a>
   <a class="s-button" href="{{site.url}}/before-mod-0">Before Starting Mod 0</a>
-  <a class="s-button" href="{{site.url}}/expectations">Expectations</a>
+  <a class="s-button" href="{{site.url}}/syllabus">Syllabus</a>
 </section>
 
 <footer class="s-footer">
